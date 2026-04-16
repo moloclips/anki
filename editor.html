@@ -1,0 +1,1391 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Deck Workspace</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%83%8F%3C/text%3E%3C/svg%3E" />
+  <style>
+    :root {
+      --bg: #efe8dc;
+      --panel: rgba(255, 252, 246, 0.94);
+      --line: rgba(28, 24, 20, 0.12);
+      --ink: #1c1814;
+      --muted: #6b6359;
+      --accent: #1f5b47;
+      --warm: #9b4d1a;
+      --mark: #ffe08a;
+      --start: #cce8d8;
+      --end: #f3d0b3;
+      --anki-left: 280px;
+      --anki-middle: 1.1fr;
+      --anki-right: 0.95fr;
+      --sanders-left: 320px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Iowan Old Style", Georgia, serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at top left, rgba(31, 91, 71, 0.12), transparent 22%),
+        radial-gradient(circle at top right, rgba(155, 77, 26, 0.10), transparent 22%),
+        linear-gradient(180deg, #f7f1e7, var(--bg));
+    }
+    .shell {
+      width: calc(100vw - 24px);
+      margin: 12px auto 20px;
+      display: grid;
+      gap: 16px;
+    }
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      box-shadow: 0 16px 40px rgba(28, 24, 20, 0.08);
+      overflow: hidden;
+    }
+    .head {
+      padding: 18px 20px 12px;
+      border-bottom: 1px solid var(--line);
+    }
+    .head h1, .head h2, .head h3 { margin: 0; }
+    .sub {
+      margin-top: 8px;
+      color: var(--muted);
+      font-size: 0.94rem;
+      line-height: 1.4;
+    }
+    .toolbar {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      padding: 12px 20px 16px;
+      border-bottom: 1px solid var(--line);
+      align-items: center;
+    }
+    button, input, select, textarea {
+      font: inherit;
+    }
+    button {
+      border-radius: 999px;
+      border: 1px solid rgba(28, 24, 20, 0.14);
+      background: white;
+      color: var(--ink);
+      padding: 9px 12px;
+      cursor: pointer;
+    }
+    button.primary {
+      background: var(--accent);
+      color: white;
+      border-color: var(--accent);
+    }
+    button.warm {
+      background: var(--warm);
+      color: white;
+      border-color: var(--warm);
+    }
+    .tabbar {
+      display: flex;
+      gap: 10px;
+      padding: 14px 20px 0;
+    }
+    .tab {
+      border-radius: 14px 14px 0 0;
+      border: 1px solid var(--line);
+      border-bottom: 0;
+      background: rgba(255,255,255,0.68);
+      padding: 10px 14px;
+    }
+    .tab.active {
+      background: var(--panel);
+      color: var(--accent);
+      font-weight: 700;
+    }
+    .tabview {
+      display: none;
+    }
+    .tabview.active {
+      display: block;
+    }
+    .body {
+      padding: 16px;
+      display: grid;
+      gap: 14px;
+    }
+    .grid-anki, .grid-sanders {
+      display: grid;
+      gap: 16px;
+      align-items: start;
+    }
+    .grid-anki {
+      grid-template-columns: var(--anki-left) 10px minmax(420px, var(--anki-middle)) 10px minmax(320px, var(--anki-right));
+    }
+    .grid-sanders {
+      grid-template-columns: var(--sanders-left) 10px minmax(520px, 1fr);
+    }
+    .card, .result, .reference, .source {
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 12px;
+      background: rgba(255,255,255,0.76);
+    }
+    .source { cursor: pointer; }
+    .source.active {
+      border-color: rgba(31, 91, 71, 0.35);
+      box-shadow: inset 0 0 0 1px rgba(31, 91, 71, 0.15);
+    }
+    .title { font-weight: 700; }
+    .meta {
+      margin-top: 5px;
+      color: var(--muted);
+      font-size: 0.86rem;
+      line-height: 1.35;
+      white-space: pre-wrap;
+    }
+    .stack, .list {
+      display: grid;
+      gap: 10px;
+    }
+    #transcriptMeta {
+      display: grid;
+      gap: 10px;
+    }
+    .field {
+      display: grid;
+      gap: 6px;
+    }
+    .field input, .field textarea, .field select {
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 10px 12px;
+      background: rgba(255,255,255,0.86);
+      color: var(--ink);
+    }
+    textarea {
+      min-height: 120px;
+      resize: vertical;
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 0.92rem;
+      line-height: 1.45;
+    }
+    .chips, .pills {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .chip, .pill {
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,0.8);
+      padding: 6px 10px;
+      font-size: 0.82rem;
+      color: var(--muted);
+    }
+    .pill {
+      cursor: pointer;
+      transition: background 120ms ease, border-color 120ms ease, color 120ms ease, box-shadow 120ms ease;
+    }
+    .pill.active {
+      color: #234d3d;
+      border-color: rgba(31, 91, 71, 0.42);
+      background: rgba(31, 91, 71, 0.14);
+      box-shadow: inset 0 0 0 1px rgba(31, 91, 71, 0.12);
+    }
+    .chip {
+      cursor: grab;
+      background: rgba(31, 91, 71, 0.08);
+      border-color: rgba(31, 91, 71, 0.22);
+    }
+    .table-wrap {
+      overflow: auto;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: rgba(255,255,255,0.82);
+    }
+    .render-preview {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      grid-auto-rows: max-content;
+      gap: 12px;
+      align-content: start;
+      align-items: start;
+    }
+    .render-card {
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 10px;
+      background: rgba(255,255,255,0.82);
+      min-height: 0;
+      height: fit-content;
+      align-self: start;
+      overflow: hidden;
+    }
+    .render-face {
+      font-size: 16px;
+      line-height: 1.55;
+      white-space: pre-wrap;
+      overflow-wrap: anywhere;
+      word-break: break-word;
+    }
+    .render-face hr {
+      border: none;
+      border-top: 1px solid var(--line);
+      margin: 14px 0;
+    }
+    .schema-list {
+      display: grid;
+      gap: 12px;
+    }
+    .schema-row {
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 14px;
+      background: rgba(255,255,255,0.82);
+      display: grid;
+      gap: 12px;
+    }
+    .schema-fields {
+      display: grid;
+      gap: 12px;
+    }
+    .schema-topline {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+      align-items: end;
+    }
+    .schema-bottomline {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+      align-items: end;
+    }
+    .schema-delete {
+      justify-self: start;
+    }
+    .schema-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+    }
+    .save-pill {
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      padding: 6px 10px;
+      font-size: 0.82rem;
+      color: var(--muted);
+      background: rgba(255,255,255,0.8);
+    }
+    .save-pill.saving {
+      color: #234d3d;
+      border-color: rgba(31, 91, 71, 0.28);
+      background: rgba(31, 91, 71, 0.08);
+    }
+    .save-pill.saved {
+      color: #234d3d;
+      border-color: rgba(31, 91, 71, 0.22);
+      background: rgba(31, 91, 71, 0.08);
+    }
+    .save-pill.dirty {
+      color: #6b3a16;
+      border-color: rgba(155, 77, 26, 0.24);
+      background: rgba(155, 77, 26, 0.08);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 700px;
+    }
+    th, td {
+      border-bottom: 1px solid var(--line);
+      border-right: 1px solid var(--line);
+      padding: 0;
+      vertical-align: top;
+    }
+    th:last-child, td:last-child { border-right: 0; }
+    th {
+      background: rgba(31, 91, 71, 0.08);
+      padding: 10px 12px;
+      text-align: left;
+      font-size: 0.86rem;
+      color: var(--muted);
+      position: sticky;
+      top: 0;
+      z-index: 1;
+    }
+    td input, td textarea, td select {
+      width: 100%;
+      border: 0;
+      border-radius: 0;
+      background: transparent;
+      padding: 10px 12px;
+      color: var(--ink);
+      min-height: 44px;
+    }
+    td textarea {
+      min-height: 86px;
+      resize: vertical;
+    }
+    #sandersCardTable tr.active td {
+      background: rgba(31, 91, 71, 0.08);
+    }
+    .selection-note {
+      padding: 10px 12px;
+      border-radius: 14px;
+      background: rgba(31, 91, 71, 0.08);
+      color: #234d3d;
+      font-size: 0.9rem;
+      line-height: 1.35;
+    }
+    .result-snippet {
+      margin-top: 8px;
+      line-height: 1.65;
+      white-space: pre-wrap;
+      cursor: text;
+      user-select: text;
+    }
+    .transcript-wrap {
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: rgba(255,255,255,0.82);
+      padding: 18px;
+      line-height: 1.7;
+      white-space: pre-wrap;
+      user-select: text;
+    }
+    .transcript-doc + .transcript-doc {
+      margin-top: 24px;
+      padding-top: 24px;
+      border-top: 1px solid var(--line);
+    }
+    .transcript-body {
+      margin-top: 10px;
+    }
+    .status {
+      padding: 0 20px 18px;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+    .col-handle {
+      width: 10px;
+      min-height: 72vh;
+      cursor: col-resize;
+      position: relative;
+      border-radius: 999px;
+      background: transparent;
+    }
+    .col-handle::before {
+      content: "";
+      position: absolute;
+      left: 4px;
+      top: 0;
+      bottom: 0;
+      width: 2px;
+      border-radius: 999px;
+      background: rgba(28, 24, 20, 0.10);
+    }
+    .col-handle:hover::before,
+    .col-handle.dragging::before {
+      background: rgba(31, 91, 71, 0.42);
+    }
+    @media (max-width: 1380px) {
+      .grid-anki, .grid-sanders {
+        grid-template-columns: 1fr;
+      }
+      .col-handle {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <section class="panel">
+      <div class="tabbar">
+        <button class="tab active" data-tab="anki" type="button">Anki Builder</button>
+        <button class="tab" data-tab="sanders" type="button">Sanders Research</button>
+      </div>
+
+      <div id="ankiTab" class="tabview active">
+        <div class="body grid-anki">
+          <section class="stack">
+            <div id="sourceList" class="list"></div>
+            <div class="field">
+              <label for="sourceTags">Source tags</label>
+              <input id="sourceTags" type="text" />
+            </div>
+            <div class="field">
+              <label>Field tokens</label>
+              <div id="fieldChips" class="chips"></div>
+            </div>
+          </section>
+          <div class="col-handle" data-layout="anki" data-handle="1" title="Resize columns"></div>
+          <section class="stack">
+            <div class="source" style="cursor:default;">
+              <div class="schema-head">
+                <div>
+                  <div class="title">Editable Card Schemas</div>
+                  <div class="meta">Change how rows in the selected CSV become cards.</div>
+                </div>
+                <div id="ankiSaveState" class="save-pill">Saved</div>
+              </div>
+            </div>
+            <div id="ankiCardTable" class="schema-list"></div>
+            <div class="toolbar" style="padding:0;border:0;">
+              <button id="addCardRuleButton" type="button">Add card rule</button>
+            </div>
+          </section>
+          <div class="col-handle" data-layout="anki" data-handle="2" title="Resize columns"></div>
+          <section class="stack">
+            <div class="toolbar" style="padding:0;border:0;justify-content:flex-start;">
+              <div id="previewSideToggle" class="pills"></div>
+            </div>
+            <div id="previewCardToggle" class="pills"></div>
+            <div id="previewPane" class="render-preview"></div>
+          </section>
+        </div>
+      </div>
+
+      <div id="sandersTab" class="tabview">
+        <div class="body grid-sanders">
+          <section class="stack">
+            <div class="title">Transcripts</div>
+            <div class="pills">
+              <button id="selectAllTranscriptsButton" type="button" class="pill active">Select all</button>
+              <button id="selectNoTranscriptsButton" type="button" class="pill">Select none</button>
+            </div>
+            <div id="transcriptMeta"></div>
+          </section>
+          <div class="col-handle" data-layout="sanders" data-handle="1" title="Resize columns"></div>
+
+          <section class="stack">
+            <div id="selectionNote" class="selection-note">Choose a transcript on the left, then highlight and copy text normally.</div>
+            <div class="title" id="transcriptTitle"></div>
+            <div id="transcriptWrap" class="transcript-wrap"></div>
+            <div class="source">
+              <div class="title">Loaded transcript</div>
+              <div class="meta" id="activeTranscriptMeta">None yet.</div>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <div id="statusLine" class="status">Ready.</div>
+    </section>
+  </div>
+
+  <script>
+    const app = {
+      anki: {
+        config: null,
+        sources: [],
+        noteModels: [],
+        selectedSource: null,
+        previewSide: 'back',
+        previewVisibleCards: {},
+        autosaveTimer: null,
+        saveState: 'saved',
+      },
+      sanders: {
+        cards: [],
+        references: [],
+        transcripts: [],
+        results: [],
+        activeTranscript: null,
+        selectedTranscriptIds: {},
+        startSelection: null,
+        endSelection: null,
+        activeCardId: null,
+        searchTimer: null,
+      },
+      activeTab: 'anki',
+    };
+
+    const statusLine = document.getElementById('statusLine');
+    const sourceList = document.getElementById('sourceList');
+    const sourceTagsInput = document.getElementById('sourceTags');
+    const fieldChips = document.getElementById('fieldChips');
+    const ankiCardTable = document.getElementById('ankiCardTable');
+    const ankiSaveState = document.getElementById('ankiSaveState');
+    const previewSideToggle = document.getElementById('previewSideToggle');
+    const previewCardToggle = document.getElementById('previewCardToggle');
+    const previewPane = document.getElementById('previewPane');
+    const transcriptMeta = document.getElementById('transcriptMeta');
+    const transcriptTitle = document.getElementById('transcriptTitle');
+    const transcriptWrap = document.getElementById('transcriptWrap');
+    const selectionNote = document.getElementById('selectionNote');
+    const activeTranscriptMeta = document.getElementById('activeTranscriptMeta');
+    const rootStyle = document.documentElement.style;
+    const STORAGE_KEY = 'deck-workspace-column-widths-v1';
+    const ANKI_SOURCE_KEY = 'deck-workspace-selected-anki-source-v1';
+
+    function setStatus(text) {
+      statusLine.textContent = text;
+    }
+
+    function loadColumnWidths() {
+      try {
+        const saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
+        for (const [key, value] of Object.entries(saved)) {
+          rootStyle.setProperty(key, value);
+        }
+      } catch {}
+    }
+
+    function saveColumnWidths() {
+      const keys = [
+        '--anki-left',
+        '--anki-middle',
+        '--anki-right',
+        '--sanders-left',
+        '--sanders-middle',
+        '--sanders-right',
+      ];
+      const data = {};
+      for (const key of keys) {
+        data[key] = getComputedStyle(document.documentElement).getPropertyValue(key).trim();
+      }
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+    }
+
+    function loadSelectedAnkiSource() {
+      try {
+        return localStorage.getItem(ANKI_SOURCE_KEY);
+      } catch {
+        return null;
+      }
+    }
+
+    function saveSelectedAnkiSource() {
+      try {
+        if (app.anki.selectedSource) {
+          localStorage.setItem(ANKI_SOURCE_KEY, app.anki.selectedSource);
+        }
+      } catch {}
+    }
+
+    function initColumnHandles() {
+      document.querySelectorAll('.col-handle').forEach((handle) => {
+        handle.addEventListener('mousedown', (event) => {
+          if (window.innerWidth <= 1380) return;
+          event.preventDefault();
+          handle.classList.add('dragging');
+          const layout = handle.dataset.layout;
+          const which = Number(handle.dataset.handle);
+          const startX = event.clientX;
+          const rootComputed = getComputedStyle(document.documentElement);
+          const startValues = {
+            '--anki-left': parseFloat(rootComputed.getPropertyValue('--anki-left')),
+            '--sanders-left': parseFloat(rootComputed.getPropertyValue('--sanders-left')),
+            '--anki-right': parseFloat(rootComputed.getPropertyValue('--anki-right')),
+            '--sanders-right': parseFloat(rootComputed.getPropertyValue('--sanders-right')),
+          };
+
+          function onMove(moveEvent) {
+            const dx = moveEvent.clientX - startX;
+            if (layout === 'anki' && which === 1) {
+              rootStyle.setProperty('--anki-left', `${Math.max(180, startValues['--anki-left'] + dx)}px`);
+            } else if (layout === 'anki' && which === 2) {
+              rootStyle.setProperty('--anki-right', `${Math.max(260, startValues['--anki-right'] - dx)}px`);
+            } else if (layout === 'sanders' && which === 1) {
+              rootStyle.setProperty('--sanders-left', `${Math.max(220, startValues['--sanders-left'] + dx)}px`);
+            } else if (layout === 'sanders' && which === 2) {
+              rootStyle.setProperty('--sanders-right', `${Math.max(280, startValues['--sanders-right'] - dx)}px`);
+            }
+          }
+
+          function onUp() {
+            handle.classList.remove('dragging');
+            window.removeEventListener('mousemove', onMove);
+            window.removeEventListener('mouseup', onUp);
+            saveColumnWidths();
+          }
+
+          window.addEventListener('mousemove', onMove);
+          window.addEventListener('mouseup', onUp);
+        });
+      });
+    }
+
+    function setAnkiSaveState(state) {
+      app.anki.saveState = state;
+      ankiSaveState.className = `save-pill ${state}`;
+      ankiSaveState.textContent =
+        state === 'saving' ? 'Saving...' :
+        state === 'dirty' ? 'Unsaved changes' :
+        'Saved';
+    }
+
+    function switchTab(name) {
+      app.activeTab = name;
+      document.querySelectorAll('.tab').forEach((tab) => {
+        tab.classList.toggle('active', tab.dataset.tab === name);
+      });
+      document.getElementById('ankiTab').classList.toggle('active', name === 'anki');
+      document.getElementById('sandersTab').classList.toggle('active', name === 'sanders');
+    }
+
+    function parseTagString(text) {
+      return text.split(',').map((part) => part.trim()).filter(Boolean);
+    }
+
+    function ensureSourceConfig(name) {
+      if (!app.anki.config.sources[name]) {
+        app.anki.config.sources[name] = { tags: [], cards: [] };
+      }
+      return app.anki.config.sources[name];
+    }
+
+    function selectedSourceInfo() {
+      return app.anki.sources.find((source) => source.name === app.anki.selectedSource) || null;
+    }
+
+    function selectedSourceConfig() {
+      if (!app.anki.selectedSource) return null;
+      return ensureSourceConfig(app.anki.selectedSource);
+    }
+
+    function normalizeCardContent(template, side) {
+      template = (template || '').trim();
+      if (!template) return '';
+      template = template.replace(/<hr\b[^>]*\bid\s*=\s*['"]answer['"][^>]*\s*\/?>/gi, '');
+      if (side === 'back') {
+        template = template.replace(/{{\s*FrontSide\s*}}/g, '');
+      }
+      return template.trim();
+    }
+
+    function renderConditionals(template, row) {
+      const sectionRe = /{{\s*([#^])\s*([a-zA-Z0-9_]+)\s*}}([\s\S]*?){{\s*\/\s*\2\s*}}/g;
+      let previous = null;
+      while (previous !== template) {
+        previous = template;
+        template = template.replace(sectionRe, (match, mode, key, body) => {
+          const value = ((row[key] || '') + '').trim();
+          const shouldRender = mode === '#' ? !!value : !value;
+          return shouldRender ? renderConditionals(body, row) : '';
+        });
+      }
+      return template;
+    }
+
+    function renderTemplate(template, row) {
+      template = renderConditionals(template, row);
+      return template.replace(/{{\s*([a-zA-Z0-9_]+)\s*}}/g, (match, key) => {
+        return Object.prototype.hasOwnProperty.call(row, key) ? formatDisplayValue(key, row[key] || '') : match;
+      });
+    }
+
+    function referencedPlaceholderFields(...templates) {
+      const fields = [];
+      const seen = new Set();
+      for (const template of templates) {
+        const matches = String(template || '').matchAll(/{{\s*([a-zA-Z0-9_]+)\s*}}/g);
+        for (const match of matches) {
+          const key = match[1];
+          if (!seen.has(key)) {
+            seen.add(key);
+            fields.push(key);
+          }
+        }
+      }
+      return fields;
+    }
+
+    function parseCardCssDeclarations(cssText) {
+      const css = (cssText || '');
+      const match = css.match(/\.card\s*\{([\s\S]*?)\}/i);
+      if (!match) return {};
+      const declarations = {};
+      for (const piece of match[1].split(';')) {
+        const idx = piece.indexOf(':');
+        if (idx === -1) continue;
+        const key = piece.slice(0, idx).trim();
+        const value = piece.slice(idx + 1).trim();
+        if (!key || !value) continue;
+        declarations[key] = value;
+      }
+      return declarations;
+    }
+
+    function previewCardInlineStyle() {
+      const declarations = parseCardCssDeclarations(app.anki.config?.css || '');
+      const allowed = [
+        'font-family',
+        'font-size',
+        'text-align',
+        'color',
+        'background-color',
+        'font-weight',
+        'font-style',
+        'line-height',
+      ];
+      const parts = [];
+      for (const key of allowed) {
+        if (declarations[key]) {
+          parts.push(`${key}: ${declarations[key]}`);
+        }
+      }
+      return parts.join('; ');
+    }
+
+    function formatDisplayValue(key, value) {
+      value = (value || '').trim();
+      if (!value) return '';
+      if (key === 'date' || key.endsWith('_date')) {
+        return humanizeDate(value);
+      }
+      return value;
+    }
+
+    function humanizeDate(value) {
+      if (/^\d{4}-\d{2}-\d{2}$/.test(value)) {
+        const [year, month, day] = value.split('-').map(Number);
+        const dt = new Date(year, month - 1, day);
+        return dt.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+      }
+      if (/^\d{4}-\d{2}$/.test(value)) {
+        const [year, month] = value.split('-').map(Number);
+        const dt = new Date(year, month - 1, 1);
+        return dt.toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
+      }
+      if (/^\d{4}$/.test(value)) {
+        return value;
+      }
+      return value;
+    }
+
+    function renderAnswerSide(card, row) {
+      const front = renderTemplate(normalizeCardContent(card.front || '', 'front'), row);
+      const backContent = renderTemplate(normalizeCardContent(card.back || '', 'back'), row);
+      const answer = backContent ? `${front}<hr id="answer">${backContent}` : front;
+      return { front, answer: answer || '(empty)' };
+    }
+
+    function insertToken(input, token) {
+      const start = input.selectionStart ?? input.value.length;
+      const end = input.selectionEnd ?? input.value.length;
+      input.value = input.value.slice(0, start) + token + input.value.slice(end);
+      input.focus();
+      input.setSelectionRange(start + token.length, start + token.length);
+      input.dispatchEvent(new Event('input', { bubbles: true }));
+    }
+
+    function renderSourceList() {
+      sourceList.innerHTML = '';
+      for (const source of app.anki.sources) {
+        const config = ensureSourceConfig(source.name);
+        const item = document.createElement('article');
+        item.className = 'source' + (source.name === app.anki.selectedSource ? ' active' : '');
+        item.innerHTML = `<div class="title">${source.name}</div><div class="meta">${source.row_count} rows · ${config.cards.length} card rules</div>`;
+        item.addEventListener('click', () => {
+          app.anki.selectedSource = source.name;
+          saveSelectedAnkiSource();
+          renderAnki();
+        });
+        sourceList.appendChild(item);
+      }
+    }
+
+    function renderFieldChips() {
+      fieldChips.innerHTML = '';
+      const source = selectedSourceInfo();
+      if (!source) return;
+      for (const field of source.fields) {
+        const chip = document.createElement('button');
+        chip.type = 'button';
+        chip.className = 'chip';
+        chip.textContent = `{{${field}}}`;
+        chip.addEventListener('click', () => {
+          const active = document.activeElement;
+          if (active && (active.tagName === 'TEXTAREA' || active.tagName === 'INPUT')) {
+            insertToken(active, `{{${field}}}`);
+          }
+        });
+        fieldChips.appendChild(chip);
+      }
+    }
+
+    function renderAnkiTable() {
+      ankiCardTable.innerHTML = '';
+      const config = selectedSourceConfig();
+      if (!config) return;
+      sourceTagsInput.value = (config.tags || []).join(', ');
+      for (const card of config.cards) {
+        const row = document.createElement('article');
+        row.className = 'schema-row';
+        row.innerHTML = `
+          <div class="schema-fields">
+            <div class="schema-topline">
+              <div class="field">
+                <label>Name</label>
+                <input data-key="name">
+              </div>
+              <div class="field">
+                <label>Note model</label>
+                <select data-key="note_model">
+                  ${app.anki.noteModels.map((model) => `<option value="${model.id}" ${model.id === card.note_model ? 'selected' : ''}>${model.label}</option>`).join('')}
+                </select>
+              </div>
+            </div>
+            <div class="schema-bottomline">
+              <div class="field">
+                <label>Front template</label>
+                <input data-key="front">
+              </div>
+              <div class="field">
+                <label>Back template</label>
+                <input data-key="back">
+              </div>
+            </div>
+            <div class="schema-delete">
+              <button type="button" data-delete="1">Delete</button>
+            </div>
+          </div>
+        `;
+        row.querySelector('[data-key="name"]').value = card.name || '';
+        row.querySelector('[data-key="front"]').value = card.front || '';
+        row.querySelector('[data-key="back"]').value = card.back || '';
+        row.querySelectorAll('[data-key]').forEach((input) => {
+          input.addEventListener('input', (event) => {
+            const key = event.target.dataset.key;
+            card[key] = event.target.value;
+            syncAnkiTableToState();
+            renderAnkiPreview();
+            markAnkiDirty();
+          });
+          input.addEventListener('change', (event) => {
+            const key = event.target.dataset.key;
+            card[key] = event.target.value;
+            syncAnkiTableToState();
+            renderAnkiPreview();
+            markAnkiDirty();
+          });
+        });
+        row.querySelector('[data-delete]').addEventListener('click', () => {
+          config.cards = config.cards.filter((item) => item !== card);
+          renderAnki();
+          markAnkiDirty();
+        });
+        ankiCardTable.appendChild(row);
+      }
+    }
+
+    function renderPreviewSideToggle() {
+      previewSideToggle.innerHTML = '';
+      for (const side of ['front', 'back']) {
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.className = `pill${app.anki.previewSide === side ? ' active' : ''}`;
+        button.textContent = side === 'front' ? 'Front' : 'Back';
+        button.addEventListener('click', () => {
+          app.anki.previewSide = side;
+          renderPreviewSideToggle();
+          renderAnkiPreview();
+        });
+        previewSideToggle.appendChild(button);
+      }
+    }
+
+    function ensurePreviewCardVisibility(config) {
+      const next = {};
+      for (const card of (config?.cards || [])) {
+        const key = card.name || 'card';
+        next[key] = Object.prototype.hasOwnProperty.call(app.anki.previewVisibleCards, key)
+          ? app.anki.previewVisibleCards[key]
+          : true;
+      }
+      app.anki.previewVisibleCards = next;
+    }
+
+    function renderPreviewCardToggle() {
+      previewCardToggle.innerHTML = '';
+      const config = selectedSourceConfig();
+      if (!config) return;
+      ensurePreviewCardVisibility(config);
+      for (const card of config.cards) {
+        const key = card.name || 'card';
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.className = `pill${app.anki.previewVisibleCards[key] ? ' active' : ''}`;
+        button.textContent = key;
+        button.addEventListener('click', () => {
+          app.anki.previewVisibleCards[key] = !app.anki.previewVisibleCards[key];
+          renderPreviewCardToggle();
+          renderAnkiPreview();
+        });
+        previewCardToggle.appendChild(button);
+      }
+    }
+
+    function renderAnkiPreview() {
+      previewPane.innerHTML = '';
+      const source = selectedSourceInfo();
+      const config = selectedSourceConfig();
+      if (!source || !config) return;
+      ensurePreviewCardVisibility(config);
+      const rows = source.rows || [];
+      if (!rows.length) {
+        previewPane.innerHTML = '<div class="meta">No CSV rows yet.</div>';
+        return;
+      }
+      for (const row of rows) {
+        for (const card of config.cards) {
+          if (!app.anki.previewVisibleCards[card.name || 'card']) continue;
+          const requiredFields = referencedPlaceholderFields(
+            normalizeCardContent(card.front || '', 'front'),
+            normalizeCardContent(card.back || '', 'back')
+          );
+          if (requiredFields.some((field) => !String(row[field] || '').trim())) continue;
+          const box = document.createElement('article');
+          box.className = 'render-card';
+          const rendered = renderAnswerSide(card, row);
+          const style = previewCardInlineStyle();
+          box.innerHTML = `<div class="render-face" style="${style}">${app.anki.previewSide === 'front' ? rendered.front : rendered.answer}</div>`;
+          previewPane.appendChild(box);
+        }
+      }
+    }
+
+    function renderAnki() {
+      renderSourceList();
+      renderFieldChips();
+      renderAnkiTable();
+      renderPreviewSideToggle();
+      renderPreviewCardToggle();
+      renderAnkiPreview();
+      setAnkiSaveState(app.anki.saveState || 'saved');
+    }
+
+    function renderSandersCards() {
+      sandersCardTable.innerHTML = '';
+      for (const [index, card] of app.sanders.cards.entries()) {
+        const row = document.createElement('tr');
+        const derivedId = String(index + 1);
+        row.dataset.cardId = derivedId;
+        if (!app.sanders.activeCardId) app.sanders.activeCardId = derivedId;
+        if (app.sanders.activeCardId && app.sanders.activeCardId === derivedId) row.classList.add('active');
+        row.innerHTML = `
+          <td><textarea data-key="front">${card.front || ''}</textarea></td>
+          <td><textarea data-key="back">${card.back || ''}</textarea></td>
+        `;
+        row.querySelectorAll('[data-key]').forEach((input) => {
+          input.addEventListener('input', (event) => {
+            card[event.target.dataset.key] = event.target.value;
+          });
+          input.addEventListener('change', (event) => {
+            card[event.target.dataset.key] = event.target.value;
+          });
+          input.addEventListener('focus', () => {
+            app.sanders.activeCardId = row.dataset.cardId || null;
+            updateSandersActiveCardStyles();
+          });
+          input.addEventListener('click', () => {
+            app.sanders.activeCardId = row.dataset.cardId || null;
+            updateSandersActiveCardStyles();
+          });
+        });
+        sandersCardTable.appendChild(row);
+      }
+      updateSandersActiveCardStyles();
+    }
+
+    function updateSandersActiveCardStyles() {
+      sandersCardTable.querySelectorAll('tr').forEach((row) => {
+        row.classList.toggle('active', !!app.sanders.activeCardId && row.dataset.cardId === app.sanders.activeCardId);
+      });
+    }
+
+    function renderReferences() {
+      referenceTable.innerHTML = '';
+      for (const ref of app.sanders.references) {
+        const row = document.createElement('tr');
+        row.innerHTML = `
+          <td><input value="${ref.id || ''}" data-key="id"></td>
+          <td><input value="${ref.youtube_id || ''}" data-key="youtube_id"></td>
+          <td><input value="${ref.start_timestamp || ''}" data-key="start_timestamp"></td>
+          <td><input value="${ref.start_segment_index || ''}" data-key="start_segment_index"></td>
+          <td><input value="${ref.start_char || ''}" data-key="start_char"></td>
+          <td><input value="${ref.end_timestamp || ''}" data-key="end_timestamp"></td>
+          <td><input value="${ref.end_segment_index || ''}" data-key="end_segment_index"></td>
+          <td><input value="${ref.end_char || ''}" data-key="end_char"></td>
+          <td><button type="button" data-delete="1">Delete</button></td>
+        `;
+        row.querySelectorAll('[data-key]').forEach((input) => {
+          input.addEventListener('input', (event) => {
+            ref[event.target.dataset.key] = event.target.value;
+          });
+          input.addEventListener('change', (event) => {
+            ref[event.target.dataset.key] = event.target.value;
+          });
+        });
+        row.querySelector('[data-delete]').addEventListener('click', () => {
+          app.sanders.references = app.sanders.references.filter((item) => item !== ref);
+          renderReferences();
+        });
+        referenceTable.appendChild(row);
+      }
+    }
+
+    function renderTranscriptMeta() {
+      transcriptMeta.innerHTML = '';
+      for (const transcript of app.sanders.transcripts) {
+        const item = document.createElement('article');
+        item.className = `source${app.sanders.selectedTranscriptIds[transcript.video_id] ? ' active' : ''}`;
+        item.dataset.videoId = transcript.video_id;
+        item.innerHTML = `<div class="title">${transcript.title}</div><div class="meta">${transcript.date} · ${transcript.segments} segments · ${transcript.chars} chars</div>`;
+        transcriptMeta.appendChild(item);
+      }
+    }
+
+    function renderTranscript() {
+      transcriptWrap.innerHTML = '';
+      const selectedTranscripts = app.sanders.transcripts.filter((transcript) => app.sanders.selectedTranscriptIds[transcript.video_id]);
+      if (!selectedTranscripts.length) {
+        transcriptTitle.textContent = '';
+        activeTranscriptMeta.textContent = 'None yet.';
+        selectionNote.textContent = 'Select one or more transcripts on the left.';
+        return;
+      }
+      transcriptTitle.textContent = selectedTranscripts.length === app.sanders.transcripts.length ? 'All transcripts' : 'Selected transcripts';
+      activeTranscriptMeta.textContent = `${selectedTranscripts.length} speeches shown`;
+      selectionNote.textContent = 'Use Command-F to search across the speeches shown on this page.';
+      for (const transcript of selectedTranscripts) {
+        const article = document.createElement('article');
+        article.className = 'transcript-doc';
+        article.id = `transcript-${transcript.video_id}`;
+        const displayText = String(transcript.full_text || '').replace(/\s*\n\s*/g, ' ').replace(/[ \t]{2,}/g, ' ').trim();
+        article.innerHTML = `
+          <div class="title">${transcript.title}</div>
+          <div class="meta">${transcript.date} · ${transcript.video_id}</div>
+          <div class="transcript-body">${displayText}</div>
+        `;
+        transcriptWrap.appendChild(article);
+      }
+    }
+
+    function renderSanders() {
+      renderTranscriptMeta();
+      renderTranscript();
+    }
+
+    async function loadAnkiState() {
+      const response = await fetch('/api/state');
+      const payload = await response.json();
+      app.anki.config = payload.config;
+      app.anki.sources = payload.sources;
+      app.anki.noteModels = payload.note_models;
+      const savedSource = loadSelectedAnkiSource();
+      const savedExists = savedSource && app.anki.sources.some((source) => source.name === savedSource);
+      app.anki.selectedSource =
+        (savedExists ? savedSource : null) ||
+        app.anki.selectedSource ||
+        (app.anki.sources[0] && app.anki.sources[0].name) ||
+        null;
+      saveSelectedAnkiSource();
+      renderAnki();
+    }
+
+    async function saveAnkiConfig() {
+      const config = selectedSourceConfig();
+      if (config) config.tags = parseTagString(sourceTagsInput.value);
+      syncAnkiTableToState();
+      setAnkiSaveState('saving');
+      const response = await fetch('/api/config', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ config: app.anki.config }),
+      });
+      const payload = await response.json();
+      if (!response.ok) throw new Error(payload.error || 'Save failed');
+      setAnkiSaveState('saved');
+      setStatus('Saved deck_config.json.');
+    }
+
+    function scheduleAnkiAutosave() {
+      if (app.anki.autosaveTimer) {
+        window.clearTimeout(app.anki.autosaveTimer);
+      }
+      app.anki.autosaveTimer = window.setTimeout(() => {
+        syncAnkiTableToState();
+        saveAnkiConfig().catch((error) => {
+          setAnkiSaveState('dirty');
+          setStatus(error.message);
+        });
+      }, 500);
+    }
+
+    function markAnkiDirty() {
+      setAnkiSaveState('dirty');
+      scheduleAnkiAutosave();
+    }
+
+    async function loadSandersState() {
+      const response = await fetch('/sanders/api/state');
+      const payload = await response.json();
+      app.sanders.cards = payload.cards;
+      if (!app.sanders.cards.some((_, index) => String(index + 1) === app.sanders.activeCardId)) {
+        app.sanders.activeCardId = app.sanders.cards.length ? '1' : null;
+      }
+      app.sanders.references = payload.references;
+      app.sanders.transcripts = payload.transcripts;
+      app.sanders.selectedTranscriptIds = Object.fromEntries(payload.transcripts.map((transcript) => [transcript.video_id, true]));
+      app.sanders.activeTranscript = app.sanders.transcripts[0] || null;
+      renderSanders();
+    }
+
+    async function saveSandersCards() {
+      syncSandersCardsToState();
+      const response = await fetch('/sanders/api/cards', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ cards: app.sanders.cards }),
+      });
+      if (!response.ok) throw new Error('Failed to save cards');
+      setStatus('Saved Anki/sanders.csv.');
+    }
+
+    async function saveSandersReferences() {
+      syncReferencesToState();
+      const response = await fetch('/sanders/api/references', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ references: app.sanders.references }),
+      });
+      if (!response.ok) throw new Error('Failed to save references');
+      setStatus('Saved Sanders/references.csv.');
+    }
+
+    async function createSandersCard() {
+      const response = await fetch('/sanders/api/card/create', { method: 'POST' });
+      const payload = await response.json();
+      app.sanders.cards.push({ front: payload.card.front || '', back: payload.card.back || '' });
+      app.sanders.activeCardId = String(app.sanders.cards.length);
+      renderSandersCards();
+      setStatus('Created a new note.');
+    }
+
+    function syncAnkiTableToState() {
+      const config = selectedSourceConfig();
+      if (!config) return;
+      const rows = [...ankiCardTable.querySelectorAll('.schema-row')];
+      config.cards = rows.map((row) => ({
+        name: row.querySelector('[data-key="name"]').value,
+        note_model: row.querySelector('[data-key="note_model"]').value,
+        front: normalizeCardContent(row.querySelector('[data-key="front"]').value, 'front'),
+        back: normalizeCardContent(row.querySelector('[data-key="back"]').value, 'back'),
+      }));
+    }
+
+    function syncSandersCardsToState() {
+      const rows = [...sandersCardTable.querySelectorAll('tr')];
+      app.sanders.cards = rows.map((row) => ({
+        front: row.querySelector('[data-key="front"]').value,
+        back: row.querySelector('[data-key="back"]').value,
+      }));
+    }
+
+    function syncReferencesToState() {
+      const rows = [...referenceTable.querySelectorAll('tr')];
+      app.sanders.references = rows.map((row) => ({
+        id: row.querySelector('[data-key="id"]').value,
+        youtube_id: row.querySelector('[data-key="youtube_id"]').value,
+        start_timestamp: row.querySelector('[data-key="start_timestamp"]').value,
+        start_segment_index: row.querySelector('[data-key="start_segment_index"]').value,
+        start_char: row.querySelector('[data-key="start_char"]').value,
+        end_timestamp: row.querySelector('[data-key="end_timestamp"]').value,
+        end_segment_index: row.querySelector('[data-key="end_segment_index"]').value,
+        end_char: row.querySelector('[data-key="end_char"]').value,
+      }));
+    }
+
+    async function searchSanders() {
+      const query = searchInput.value.trim();
+      if (query.length <= 3) {
+        app.sanders.results = [];
+        renderResults();
+        setStatus(query.length === 0 ? 'Ready.' : 'Type at least 4 characters to search.');
+        return;
+      }
+      const response = await fetch(`/sanders/api/search?q=${encodeURIComponent(query)}`);
+      const payload = await response.json();
+      app.sanders.results = payload.results || [];
+      renderResults();
+      setStatus(`Found ${app.sanders.results.length} matches.`);
+    }
+
+    function scheduleSandersSearch() {
+      if (app.sanders.searchTimer) {
+        window.clearTimeout(app.sanders.searchTimer);
+      }
+      app.sanders.searchTimer = window.setTimeout(() => {
+        searchSanders().catch((error) => setStatus(error.message));
+      }, 120);
+    }
+
+    async function loadTranscript(videoId, matchStart = null) {
+      app.sanders.activeTranscript = app.sanders.transcripts.find((item) => item.video_id === videoId) || null;
+      renderTranscriptMeta();
+      renderTranscript();
+      const node = document.getElementById(`transcript-${videoId}`);
+      if (node) node.scrollIntoView({ block: 'start', behavior: 'smooth' });
+    }
+
+    async function ensureActiveTranscript(videoId, matchStart = null) {
+      if (app.sanders.activeTranscript && app.sanders.activeTranscript.video_id === videoId) {
+        return;
+      }
+      await loadTranscript(videoId, matchStart);
+    }
+
+    function caretInfoFromEvent(event) {
+      let caret = null;
+      if (document.caretPositionFromPoint) {
+        caret = document.caretPositionFromPoint(event.clientX, event.clientY);
+      } else if (document.caretRangeFromPoint) {
+        const range = document.caretRangeFromPoint(event.clientX, event.clientY);
+        caret = range ? { offsetNode: range.startContainer, offset: range.startOffset } : null;
+      }
+      if (!caret) return null;
+      let node = caret.offsetNode;
+      if (node.nodeType === Node.TEXT_NODE) node = node.parentElement;
+      if (!node || !node.classList || !node.classList.contains('segment')) return null;
+      const segmentIndex = Number(node.dataset.segmentIndex);
+      const segmentStart = Number(node.dataset.startOffset);
+      const segmentChar = Math.max(0, Math.min(caret.offset, node.textContent.length));
+      return {
+        absolute_char: segmentStart + segmentChar,
+        segment_index: segmentIndex,
+        segment_char: segmentChar,
+      };
+    }
+
+    function locateCharFromAbsolute(transcript, absoluteChar) {
+      const segments = transcript?.segments || [];
+      if (!segments.length) {
+        return {
+          absolute_char: 0,
+          segment_index: 0,
+          segment_char: 0,
+        };
+      }
+      for (const segment of segments) {
+        if (segment.start_offset <= absoluteChar && absoluteChar <= segment.end_offset) {
+          const segmentChar = Math.max(0, Math.min(absoluteChar - segment.start_offset, segment.text.length));
+          return {
+            absolute_char: absoluteChar,
+            segment_index: segment.index,
+            segment_char: segmentChar,
+          };
+        }
+      }
+      const last = segments[segments.length - 1];
+      return {
+        absolute_char: absoluteChar,
+        segment_index: last.index,
+        segment_char: last.text.length,
+      };
+    }
+
+    function resultCaretInfoFromEvent(event) {
+      let caret = null;
+      if (document.caretPositionFromPoint) {
+        caret = document.caretPositionFromPoint(event.clientX, event.clientY);
+      } else if (document.caretRangeFromPoint) {
+        const range = document.caretRangeFromPoint(event.clientX, event.clientY);
+        caret = range ? { offsetNode: range.startContainer, offset: range.startOffset } : null;
+      }
+      if (!caret) return null;
+      let node = caret.offsetNode;
+      if (node.nodeType === Node.TEXT_NODE) node = node.parentElement;
+      if (!node || !node.classList || !node.classList.contains('result-snippet')) return null;
+      const contextStart = Number(node.dataset.contextStart || 0);
+      const localChar = Math.max(0, Math.min(caret.offset, node.textContent.length));
+      return {
+        video_id: node.dataset.videoId,
+        absolute_char: contextStart + localChar,
+        local_char: localChar,
+      };
+    }
+
+    async function addReferenceFromSelection() {
+      if (!app.sanders.activeTranscript || !app.sanders.startSelection || !app.sanders.endSelection) {
+        throw new Error('Load a transcript and set both start and end chars first');
+      }
+      if (!app.sanders.cards.length) throw new Error('Create a note first');
+      let chosenId = app.sanders.activeCardId;
+      if (!chosenId) {
+        const first = app.sanders.cards[0];
+        chosenId = first ? first.id : null;
+      }
+      if (!chosenId) throw new Error('No card available');
+      const response = await fetch('/sanders/api/resolve-reference', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          video_id: app.sanders.activeTranscript.video_id,
+          start_abs_char: app.sanders.startSelection.absolute_char,
+          end_abs_char: app.sanders.endSelection.absolute_char,
+        }),
+      });
+      const payload = await response.json();
+      app.sanders.references.push({ id: chosenId, ...payload.reference });
+      renderReferences();
+      setStatus('Added reference to the selected note.');
+    }
+
+    document.querySelectorAll('.tab').forEach((tab) => {
+      tab.addEventListener('click', () => switchTab(tab.dataset.tab));
+    });
+    document.getElementById('addCardRuleButton').addEventListener('click', () => {
+      const config = selectedSourceConfig();
+      if (!config) return;
+      config.cards.push({ name: 'new-card', note_model: 'basic', tags: [], front: '', back: '' });
+      renderAnki();
+      markAnkiDirty();
+    });
+    sourceTagsInput.addEventListener('input', () => {
+      const config = selectedSourceConfig();
+      if (config) config.tags = parseTagString(sourceTagsInput.value);
+      markAnkiDirty();
+    });
+
+    transcriptMeta.addEventListener('click', (event) => {
+      const card = event.target.closest('[data-video-id]');
+      if (!card) return;
+      const videoId = card.dataset.videoId;
+      app.sanders.selectedTranscriptIds[videoId] = !app.sanders.selectedTranscriptIds[videoId];
+      if (app.sanders.selectedTranscriptIds[videoId]) {
+        loadTranscript(videoId)
+          .then(() => setStatus('Transcript selected.'))
+          .catch((error) => setStatus(error.message));
+        return;
+      }
+      renderSanders();
+      setStatus('Transcript hidden.');
+    });
+    document.getElementById('selectAllTranscriptsButton').addEventListener('click', () => {
+      app.sanders.selectedTranscriptIds = Object.fromEntries(app.sanders.transcripts.map((transcript) => [transcript.video_id, true]));
+      app.sanders.activeTranscript = app.sanders.transcripts[0] || null;
+      renderSanders();
+      setStatus('All transcripts selected.');
+    });
+    document.getElementById('selectNoTranscriptsButton').addEventListener('click', () => {
+      app.sanders.selectedTranscriptIds = Object.fromEntries(app.sanders.transcripts.map((transcript) => [transcript.video_id, false]));
+      app.sanders.activeTranscript = null;
+      renderSanders();
+      setStatus('All transcripts hidden.');
+    });
+
+    loadColumnWidths();
+    initColumnHandles();
+
+    Promise.all([loadAnkiState(), loadSandersState()])
+      .then(() => setStatus('Ready.'))
+      .catch((error) => setStatus(error.message));
+  </script>
+</body>
+</html>

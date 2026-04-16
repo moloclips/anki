@@ -1,0 +1,527 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sanders Transcript Finder</title>
+  <style>
+    :root {
+      --bg: #efe8dc;
+      --panel: rgba(255, 252, 246, 0.94);
+      --line: rgba(28, 24, 20, 0.12);
+      --ink: #1d1915;
+      --muted: #6b6359;
+      --accent: #1f5b47;
+      --warm: #9b4d1a;
+      --mark: #ffe08a;
+      --start: #cce8d8;
+      --end: #f3d0b3;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Iowan Old Style", Georgia, serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at top left, rgba(31, 91, 71, 0.12), transparent 22%),
+        radial-gradient(circle at top right, rgba(155, 77, 26, 0.10), transparent 22%),
+        linear-gradient(180deg, #f7f1e7, var(--bg));
+    }
+    .shell {
+      width: min(1580px, calc(100vw - 28px));
+      margin: 14px auto 28px;
+      display: grid;
+      grid-template-columns: 320px 1fr 420px;
+      gap: 16px;
+    }
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      box-shadow: 0 16px 40px rgba(28, 24, 20, 0.08);
+      overflow: hidden;
+    }
+    .head {
+      padding: 18px 20px 12px;
+      border-bottom: 1px solid var(--line);
+    }
+    .head h1, .head h2 { margin: 0; }
+    .sub {
+      margin-top: 8px;
+      color: var(--muted);
+      font-size: 0.94rem;
+      line-height: 1.4;
+    }
+    .toolbar {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      padding: 12px 20px 16px;
+      border-bottom: 1px solid var(--line);
+    }
+    .body {
+      padding: 16px;
+      display: grid;
+      gap: 14px;
+    }
+    input, textarea, button {
+      font: inherit;
+    }
+    input, textarea {
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      padding: 10px 12px;
+      background: rgba(255,255,255,0.86);
+      color: var(--ink);
+    }
+    textarea {
+      min-height: 110px;
+      resize: vertical;
+    }
+    button {
+      border-radius: 999px;
+      border: 1px solid rgba(28, 24, 20, 0.14);
+      background: white;
+      color: var(--ink);
+      padding: 9px 12px;
+      cursor: pointer;
+    }
+    button.primary {
+      background: var(--accent);
+      color: white;
+      border-color: var(--accent);
+    }
+    button.warm {
+      background: var(--warm);
+      color: white;
+      border-color: var(--warm);
+    }
+    .list {
+      display: grid;
+      gap: 10px;
+    }
+    .card, .result, .reference {
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 12px;
+      background: rgba(255,255,255,0.76);
+    }
+    .card { cursor: pointer; }
+    .card.active {
+      border-color: rgba(31, 91, 71, 0.35);
+      box-shadow: inset 0 0 0 1px rgba(31, 91, 71, 0.15);
+    }
+    .title { font-weight: 700; }
+    .meta {
+      margin-top: 5px;
+      color: var(--muted);
+      font-size: 0.86rem;
+      line-height: 1.35;
+      white-space: pre-wrap;
+    }
+    .pills {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+    .pill {
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,0.8);
+      padding: 4px 8px;
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+    .transcript-wrap {
+      max-height: 62vh;
+      overflow: auto;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: rgba(255,255,255,0.82);
+      padding: 18px;
+      line-height: 1.7;
+      white-space: pre-wrap;
+      user-select: none;
+    }
+    .segment { cursor: text; }
+    .segment.match { background: var(--mark); }
+    .segment.start-mark { background: var(--start); }
+    .segment.end-mark { background: var(--end); }
+    .selection-note {
+      padding: 10px 12px;
+      border-radius: 14px;
+      background: rgba(31, 91, 71, 0.08);
+      color: #234d3d;
+      font-size: 0.9rem;
+      line-height: 1.35;
+    }
+    .status {
+      padding: 0 20px 18px;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+    @media (max-width: 1340px) {
+      .shell { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <section class="panel">
+      <div class="head">
+        <h1>Cards</h1>
+        <div class="sub">Build `../sanders.csv`, then anchor claims to transcript ranges in `references.csv`.</div>
+      </div>
+      <div class="toolbar">
+        <button id="newCardButton" class="primary" type="button">New card</button>
+        <button id="saveCardsButton" class="warm" type="button">Save cards</button>
+        <button id="saveRefsButton" class="warm" type="button">Save refs</button>
+      </div>
+      <div class="body">
+        <div id="cardList" class="list"></div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="head">
+        <h2>Transcript Search</h2>
+        <div class="sub">Search across every transcript, then load one video into the plain-text viewer. Left click sets the reference start char. Right click sets the end char.</div>
+      </div>
+      <div class="toolbar">
+        <input id="searchInput" type="text" placeholder="Search substring across all transcripts" />
+        <button id="searchButton" class="primary" type="button">Search</button>
+      </div>
+      <div class="body">
+        <div id="transcriptMeta" class="pills"></div>
+        <div id="resultList" class="list"></div>
+        <div class="selection-note" id="selectionNote">No transcript loaded yet.</div>
+        <div id="transcriptTitle" class="title"></div>
+        <div id="transcriptWrap" class="transcript-wrap"></div>
+        <button id="addReferenceButton" class="primary" type="button">Add selected range to current card</button>
+      </div>
+      <div id="statusLine" class="status">Ready.</div>
+    </section>
+
+    <section class="panel">
+      <div class="head">
+        <h2>Editor</h2>
+        <div class="sub">The reference timestamps are resolved by the backend from your character clicks.</div>
+      </div>
+      <div class="body">
+        <div>
+          <label for="cardId">ID</label>
+          <input id="cardId" type="text" disabled />
+        </div>
+        <div>
+          <label for="cardTopic">Topic</label>
+          <input id="cardTopic" type="text" />
+        </div>
+        <div>
+          <label for="cardFront">Front</label>
+          <textarea id="cardFront"></textarea>
+        </div>
+        <div>
+          <label for="cardBack">Back</label>
+          <textarea id="cardBack"></textarea>
+        </div>
+        <div>
+          <div class="title">References for this card</div>
+          <div id="referenceList" class="list"></div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    const state = {
+      cards: [],
+      references: [],
+      transcripts: [],
+      selectedId: null,
+      results: [],
+      activeTranscript: null,
+      startSelection: null,
+      endSelection: null,
+    };
+
+    const cardList = document.getElementById('cardList');
+    const resultList = document.getElementById('resultList');
+    const transcriptMeta = document.getElementById('transcriptMeta');
+    const transcriptWrap = document.getElementById('transcriptWrap');
+    const transcriptTitle = document.getElementById('transcriptTitle');
+    const referenceList = document.getElementById('referenceList');
+    const statusLine = document.getElementById('statusLine');
+    const selectionNote = document.getElementById('selectionNote');
+    const cardId = document.getElementById('cardId');
+    const cardTopic = document.getElementById('cardTopic');
+    const cardFront = document.getElementById('cardFront');
+    const cardBack = document.getElementById('cardBack');
+    const searchInput = document.getElementById('searchInput');
+
+    function setStatus(text) { statusLine.textContent = text; }
+    function selectedCard() { return state.cards.find(card => card.id === state.selectedId) || null; }
+
+    function selectedCardReferences() {
+      return state.references.filter(ref => ref.id === state.selectedId);
+    }
+
+    function renderCards() {
+      cardList.innerHTML = '';
+      for (const card of state.cards) {
+        const el = document.createElement('article');
+        el.className = 'card' + (card.id === state.selectedId ? ' active' : '');
+        el.innerHTML = `<div class="title">${card.topic || '(untitled topic)'}</div><div class="meta">#${card.id}\n${card.front || ''}</div>`;
+        el.addEventListener('click', () => {
+          state.selectedId = card.id;
+          render();
+        });
+        cardList.appendChild(el);
+      }
+    }
+
+    function renderEditor() {
+      const card = selectedCard();
+      cardId.value = card ? card.id : '';
+      cardTopic.value = card ? card.topic : '';
+      cardFront.value = card ? card.front : '';
+      cardBack.value = card ? card.back : '';
+      referenceList.innerHTML = '';
+      if (!card) {
+        referenceList.innerHTML = '<div class="meta">Select or create a card.</div>';
+        return;
+      }
+      for (const ref of selectedCardReferences()) {
+        const row = document.createElement('article');
+        row.className = 'reference';
+        row.innerHTML = `<div class="title">${ref.youtube_id}</div><div class="meta">start ${ref.start_timestamp} · seg ${ref.start_segment_index} · char ${ref.start_char}\nend ${ref.end_timestamp} · seg ${ref.end_segment_index} · char ${ref.end_char}</div>`;
+        const remove = document.createElement('button');
+        remove.textContent = 'Remove';
+        remove.addEventListener('click', () => {
+          state.references = state.references.filter(item => JSON.stringify(item) !== JSON.stringify(ref));
+          renderEditor();
+        });
+        row.appendChild(remove);
+        referenceList.appendChild(row);
+      }
+    }
+
+    function renderTranscriptMeta() {
+      transcriptMeta.innerHTML = '';
+      for (const transcript of state.transcripts) {
+        const pill = document.createElement('div');
+        pill.className = 'pill';
+        pill.textContent = `${transcript.title} · ${transcript.segments} segments · ${transcript.chars} chars`;
+        transcriptMeta.appendChild(pill);
+      }
+    }
+
+    function renderResults() {
+      resultList.innerHTML = '';
+      if (!state.results.length) {
+        resultList.innerHTML = '<div class="meta">No results yet.</div>';
+        return;
+      }
+      for (const result of state.results) {
+        const el = document.createElement('article');
+        el.className = 'result';
+        el.innerHTML = `<div class="title">${result.title}</div><div class="meta">${result.date}</div><div class="meta">${result.snippet}</div>`;
+        const button = document.createElement('button');
+        button.textContent = 'Open transcript here';
+        button.className = 'primary';
+        button.addEventListener('click', () => loadTranscript(result.video_id, result.match_start, result.match_end));
+        el.appendChild(button);
+        resultList.appendChild(el);
+      }
+    }
+
+    function renderTranscript() {
+      transcriptWrap.innerHTML = '';
+      if (!state.activeTranscript) {
+        transcriptTitle.textContent = '';
+        selectionNote.textContent = 'No transcript loaded yet.';
+        return;
+      }
+      transcriptTitle.textContent = `${state.activeTranscript.title} (${state.activeTranscript.date})`;
+      for (const segment of state.activeTranscript.segments) {
+        const span = document.createElement('span');
+        span.className = 'segment';
+        span.dataset.segmentIndex = String(segment.index);
+        span.dataset.startOffset = String(segment.start_offset);
+        span.textContent = segment.text;
+        if (state.startSelection && state.startSelection.segment_index === segment.index) span.classList.add('start-mark');
+        if (state.endSelection && state.endSelection.segment_index === segment.index) span.classList.add('end-mark');
+        transcriptWrap.appendChild(span);
+        if (segment.index < state.activeTranscript.segments.length - 1) {
+          transcriptWrap.appendChild(document.createTextNode('\n'));
+        }
+      }
+      const startText = state.startSelection
+        ? `start: seg ${state.startSelection.segment_index}, char ${state.startSelection.segment_char}`
+        : 'start: not set';
+      const endText = state.endSelection
+        ? `end: seg ${state.endSelection.segment_index}, char ${state.endSelection.segment_char}`
+        : 'end: not set';
+      selectionNote.textContent = `${startText} | ${endText}`;
+    }
+
+    function render() {
+      renderCards();
+      renderEditor();
+      renderResults();
+      renderTranscriptMeta();
+      renderTranscript();
+    }
+
+    async function loadState() {
+      const response = await fetch('/sanders/api/state');
+      const data = await response.json();
+      state.cards = data.cards;
+      state.references = data.references;
+      state.transcripts = data.transcripts;
+      if (!state.selectedId && state.cards[0]) state.selectedId = state.cards[0].id;
+      render();
+      setStatus('Loaded cards, references, and transcript index.');
+    }
+
+    async function search() {
+      const q = searchInput.value.trim();
+      const response = await fetch(`/sanders/api/search?q=${encodeURIComponent(q)}`);
+      const data = await response.json();
+      state.results = data.results || [];
+      renderResults();
+      setStatus(`Found ${state.results.length} matches.`);
+    }
+
+    async function loadTranscript(videoId, matchStart = null, matchEnd = null) {
+      const response = await fetch(`/sanders/api/transcript?video_id=${encodeURIComponent(videoId)}`);
+      const data = await response.json();
+      state.activeTranscript = data.transcript;
+      state.startSelection = null;
+      state.endSelection = null;
+      renderTranscript();
+      if (matchStart !== null) {
+        const node = [...transcriptWrap.querySelectorAll('.segment')].find((segment) => {
+          const segStart = Number(segment.dataset.startOffset);
+          const textLength = segment.textContent.length;
+          return segStart <= matchStart && matchStart <= segStart + textLength;
+        });
+        if (node) node.scrollIntoView({ block: 'center' });
+      }
+    }
+
+    function caretInfoFromEvent(event) {
+      let caret = null;
+      if (document.caretPositionFromPoint) {
+        caret = document.caretPositionFromPoint(event.clientX, event.clientY);
+      } else if (document.caretRangeFromPoint) {
+        const range = document.caretRangeFromPoint(event.clientX, event.clientY);
+        caret = range ? { offsetNode: range.startContainer, offset: range.startOffset } : null;
+      }
+      if (!caret) return null;
+      let node = caret.offsetNode;
+      if (node.nodeType === Node.TEXT_NODE) {
+        node = node.parentElement;
+      }
+      if (!node || !node.classList || !node.classList.contains('segment')) return null;
+      const segmentIndex = Number(node.dataset.segmentIndex);
+      const segmentStart = Number(node.dataset.startOffset);
+      const textLength = node.textContent.length;
+      const segmentChar = Math.max(0, Math.min(caret.offset, textLength));
+      return {
+        absolute_char: segmentStart + segmentChar,
+        segment_index: segmentIndex,
+        segment_char: segmentChar,
+      };
+    }
+
+    async function addReferenceFromSelection() {
+      if (!state.selectedId) {
+        setStatus('Select a card first.');
+        return;
+      }
+      if (!state.activeTranscript || !state.startSelection || !state.endSelection) {
+        setStatus('Load a transcript and set both start and end chars first.');
+        return;
+      }
+      const response = await fetch('/sanders/api/resolve-reference', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          video_id: state.activeTranscript.video_id,
+          start_abs_char: state.startSelection.absolute_char,
+          end_abs_char: state.endSelection.absolute_char,
+        }),
+      });
+      const data = await response.json();
+      const reference = { id: state.selectedId, ...data.reference };
+      state.references.push(reference);
+      renderEditor();
+      setStatus(`Added reference to card ${state.selectedId}.`);
+    }
+
+    async function saveCards() {
+      const response = await fetch('/sanders/api/cards', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ cards: state.cards }),
+      });
+      if (!response.ok) throw new Error('Failed to save cards');
+      setStatus('Saved Anki/sanders.csv.');
+    }
+
+    async function saveReferences() {
+      const response = await fetch('/sanders/api/references', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ references: state.references }),
+      });
+      if (!response.ok) throw new Error('Failed to save references');
+      setStatus('Saved Sanders/references.csv.');
+    }
+
+    document.getElementById('newCardButton').addEventListener('click', async () => {
+      const response = await fetch('/sanders/api/card/create', { method: 'POST' });
+      const data = await response.json();
+      state.cards.push(data.card);
+      state.selectedId = data.card.id;
+      render();
+      setStatus(`Created card ${data.card.id}.`);
+    });
+    document.getElementById('saveCardsButton').addEventListener('click', () => saveCards().catch(error => setStatus(error.message)));
+    document.getElementById('saveRefsButton').addEventListener('click', () => saveReferences().catch(error => setStatus(error.message)));
+    document.getElementById('searchButton').addEventListener('click', () => search().catch(error => setStatus(error.message)));
+    document.getElementById('addReferenceButton').addEventListener('click', () => addReferenceFromSelection().catch(error => setStatus(error.message)));
+
+    [cardTopic, cardFront, cardBack].forEach((input) => {
+      input.addEventListener('input', () => {
+        const card = selectedCard();
+        if (!card) return;
+        card.topic = cardTopic.value;
+        card.front = cardFront.value;
+        card.back = cardBack.value;
+        renderCards();
+      });
+    });
+
+    transcriptWrap.addEventListener('click', (event) => {
+      const info = caretInfoFromEvent(event);
+      if (!info) return;
+      state.startSelection = info;
+      renderTranscript();
+      setStatus(`Start set at segment ${info.segment_index}, char ${info.segment_char}.`);
+    });
+
+    transcriptWrap.addEventListener('contextmenu', (event) => {
+      event.preventDefault();
+      const info = caretInfoFromEvent(event);
+      if (!info) return;
+      state.endSelection = info;
+      renderTranscript();
+      setStatus(`End set at segment ${info.segment_index}, char ${info.segment_char}.`);
+    });
+
+    loadState().catch(error => setStatus(error.message));
+  </script>
+</body>
+</html>

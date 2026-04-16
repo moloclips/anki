@@ -1,0 +1,96 @@
+{
+  "deck_name": "AI Politics Prep",
+  "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  text-align: center;\n  color: black;\n  background-color: white;\n}",
+  "sources": {
+    "models.csv": {
+      "tags": [
+        "models"
+      ],
+      "cards": [
+        {
+          "name": "company",
+          "note_model": "basic",
+          "tags": [
+            "model",
+            "company"
+          ],
+          "front": "Company: {{model}}",
+          "back": "{{company}}"
+        },
+        {
+          "name": "date",
+          "note_model": "basic_and_reversed",
+          "tags": [
+            "model",
+            "date"
+          ],
+          "front": "Date: {{model}}",
+          "back": "{{date}}"
+        },
+        {
+          "name": "params",
+          "note_model": "basic",
+          "tags": [
+            "model",
+            "params"
+          ],
+          "front": "Params: {{model}}",
+          "back": "{{params}}"
+        },
+        {
+          "name": "special",
+          "note_model": "basic",
+          "tags": [
+            "model",
+            "special"
+          ],
+          "front": "Special: {{model}}",
+          "back": "{{special}}"
+        }
+      ]
+    },
+    "history.csv": {
+      "tags": [
+        "history"
+      ],
+      "cards": [
+        {
+          "name": "event-to-date",
+          "note_model": "basic_and_reversed",
+          "tags": [
+            "history"
+          ],
+          "front": "Date: {{event}}",
+          "back": "{{date}}"
+        }
+      ]
+    },
+    "iabied.csv": {
+      "tags": [
+        "iabied"
+      ],
+      "cards": [
+        {
+          "name": "freeform-basic",
+          "note_model": "basic",
+          "tags": [
+            "iabied"
+          ],
+          "front": "{{front}}",
+          "back": "{{back}}<br><br><i>{{notes}}</i>"
+        }
+      ]
+    },
+    "sanders.csv": {
+      "tags": [],
+      "cards": [
+        {
+          "name": "sanders",
+          "note_model": "basic",
+          "front": "{{front}}",
+          "back": "{{back}}"
+        }
+      ]
+    }
+  }
+}

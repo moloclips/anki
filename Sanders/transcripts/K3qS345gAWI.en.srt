@@ -1,0 +1,1216 @@
+1
+00:00:00,080 --> 00:00:05,279
+Thanks very much for joining me to
+
+2
+00:00:01,839 --> 00:00:07,839
+discuss a very important issue.
+
+3
+00:00:05,279 --> 00:00:11,120
+Artificial intelligence and robotics
+
+4
+00:00:07,839 --> 00:00:13,840
+will transform the world.
+
+5
+00:00:11,120 --> 00:00:17,760
+It will bring unimaginable changes to
+
+6
+00:00:13,840 --> 00:00:20,160
+our economy, our politics, warfare,
+
+7
+00:00:17,760 --> 00:00:23,439
+foreign policy, our emotional
+
+8
+00:00:20,160 --> 00:00:28,720
+well-being, our environment, and how we
+
+9
+00:00:23,439 --> 00:00:31,840
+educate and raise our children. Further
+
+10
+00:00:28,720 --> 00:00:35,440
+unbelievable but true. There is a very
+
+11
+00:00:31,840 --> 00:00:39,360
+real fear that in the not tooistant
+
+12
+00:00:35,440 --> 00:00:42,719
+future a super intelligent AI could
+
+13
+00:00:39,360 --> 00:00:45,040
+replace human beings in controlling the
+
+14
+00:00:42,719 --> 00:00:47,440
+planet. That's not science fiction. That
+
+15
+00:00:45,040 --> 00:00:49,440
+is a real fear that very knowledgeable
+
+16
+00:00:47,440 --> 00:00:51,920
+people have.
+
+17
+00:00:49,440 --> 00:00:54,640
+Despite the extraordinarily
+
+18
+00:00:51,920 --> 00:00:56,320
+extraordinary importance of this issue
+
+19
+00:00:54,640 --> 00:00:58,879
+and the speed at which it is
+
+20
+00:00:56,320 --> 00:01:00,719
+progressing, AI is getting far too
+
+21
+00:00:58,879 --> 00:01:02,399
+little discussion in Congress, the
+
+22
+00:01:00,719 --> 00:01:05,920
+media, and within the general
+
+23
+00:01:02,399 --> 00:01:08,479
+population. And that has got to change
+
+24
+00:01:05,920 --> 00:01:10,080
+now. Several months ago, as the ranking
+
+25
+00:01:08,479 --> 00:01:12,640
+member of the US Senate Committee on
+
+26
+00:01:10,080 --> 00:01:15,200
+Health, Education, Labor, and Pensions,
+
+27
+00:01:12,640 --> 00:01:17,680
+I undertook an investigation regarding
+
+28
+00:01:15,200 --> 00:01:20,159
+the monumental challenges that we face
+
+29
+00:01:17,680 --> 00:01:21,680
+with the rapid development of artificial
+
+30
+00:01:20,159 --> 00:01:24,000
+intelligence.
+
+31
+00:01:21,680 --> 00:01:26,479
+And very recently, I held a public
+
+32
+00:01:24,000 --> 00:01:29,600
+discussion at Georgetown University with
+
+33
+00:01:26,479 --> 00:01:32,799
+Nobel Prize winner Dr. Jeffrey Hinton
+
+34
+00:01:29,600 --> 00:01:35,920
+considered to be the godfather of AI,
+
+35
+00:01:32,799 --> 00:01:38,560
+the guy who really brought this uh
+
+36
+00:01:35,920 --> 00:01:41,520
+subject to the place that it is now to
+
+37
+00:01:38,560 --> 00:01:43,520
+get his views on a wide range of AI
+
+38
+00:01:41,520 --> 00:01:46,479
+related subjects.
+
+39
+00:01:43,520 --> 00:01:48,159
+Based on our investigation
+
+40
+00:01:46,479 --> 00:01:50,960
+and other information that we are
+
+41
+00:01:48,159 --> 00:01:53,040
+gathering, my staff and I will soon be
+
+42
+00:01:50,960 --> 00:01:55,840
+presenting a very specific set of
+
+43
+00:01:53,040 --> 00:01:58,479
+recommendations to Congress as to how we
+
+44
+00:01:55,840 --> 00:02:04,159
+can begin addressing some of the
+
+45
+00:01:58,479 --> 00:02:08,319
+unprecedented threats that AI poses.
+
+46
+00:02:04,159 --> 00:02:11,680
+Here are just some of the outstanding
+
+47
+00:02:08,319 --> 00:02:14,080
+questions that we intend to answer in
+
+48
+00:02:11,680 --> 00:02:17,280
+our report.
+
+49
+00:02:14,080 --> 00:02:19,599
+First and maybe most importantly, who
+
+50
+00:02:17,280 --> 00:02:23,599
+should be in charge of the
+
+51
+00:02:19,599 --> 00:02:26,640
+transformation into an AI world?
+
+52
+00:02:23,599 --> 00:02:29,680
+Currently, a handful of the very
+
+53
+00:02:26,640 --> 00:02:33,440
+wealthiest people on Earth, Elon Musk,
+
+54
+00:02:29,680 --> 00:02:36,640
+Jeff Bezos, Bill Gates, Mark Zuckerberg,
+
+55
+00:02:33,440 --> 00:02:38,959
+Peter Teal, and others are investing
+
+56
+00:02:36,640 --> 00:02:42,160
+many, many hundreds of billions of
+
+57
+00:02:38,959 --> 00:02:44,640
+dollars in developing and implementing
+
+58
+00:02:42,160 --> 00:02:47,280
+AI and robotics.
+
+59
+00:02:44,640 --> 00:02:50,080
+Are we comfortable with seeing these
+
+60
+00:02:47,280 --> 00:02:53,519
+enormously powerful men, handful of
+
+61
+00:02:50,080 --> 00:02:56,319
+people, shape the future of humanity
+
+62
+00:02:53,519 --> 00:02:58,400
+without any democratic input or
+
+63
+00:02:56,319 --> 00:03:02,080
+oversight?
+
+64
+00:02:58,400 --> 00:03:04,959
+Is the goal of the AI revolution simply
+
+65
+00:03:02,080 --> 00:03:08,400
+to make the very very richest people on
+
+66
+00:03:04,959 --> 00:03:11,360
+Earth even richer and even more
+
+67
+00:03:08,400 --> 00:03:16,159
+powerful? or will this revolutionary
+
+68
+00:03:11,360 --> 00:03:18,720
+technology be utilized to benefit all of
+
+69
+00:03:16,159 --> 00:03:21,519
+humanity? That is the question. Who
+
+70
+00:03:18,720 --> 00:03:24,959
+benefits from this incredible
+
+71
+00:03:21,519 --> 00:03:27,599
+transformation of society?
+
+72
+00:03:24,959 --> 00:03:30,239
+Why does Donald Trump, who is strongly
+
+73
+00:03:27,599 --> 00:03:32,879
+supporting these big tech oligarchs,
+
+74
+00:03:30,239 --> 00:03:37,280
+want to impose an executive order
+
+75
+00:03:32,879 --> 00:03:39,360
+blocking states from regulating AI? Why
+
+76
+00:03:37,280 --> 00:03:42,560
+does Peter Teal, the billionaire
+
+77
+00:03:39,360 --> 00:03:46,400
+investor and co-founder of Palunteer,
+
+78
+00:03:42,560 --> 00:03:50,080
+call those who want regulations over AI
+
+79
+00:03:46,400 --> 00:03:52,000
+quote, legionnaires of the Antichrist,
+
+80
+00:03:50,080 --> 00:03:54,720
+end quote?
+
+81
+00:03:52,000 --> 00:03:58,400
+Does this elite group of
+
+82
+00:03:54,720 --> 00:04:02,400
+multi-billionaire big tech guys really
+
+83
+00:03:58,400 --> 00:04:04,879
+believe that they have the divine right
+
+84
+00:04:02,400 --> 00:04:07,360
+to rule? Are we going back to the 19th
+
+85
+00:04:04,879 --> 00:04:10,000
+century where you had in those days
+
+86
+00:04:07,360 --> 00:04:11,599
+kings and monarchs saying God gave them
+
+87
+00:04:10,000 --> 00:04:15,360
+the right to rule? Is that what these
+
+88
+00:04:11,599 --> 00:04:19,440
+guys are saying today? How far will they
+
+89
+00:04:15,360 --> 00:04:21,759
+go to resist government regulation? So
+
+90
+00:04:19,440 --> 00:04:25,360
+that's one huge issue that we've got to
+
+91
+00:04:21,759 --> 00:04:28,800
+get deeply involved in. Further, what
+
+92
+00:04:25,360 --> 00:04:33,040
+impact will AI and robotics have on our
+
+93
+00:04:28,800 --> 00:04:35,040
+economy and the lives of working people?
+
+94
+00:04:33,040 --> 00:04:37,600
+The report that I released last month
+
+95
+00:04:35,040 --> 00:04:42,320
+found that AI, automation, and robotics
+
+96
+00:04:37,600 --> 00:04:45,280
+could replace nearly 100 million jobs in
+
+97
+00:04:42,320 --> 00:04:48,720
+America over the next decade, including
+
+98
+00:04:45,280 --> 00:04:53,040
+40% of registered nurses, 47% of truck
+
+99
+00:04:48,720 --> 00:04:56,560
+drivers, 64% of accountants, 65% of
+
+100
+00:04:53,040 --> 00:05:00,080
+teaching assistants, and 89%
+
+101
+00:04:56,560 --> 00:05:02,880
+of fast food workers, among many other
+
+102
+00:05:00,080 --> 00:05:07,680
+occupations that will
+
+103
+00:05:02,880 --> 00:05:11,600
+hit hard by AI and robotics.
+
+104
+00:05:07,680 --> 00:05:17,680
+Now, Elon Musk recently said that quote,
+
+105
+00:05:11,600 --> 00:05:21,840
+"AI and robots will replace all jobs.
+
+106
+00:05:17,680 --> 00:05:25,919
+Working will be optional." End quote.
+
+107
+00:05:21,840 --> 00:05:29,680
+Bill Gates predicted that humans quote
+
+108
+00:05:25,919 --> 00:05:33,440
+won't be needed for much for most things
+
+109
+00:05:29,680 --> 00:05:36,560
+end quote. Dario Amodi, the CEO of
+
+110
+00:05:33,440 --> 00:05:39,840
+Anthropic, warned that AI could lead to
+
+111
+00:05:36,560 --> 00:05:42,720
+the loss of half of all entry-level
+
+112
+00:05:39,840 --> 00:05:46,080
+white collar jobs.
+
+113
+00:05:42,720 --> 00:05:50,479
+If AI and robotics eliminate millions of
+
+114
+00:05:46,080 --> 00:05:53,199
+jobs and create massive unemployment,
+
+115
+00:05:50,479 --> 00:05:56,479
+how will people survive if they have no
+
+116
+00:05:53,199 --> 00:05:59,600
+income? How do they feed their families
+
+117
+00:05:56,479 --> 00:06:02,720
+or pay for housing or healthcare?
+
+118
+00:05:59,600 --> 00:06:05,919
+Is government doing anything now to
+
+119
+00:06:02,720 --> 00:06:08,000
+prepare for this potential economic
+
+120
+00:06:05,919 --> 00:06:09,840
+disaster?
+
+121
+00:06:08,000 --> 00:06:13,360
+Further,
+
+122
+00:06:09,840 --> 00:06:15,199
+what impact will AI have on our
+
+123
+00:06:13,360 --> 00:06:17,440
+democracy?
+
+124
+00:06:15,199 --> 00:06:20,160
+At a time when the foundations of
+
+125
+00:06:17,440 --> 00:06:22,639
+democracy are under attack here in the
+
+126
+00:06:20,160 --> 00:06:26,240
+United States and throughout the world,
+
+127
+00:06:22,639 --> 00:06:30,319
+will AI and robotics help make us become
+
+128
+00:06:26,240 --> 00:06:32,960
+a freer, more democratic society, or
+
+129
+00:06:30,319 --> 00:06:36,800
+will it give even more power to the
+
+130
+00:06:32,960 --> 00:06:40,080
+oligarchs who control the technology?
+
+131
+00:06:36,800 --> 00:06:43,520
+Will a AI result in a massive invasion
+
+132
+00:06:40,080 --> 00:06:46,400
+of our privacy and our civil liberties?
+
+133
+00:06:43,520 --> 00:06:49,919
+Larry Ellison, the second richest person
+
+134
+00:06:46,400 --> 00:06:52,960
+on earth, predicted an AI powered
+
+135
+00:06:49,919 --> 00:06:56,160
+surveillance state where, quote,
+
+136
+00:06:52,960 --> 00:06:58,960
+"Citizens will be on their best behavior
+
+137
+00:06:56,160 --> 00:07:01,680
+because we're constantly recording and
+
+138
+00:06:58,960 --> 00:07:03,039
+reporting everything that is going on."
+
+139
+00:07:01,680 --> 00:07:04,960
+End of quote. This is the second
+
+140
+00:07:03,039 --> 00:07:08,960
+wealthiest guy on earth investing
+
+141
+00:07:04,960 --> 00:07:12,160
+hundreds of billions in AI.
+
+142
+00:07:08,960 --> 00:07:15,120
+Are we reaching the stage
+
+143
+00:07:12,160 --> 00:07:18,240
+where every phone call that we make,
+
+144
+00:07:15,120 --> 00:07:21,039
+every email and text that we send, every
+
+145
+00:07:18,240 --> 00:07:24,960
+bit of research we do on the internet
+
+146
+00:07:21,039 --> 00:07:27,759
+will be available to the owners of AI?
+
+147
+00:07:24,960 --> 00:07:30,720
+And if that is the case, how do we
+
+148
+00:07:27,759 --> 00:07:33,680
+sustain a democracy under those
+
+149
+00:07:30,720 --> 00:07:36,680
+conditions? How do we protect our
+
+150
+00:07:33,680 --> 00:07:36,680
+privacy?
+
+151
+00:07:36,800 --> 00:07:44,240
+Further, could AI literally redefine,
+
+152
+00:07:41,199 --> 00:07:47,919
+and this is almost crazy stuff, very
+
+153
+00:07:44,240 --> 00:07:49,440
+unimaginable, but could AI literally
+
+154
+00:07:47,919 --> 00:07:54,000
+redefine
+
+155
+00:07:49,440 --> 00:07:56,639
+what it means to be a human being?
+
+156
+00:07:54,000 --> 00:07:59,919
+Who we are and how we develop
+
+157
+00:07:56,639 --> 00:08:03,039
+emotionally and intellectually is highly
+
+158
+00:07:59,919 --> 00:08:05,120
+dependent upon our relationships with
+
+159
+00:08:03,039 --> 00:08:08,319
+other human beings, our parents, of
+
+160
+00:08:05,120 --> 00:08:11,039
+course, our family, teachers, lovers,
+
+161
+00:08:08,319 --> 00:08:13,599
+friends, and co-workers. To quote the
+
+162
+00:08:11,039 --> 00:08:16,879
+17th century poet John Dunn, you all
+
+163
+00:08:13,599 --> 00:08:19,919
+remember this poem. Quote, "No man is an
+
+164
+00:08:16,879 --> 00:08:23,360
+island unto himself." End quote. The
+
+165
+00:08:19,919 --> 00:08:26,400
+human beings with whom we interact help
+
+166
+00:08:23,360 --> 00:08:30,800
+shape us to become for better or for
+
+167
+00:08:26,400 --> 00:08:33,839
+worse the people we are. But AI is in
+
+168
+00:08:30,800 --> 00:08:36,959
+the process of changing that. According
+
+169
+00:08:33,839 --> 00:08:41,279
+to a recent poll by Common Sense Media,
+
+170
+00:08:36,959 --> 00:08:44,560
+72% of US teenagers say they have used
+
+171
+00:08:41,279 --> 00:08:47,680
+AI for companionship
+
+172
+00:08:44,560 --> 00:08:50,000
+and more than half of them do so
+
+173
+00:08:47,680 --> 00:08:51,760
+regularly.
+
+174
+00:08:50,000 --> 00:08:54,399
+What does it mean? I want you to think
+
+175
+00:08:51,760 --> 00:08:59,200
+about this. What does it mean for young
+
+176
+00:08:54,399 --> 00:09:03,040
+people to form friendships with AI and
+
+177
+00:08:59,200 --> 00:09:05,200
+become increasingly isolated from other
+
+178
+00:09:03,040 --> 00:09:09,120
+human beings, spend enormous amount of
+
+179
+00:09:05,200 --> 00:09:10,640
+time on their screens talking to AI
+
+180
+00:09:09,120 --> 00:09:14,399
+characters?
+
+181
+00:09:10,640 --> 00:09:18,160
+What happens when millions around the
+
+182
+00:09:14,399 --> 00:09:19,760
+world seek emotional support from a
+
+183
+00:09:18,160 --> 00:09:22,399
+machine?
+
+184
+00:09:19,760 --> 00:09:25,440
+What is the long-term impact upon our
+
+185
+00:09:22,399 --> 00:09:28,800
+humanity when our most important
+
+186
+00:09:25,440 --> 00:09:31,519
+relationships are not with other human
+
+187
+00:09:28,800 --> 00:09:33,519
+beings?
+
+188
+00:09:31,519 --> 00:09:36,959
+Further,
+
+189
+00:09:33,519 --> 00:09:39,040
+what impact is AI having on our
+
+190
+00:09:36,959 --> 00:09:42,800
+environment?
+
+191
+00:09:39,040 --> 00:09:45,760
+AI data centers require a massive huge
+
+192
+00:09:42,800 --> 00:09:48,800
+amount of electricity and water. A
+
+193
+00:09:45,760 --> 00:09:51,839
+relatively small AI data center can
+
+194
+00:09:48,800 --> 00:09:55,760
+consume more electricity than 80,000
+
+195
+00:09:51,839 --> 00:09:59,440
+homes. A large one like the 165 billion
+
+196
+00:09:55,760 --> 00:10:02,480
+data center that Open AI and Oracle are
+
+197
+00:09:59,440 --> 00:10:06,399
+building in Abalene, Texas will use as
+
+198
+00:10:02,480 --> 00:10:08,800
+much electricity as 750,000
+
+199
+00:10:06,399 --> 00:10:10,880
+homes, one data center.
+
+200
+00:10:08,800 --> 00:10:14,240
+Meta is building a data center in
+
+201
+00:10:10,880 --> 00:10:17,440
+Louisiana the size of Manhattan that
+
+202
+00:10:14,240 --> 00:10:20,720
+will use as much electricity as
+
+203
+00:10:17,440 --> 00:10:24,000
+1,200,000 homes.
+
+204
+00:10:20,720 --> 00:10:26,079
+In community after community, Americans
+
+205
+00:10:24,000 --> 00:10:28,640
+are fighting back against data centers
+
+206
+00:10:26,079 --> 00:10:31,200
+being built by some of the largest and
+
+207
+00:10:28,640 --> 00:10:33,360
+most powerful corporations in the world.
+
+208
+00:10:31,200 --> 00:10:35,839
+They are opposing the destruction of
+
+209
+00:10:33,360 --> 00:10:38,320
+their local environment,
+
+210
+00:10:35,839 --> 00:10:42,399
+soaring electric bills, and the
+
+211
+00:10:38,320 --> 00:10:43,920
+diversion of scarce water supplies.
+
+212
+00:10:42,399 --> 00:10:47,519
+Nationally,
+
+213
+00:10:43,920 --> 00:10:51,920
+how will continued construction of AI
+
+214
+00:10:47,519 --> 00:10:53,839
+data centers impact our environment?
+
+215
+00:10:51,920 --> 00:10:57,040
+Further,
+
+216
+00:10:53,839 --> 00:10:59,680
+how will AI and robotics impact foreign
+
+217
+00:10:57,040 --> 00:11:01,760
+policy and warfare? Well, maybe you
+
+218
+00:10:59,680 --> 00:11:03,920
+haven't thought about that.
+
+219
+00:11:01,760 --> 00:11:06,480
+But the reality is that sadly,
+
+220
+00:11:03,920 --> 00:11:08,800
+tragically, in the midst of the 21st
+
+221
+00:11:06,480 --> 00:11:11,279
+century, governments have not yet
+
+222
+00:11:08,800 --> 00:11:14,720
+created a mechanism for solving
+
+223
+00:11:11,279 --> 00:11:16,480
+international or internal disputes
+
+224
+00:11:14,720 --> 00:11:19,839
+without armed conflict. We are seeing
+
+225
+00:11:16,480 --> 00:11:21,360
+terrible wars taking place right now.
+
+226
+00:11:19,839 --> 00:11:24,240
+Nonetheless,
+
+227
+00:11:21,360 --> 00:11:26,640
+government leaders are often hesitant
+
+228
+00:11:24,240 --> 00:11:29,279
+about going to war because of their fear
+
+229
+00:11:26,640 --> 00:11:31,279
+of public reaction to the loss of life.
+
+230
+00:11:29,279 --> 00:11:33,440
+No politician
+
+231
+00:11:31,279 --> 00:11:35,120
+wants to go before his or her people and
+
+232
+00:11:33,440 --> 00:11:38,079
+say, "Oh, sorry. We've lost thousands of
+
+233
+00:11:35,120 --> 00:11:42,560
+dollars of young men and women."
+
+234
+00:11:38,079 --> 00:11:44,079
+But what happens when you have robots
+
+235
+00:11:42,560 --> 00:11:47,120
+replacing
+
+236
+00:11:44,079 --> 00:11:50,560
+human beings in the act of warfare? You
+
+237
+00:11:47,120 --> 00:11:52,880
+have robot armies.
+
+238
+00:11:50,560 --> 00:11:56,720
+What does the future look like if
+
+239
+00:11:52,880 --> 00:11:59,839
+millions of robot soldiers replace human
+
+240
+00:11:56,720 --> 00:12:02,640
+beings? Will leaders be more likely to
+
+241
+00:11:59,839 --> 00:12:05,600
+engage in war or threaten military
+
+242
+00:12:02,640 --> 00:12:09,279
+action if they don't have to worry about
+
+243
+00:12:05,600 --> 00:12:12,320
+loss of life? Will there be literally an
+
+244
+00:12:09,279 --> 00:12:14,320
+arms race in robots? So you can see
+
+245
+00:12:12,320 --> 00:12:16,000
+country fighting country not with their
+
+246
+00:12:14,320 --> 00:12:19,360
+own human beings, not with their own
+
+247
+00:12:16,000 --> 00:12:21,440
+soldiers, but with robots. And if you
+
+248
+00:12:19,360 --> 00:12:23,360
+don't have to worry about losing robots
+
+249
+00:12:21,440 --> 00:12:25,920
+as opposed to losing human beings, how
+
+250
+00:12:23,360 --> 00:12:27,440
+will this shape foreign policies around
+
+251
+00:12:25,920 --> 00:12:29,519
+the world? It's a big issue. Doesn't get
+
+252
+00:12:27,440 --> 00:12:32,079
+a lot of discussion.
+
+253
+00:12:29,519 --> 00:12:33,600
+Further, and needless to say, of some
+
+254
+00:12:32,079 --> 00:12:38,399
+consequence,
+
+255
+00:12:33,600 --> 00:12:41,440
+is AI an existential threat to human
+
+256
+00:12:38,399 --> 00:12:43,200
+control over the planet?
+
+257
+00:12:41,440 --> 00:12:45,120
+Now, some of us remember the scene, and
+
+258
+00:12:43,200 --> 00:12:46,720
+I know there've been a different movies
+
+259
+00:12:45,120 --> 00:12:50,000
+making the same point, but some of us
+
+260
+00:12:46,720 --> 00:12:53,760
+remember that scene in that great 1968
+
+261
+00:12:50,000 --> 00:12:57,279
+science fiction film 2001, A Space
+
+262
+00:12:53,760 --> 00:12:59,680
+Odyssey, in which HAL, the super
+
+263
+00:12:57,279 --> 00:13:02,560
+intelligent computer that controlled the
+
+264
+00:12:59,680 --> 00:13:04,480
+spaceship, rebelss against its human
+
+265
+00:13:02,560 --> 00:13:08,560
+masters.
+
+266
+00:13:04,480 --> 00:13:11,519
+Today, is AI makes rapid progress. Dr.
+
+267
+00:13:08,560 --> 00:13:14,880
+Jeff Jeffrey Hinton recently told me
+
+268
+00:13:11,519 --> 00:13:19,600
+that it was only a matter of time before
+
+269
+00:13:14,880 --> 00:13:21,920
+AI becomes smarter than human beings.
+
+270
+00:13:19,600 --> 00:13:24,959
+Now, what's the impact of that? Does
+
+271
+00:13:21,920 --> 00:13:28,079
+that raise the possibility that humans
+
+272
+00:13:24,959 --> 00:13:31,680
+will actually lose their ability to
+
+273
+00:13:28,079 --> 00:13:35,519
+control the planet? And if that becomes
+
+274
+00:13:31,680 --> 00:13:38,959
+a possibility, how do how do we stop
+
+275
+00:13:35,519 --> 00:13:41,839
+that extraordinary threat?
+
+276
+00:13:38,959 --> 00:13:45,040
+And let me just tell you these are just
+
+277
+00:13:41,839 --> 00:13:49,519
+some underlying sum of the questions
+
+278
+00:13:45,040 --> 00:13:51,600
+that must be answered as AI and robotics
+
+279
+00:13:49,519 --> 00:13:53,200
+rapidly progress. Remember these guys
+
+280
+00:13:51,600 --> 00:13:55,680
+have spent hundreds and hundreds of
+
+281
+00:13:53,200 --> 00:13:57,360
+billions. There are breakthroughs almost
+
+282
+00:13:55,680 --> 00:14:00,560
+every day.
+
+283
+00:13:57,360 --> 00:14:02,160
+AI and robotics are revolutionary
+
+284
+00:14:00,560 --> 00:14:05,600
+technologies
+
+285
+00:14:02,160 --> 00:14:09,199
+that will bring about an unprecedented
+
+286
+00:14:05,600 --> 00:14:12,320
+transformation of society.
+
+287
+00:14:09,199 --> 00:14:16,399
+Will these changes be positive and
+
+288
+00:14:12,320 --> 00:14:20,079
+improve life for ordinary Americans
+
+289
+00:14:16,399 --> 00:14:24,639
+or will they be disastrous?
+
+290
+00:14:20,079 --> 00:14:26,560
+In my view, Congress must act now. We've
+
+291
+00:14:24,639 --> 00:14:29,760
+got to start answering these questions
+
+292
+00:14:26,560 --> 00:14:33,199
+and other questions. We need to have a
+
+293
+00:14:29,760 --> 00:14:36,480
+national discussion. This is a huge
+
+294
+00:14:33,199 --> 00:14:38,720
+issue and maybe the people on top, the
+
+295
+00:14:36,480 --> 00:14:41,600
+billionaires who control the technology
+
+296
+00:14:38,720 --> 00:14:46,320
+want us to ignore it. But for the future
+
+297
+00:14:41,600 --> 00:14:48,959
+of our world, our kids, the environment,
+
+298
+00:14:46,320 --> 00:14:50,320
+etc., this is an issue that cannot be
+
+299
+00:14:48,959 --> 00:14:51,839
+ignored. So, we're going to work
+
+300
+00:14:50,320 --> 00:14:55,040
+together. Look forward to hearing from
+
+301
+00:14:51,839 --> 00:14:57,600
+you about this issue. But let's go
+
+302
+00:14:55,040 --> 00:14:59,680
+forward in attempting to answer some of
+
+303
+00:14:57,600 --> 00:15:02,680
+these questions. So, thank you all very
+
+304
+00:14:59,680 --> 00:15:02,680
+much.
+

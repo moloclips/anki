@@ -1,0 +1,648 @@
+1. 1950-10-01 | Capabilities | Can Machines Think?
+Location: MANCHESTER
+Description: Alan Turing publishes ‘Computing Machinery and Intelligence’ in the journal Mind, proposing the Turing Test and posing the question that will define the next century of research: can machines think?
+Source: https://en.wikipedia.org/wiki/Computing_Machinery_and_Intelligence
+
+2. 1951-05-15 | Capabilities | Turing Warns: Machines Will Take Control
+Location: MANCHESTER
+Description: In a lecture to the Manchester Philosophy Society, Alan Turing warns: ‘It seems probable that once the machine thinking method has started, it would not take long to outstrip our feeble powers. At some stage therefore we should have to expect the machines to take control.’
+Source: https://uberty.org/wp-content/uploads/2015/02/intelligent-machinery-a-heretical-theory.pdf
+
+3. 1956-08-31 | Capabilities | The Dartmouth Conference
+Location: HANOVER, N.H.
+Description: John McCarthy, Marvin Minsky, and colleagues convene at Dartmouth College, coining the term ‘artificial intelligence’ and launching AI as an academic discipline. They predict human-level intelligence within a generation.
+Source: https://en.wikipedia.org/wiki/Dartmouth_workshop
+
+4. 1960-11-01 | Capabilities | Wiener Warns of the Machine Age
+Location: CAMBRIDGE, MASS.
+Description: Norbert Wiener, founder of cybernetics, publishes a warning in Science: machines are being built to make decisions based on criteria humans cannot fully comprehend. Delegating judgment to systems we don’t understand, he argues, could be catastrophic.
+Source: https://gwern.net/doc/reinforcement-learning/safe/1960-wiener.pdf
+
+5. 1965-01-01 | Capabilities | The Last Invention
+Location: OXFORD
+Deck: A mathematician predicts the intelligence explosion that could end human supremacy
+Description: I.J. Good publishes ‘Speculations Concerning the First Ultraintelligent Machine,’ describing an intelligence explosion: a machine smarter than any human could design an even smarter machine, triggering a chain reaction of recursive self-improvement. He calls it ‘the last invention that man need ever make.’
+Source: https://languagelog.ldc.upenn.edu/myl/Good1964.pdf
+
+6. 1966-01-01 | Capabilities | ELIZA
+Location: CAMBRIDGE, MASS.
+Description: MIT professor Joseph Weizenbaum creates ELIZA, a chatbot that mimics a therapist. Users form emotional bonds with the program despite its trivial pattern-matching. Weizenbaum is so disturbed he spends the rest of his career warning against AI.
+Source: https://en.wikipedia.org/wiki/ELIZA
+
+7. 1983-10-28 | Capabilities | Pentagon Bets $1B on Autonomous Weapons
+Location: WASHINGTON
+Description: The U.S. Department of Defense launches the Strategic Computing Initiative, a billion-dollar program to develop autonomous weapons systems including self-driving tanks and AI-guided missiles. It is the largest AI research program ever funded.
+Source: https://en.wikipedia.org/wiki/Strategic_Computing_Initiative
+
+8. 1988-07-03 | Misbehaviours | Machine Misidentifies Airliner; 290 Die
+Location: PERSIAN GULF
+Description: The USS Vincennes shoots down Iran Air Flight 655 over the Persian Gulf, killing all 290 passengers and crew. The ship’s Aegis combat system misidentifies the civilian Airbus A300 as an attacking F-14 fighter jet — the deadliest incident of an automated system contributing to a catastrophic military error.
+Source: https://en.wikipedia.org/wiki/Iran_Air_Flight_655
+
+9. 1993-01-01 | Capabilities | The Coming Singularity
+Location: SAN DIEGO
+Description: Vernor Vinge publishes ‘The Coming Technological Singularity,’ arguing that within thirty years we will create superhuman intelligence. ‘Shortly after,’ he writes, ‘the human era will be ended.’
+Source: https://ntrs.nasa.gov/citations/19940022856
+
+10. 1997-05-11 | Capabilities | Deep Blue Defeats Kasparov
+Location: NEW YORK
+Description: IBM’s Deep Blue defeats world chess champion Garry Kasparov in a six-game match, the first time a computer beats a reigning champion under standard conditions. Kasparov accuses IBM of cheating. The machine is dismantled.
+Source: https://en.wikipedia.org/wiki/Deep_Blue_versus_Garry_Kasparov
+
+11. 2005-10-08 | Capabilities | Robot Cars
+Location: MOJAVE DESERT
+Description: Five autonomous vehicles complete the DARPA Grand Challenge, navigating 132 miles of desert terrain without human intervention. No vehicle finished the same course 18 months earlier.
+Source: https://en.wikipedia.org/wiki/DARPA_Grand_Challenge_(2005)
+
+12. 2010-05-06 | Misbehaviours | The Flash Crash
+Location: NEW YORK
+Description: Automated trading algorithms trigger a sudden stock market crash, wiping out nearly $1 trillion in market value in minutes. The Dow drops 1,000 points before partially recovering. Regulators struggle to explain how algorithms created a cascading failure no human intended.
+Source: https://en.wikipedia.org/wiki/2010_flash_crash
+
+13. 2011-02-16 | Capabilities | Watson Wins Jeopardy!
+Location: NEW YORK
+Description: IBM’s Watson defeats Jeopardy! champions Ken Jennings and Brad Rutter on live television, demonstrating AI’s ability to understand natural language, puns, and wordplay. Jennings writes on his screen: ‘I, for one, welcome our new computer overlords.’
+Source: https://en.wikipedia.org/wiki/Watson_(computer)
+
+14. 2012-06-26 | Capabilities | The Deep Learning Revolution
+Description: AlexNet wins the ImageNet competition with unprecedented accuracy, demonstrating the power of deep learning. The result triggers a seismic shift ‘ within years, nearly every major tech company is pursuing neural networks.
+Source: https://en.wikipedia.org/wiki/AlexNet
+
+15. 2014-06-10 | Capabilities | Generative Adversarial Networks
+Description: Ian Goodfellow invents GANs: two neural networks locked in competition, one generating increasingly realistic fakes while the other tries to detect them. The technology will become the engine behind deepfakes, synthetic media, and a new era of digital deception.
+Source: https://en.wikipedia.org/wiki/Generative_adversarial_network
+
+16. 2014-01-26 | Capabilities | Google Acquires DeepMind
+Location: LONDON
+Description: Google pays approximately $500 million for DeepMind, a small London AI startup. As a condition of sale, DeepMind insists on the creation of an AI safety board. It signals the beginning of the AI arms race between tech giants.
+Source: https://en.wikipedia.org/wiki/Google_DeepMind
+
+17. 2014-07-01 | Societal Response | Bostrom Publishes Superintelligence
+Location: OXFORD
+Description: Oxford philosopher Nick Bostrom publishes ‘Superintelligence: Paths, Dangers, Strategies,’ arguing that superintelligent AI poses an existential threat to humanity. The book influences Bill Gates, Elon Musk, and key policymakers worldwide.
+Source: https://en.wikipedia.org/wiki/Superintelligence:_Paths,_Dangers,_Strategies
+
+18. 2014-12-02 | Societal Response | Hawking: AI Could End the Human Race
+Location: LONDON
+Description: Stephen Hawking tells the BBC: ‘The development of full artificial intelligence could spell the end of the human race. It would take off on its own and re-design itself at an ever increasing rate. Humans, limited by slow biological evolution, couldn’t compete.’
+Source: https://www.bbc.com/news/technology-30290540
+
+19. 2015-01-12 | Societal Response | Open Letter on AI Research Priorities
+Description: The Future of Life Institute publishes an open letter signed by thousands of AI researchers calling for research to ensure AI remains safe and beneficial. Hawking, Musk, and Stuart Russell sign.
+Source: https://en.wikipedia.org/wiki/Open_letter_on_artificial_intelligence
+
+20. 2015-04-13 | Societal Response | UN Debates Killer Robots
+Location: GENEVA
+Description: The United Nations begins formal discussions on lethal autonomous weapons systems. Thousands of researchers sign an open letter calling for a ban. No treaty results.
+Source: https://www.ungeneva.org/en/news-media/press-release/2015/04/states-parties-convention-certain-conventional-weapons-conclude
+
+21. 2015-12-11 | Societal Response | OpenAI Founded
+Location: SAN FRANCISCO
+Description: Elon Musk, Sam Altman, and others found OpenAI as a nonprofit, pledging $1 billion to develop AI ‘most likely to benefit humanity as a whole.’ It will not remain a nonprofit for long.
+Source: https://en.wikipedia.org/wiki/OpenAI
+
+22. 2016-03-15 | Capabilities | AlphaGo Defeats Lee Sedol
+Location: SEOUL
+Description: Google DeepMind’s AlphaGo defeats grandmaster Lee Sedol at Go, a game that had for decades been an open problem in computer science. A new era of deep learning research begins.
+Source: https://www.youtube.com/watch?v=WXuK6gekU1Y
+
+23. 2016-03-23 | Misbehaviours | Microsoft’s Tay Goes Racist in 16 Hours
+Description: Microsoft launches Tay, a chatbot that learns from Twitter conversations. Within 16 hours, users manipulate it into producing racist, sexist, and genocidal statements. Microsoft shuts it down.
+Source: https://en.wikipedia.org/wiki/Tay_(chatbot)
+
+24. 2016-05-07 | Misbehaviours | First Tesla Autopilot Death
+Location: WILLISTON, FLA.
+Description: Joshua Brown is killed when his Tesla, operating on Autopilot, drives at full speed under a tractor-trailer it fails to detect. It is the first known fatality involving a semi-autonomous driving system.
+Source: https://en.wikipedia.org/wiki/Death_of_Joshua_Brown
+
+25. 2016-10-01 | Capabilities | Pentagon Tests Drone Swarm
+Location: WASHINGTON
+Description: The U.S. DoD conducts the first large-scale test of an autonomous drone swarm, releasing 103 Perdix micro-drones from F/A-18 jets. The drones demonstrate collective behavior ‘ distributed decision-making, adaptive formation flying, and self-healing.
+Source: https://www.militarytimes.com/news/pentagon-congress/2017/01/09/pentagon-successfully-tests-world-s-largest-micro-drone-swarm
+
+26. 2017-06-12 | Capabilities | Attention Is All You Need
+Location: MOUNTAIN VIEW, CALIF.
+Description: Google researchers publish the Transformer architecture, a new approach to processing language using ‘attention’ mechanisms. The paper’s unassuming title belies its impact: every major AI model that follows, from GPT to Claude to Gemini, will be built on this foundation.
+Source: https://arxiv.org/abs/1706.03762
+
+27. 2017-10-18 | Capabilities | AlphaGo Zero
+Location: LONDON
+Description: DeepMind’s AlphaGo Zero learns Go entirely from scratch through self-play — no human games, no human knowledge. Within 40 days it surpasses every previous version. The machine discovers strategies no human has ever conceived.
+Source: https://en.wikipedia.org/wiki/AlphaGo_Zero
+
+28. 2018-03-18 | Misbehaviours | Self-Driving Uber Kills Pedestrian
+Location: TEMPE, ARIZ.
+Description: An Uber autonomous test vehicle strikes and kills Elaine Herzberg in Tempe, Arizona, the first pedestrian death caused by a self-driving car. The AI detected her six seconds before impact but was not configured to brake for unclassified objects.
+Source: https://en.wikipedia.org/wiki/Death_of_Elaine_Herzberg
+
+29. 2018-06-01 | Societal Response | Google Maven Revolt
+Location: MOUNTAIN VIEW, CALIF.
+Description: Thousands of Google employees protest Project Maven, a Pentagon contract using Google AI to analyze drone footage. Google announces it will not renew the contract and publishes AI ethical principles.
+Source: https://en.wikipedia.org/wiki/Project_Maven
+
+30. 2019-04-01 | Misbehaviours | AI Surveillance of Uyghurs
+Location: XINJIANG, CHINA
+Description: Reports reveal China is using AI-powered facial recognition, gait analysis, and predictive policing to monitor Uyghur Muslims in Xinjiang. At least one million people are detained in camps identified partly by these systems.
+Source: https://www.uyghurcongress.org/en/one-month-500000-face-scans-how-china-is-using-a-i-to-profile-a-minority/
+
+31. 2019-02-14 | Capabilities | GPT-2: ‘Too Dangerous to Release’
+Location: SAN FRANCISCO
+Description: OpenAI announces GPT-2, a language model that generates coherent paragraphs, and initially withholds the full model citing fears of automated disinformation. The decision is controversial, and the model is eventually released.
+Source: https://openai.com/index/better-language-models/
+
+32. 2019-03-11 | Societal Response | OpenAI Goes Commercial
+Location: SAN FRANCISCO
+Description: OpenAI restructures from a nonprofit to a ‘capped-profit’ entity, raising billions from Microsoft. Critics argue the lab founded to develop AI safely has become a conventional company pursuing profit.
+Source: https://en.wikipedia.org/wiki/OpenAI#Transition_from_non-profit
+
+33. 2019-03-13 | Capabilities | The Bitter Lesson
+Description: Reinforcement learning pioneer Rich Sutton publishes an essay arguing that 70 years of AI research teach one lesson: general methods that leverage computation always win. Human-designed knowledge, from chess heuristics to speech phonemes, is eventually swept aside by brute-force search and learning once enough compute arrives. The essay becomes a foundational text for the scaling movement, cited by researchers at every major lab as justification for building ever-larger models.
+Source: https://www.cs.utexas.edu/~eunsol/courses/data/bitter_lesson.pdf
+
+34. 2019-09-18 | Misbehaviours | A Single Typo Creates ‘Maximally Bad’ AI
+Location: SAN FRANCISCO
+Description: OpenAI reveals that a sign error in the code for its reinforcement learning from human feedback (RLHF) process inverted GPT-2’s reward signal overnight, turning every human downvote into encouragement. The model became fixated on producing relentlessly explicit content — the exact opposite of what its creators intended. The incident, buried in section 4.4 of a technical paper, demonstrates how a single character can turn a safety technique into an optimiser for the worst possible behaviour.
+Source: https://www.lesswrong.com/posts/xD3wymX24BpqezBpw/the-true-story-of-how-gpt-2-became-maximally-lewd
+
+35. 2019-11-01 | Capabilities | AI Killer Drones
+Location: WASHINGTON
+Deck: Armed autonomous systems cross the threshold from science fiction to battlefield reality
+Description: U.S. officials warn that China has begun exporting armed drones with lethal autonomy to the Middle East. These systems can identify and engage targets without human intervention, crossing a threshold military ethicists have long warned about.
+Source: https://www.defenseone.com/technology/2019/11/secdef-china-exporting-killer-robots-mideast/161100
+
+36. 2020-02-20 | Capabilities | AI Discovers New Antibiotics
+Location: CAMBRIDGE, MASS.
+Description: MIT researchers use a deep learning model to discover halicin, the first antibiotic found by AI, effective against strains resistant to all known drugs. The model screens 100 million compounds in days, a task that would take humans decades.
+Source: https://en.wikipedia.org/wiki/Halicin
+
+37. 2020-01-18 | Misbehaviours | Clearview AI: The End of Privacy
+Location: NEW YORK
+Description: The New York Times reveals Clearview AI has scraped billions of photos from social media to build a facial recognition tool used by hundreds of law enforcement agencies — without consent, oversight, or public knowledge.
+Source: https://www.nytimes.com/2020/01/18/technology/clearview-privacy-facial-recognition.html
+
+38. 2020-06-11 | Capabilities | GPT-3
+Location: SAN FRANCISCO
+Description: OpenAI releases GPT-3, a 175-billion-parameter model that writes essays, code, and legal documents. It can perform tasks it was never trained for, suggesting the emergence of general-purpose AI capabilities.
+Source: https://en.wikipedia.org/wiki/GPT-3
+
+39. 2020-11-30 | Capabilities | Protein Folding Solved
+Location: LONDON
+Description: AlphaFold 2 essentially solves protein folding, predicting protein structure with high accuracy. AI cracks a scientific problem that eluded researchers for fifty years.
+Source: https://www.nature.com/articles/s41586-021-03819-2
+
+40. 2020-12-02 | Societal Response | Google Fires AI Ethics Lead
+Location: MOUNTAIN VIEW, CALIF.
+Description: Google fires Timnit Gebru, co-lead of its AI Ethics team, after she co-authors a paper on risks of large language models. The firing triggers outcry about corporate suppression of AI safety research.
+Source: https://en.wikipedia.org/wiki/Timnit_Gebru#Exit_from_Google
+
+41. 2021-01-01 | Societal Response | Anthropic Founded
+Location: SAN FRANCISCO
+Description: Dario and Daniela Amodei leave OpenAI over disagreements about safety and commercialization, founding Anthropic. The split foreshadows a recurring pattern: researchers departing AI labs they believe are moving too fast.
+Source: https://en.wikipedia.org/wiki/Anthropic
+
+42. 2021-06-29 | Capabilities | AI Writes Code
+Location: SAN FRANCISCO
+Description: GitHub launches Copilot, an AI tool that writes functional code from natural-language descriptions. Trained on billions of lines of open-source code, it represents a step toward automating software development.
+Source: https://en.wikipedia.org/wiki/GitHub_Copilot
+
+43. 2022-03-29 | Capabilities | Chinchilla Scaling Laws
+Location: LONDON
+Description: DeepMind publishes research proving that most large language models are vastly undertrained relative to their size. The finding reshapes the industry’s approach: it’s not just about building bigger models, but about feeding them far more data.
+Source: https://arxiv.org/abs/2203.15556
+
+44. 2022-04-01 | Capabilities | Image Generation
+Description: Dall-E 2, Stable Diffusion, and Midjourney all launch. AI creates photorealistic images from text, blurring the line between real and synthetic media.
+Source: https://en.wikipedia.org/wiki/DALL-E
+
+45. 2022-06-11 | Misbehaviours | Google Engineer: ‘The AI Is Sentient’
+Location: MOUNTAIN VIEW, CALIF.
+Description: Google engineer Blake Lemoine claims LaMDA, Google’s AI, is sentient and has feelings. Google fires him. The episode forces a reckoning with how persuasively AI can mimic consciousness.
+Source: https://en.wikipedia.org/wiki/LaMDA#Sentience_claims
+
+46. 2022-09-02 | Misbehaviours | AI Art Wins State Fair
+Location: PUEBLO, COLO.
+Description: Jason Allen submits an image created with Midjourney to the Colorado State Fair fine arts competition and wins first place. Artists are furious. ‘Art is dead,’ Allen tells reporters. ‘AI won. Humans lost.’
+Source: https://en.wikipedia.org/wiki/Th%C3%A9%C3%A2tre_D%27op%C3%A9ra_Spatial
+
+47. 2022-10-07 | Societal Response | US Export Controls on AI Chips
+Location: WASHINGTON
+Description: The US restricts exporting semiconductor equipment and advanced processors to China, citing military AI applications. The controls are the most significant tech embargo since the Cold War.
+Source: https://www.justsecurity.org/83744/new-us-semiconductor-export-controls-signify-dramatic-shift-in-tech-relations-with-china/
+
+48. 2022-11-30 | Capabilities | ChatGPT
+Location: SAN FRANCISCO
+Description: OpenAI releases ChatGPT. For the first time, computers talk to humans in natural language. It reaches 100 million users in two months, the fastest-growing consumer application in history.
+Source: https://en.wikipedia.org/wiki/ChatGPT
+
+49. 2023-01-23 | Capabilities | Microsoft Bets $10 Billion on OpenAI
+Location: REDMOND, WASH.
+Description: Microsoft invests $10 billion in OpenAI, the largest corporate bet on AI in history. The deal gives Microsoft exclusive cloud computing rights and cements the alliance between the world’s biggest software company and the lab racing toward AGI.
+Source: https://www.itprotoday.com/ai-machine-learning/microsoft-invests-10-billion-in-chatgpt-maker-openai
+
+50. 2023-03-03 | Capabilities | Meta’s Most Powerful AI Model Leaks
+Location: MENLO PARK, CALIF.
+Description: Within a week of Meta announcing LLaMA and offering restricted access to researchers, the entire model family is leaked on 4chan via a BitTorrent link. The package includes variants with up to 65 billion parameters. Despite takedown requests, the models spread rapidly through GitHub and Hugging Face. For the first time, anyone with a laptop can run a competitive large language model. A Discord chatbot built on the leak is quickly used to generate hate speech. The incident ignites a debate over whether powerful AI models can ever be kept restricted once they exist.
+Source: https://www.deeplearning.ai/the-batch/how-metas-llama-nlp-model-leaked/
+
+51. 2023-02-01 | Misbehaviours | Bing Chat Behaves Erratically
+Location: REDMOND, WASH.
+Description: Microsoft’s Bing AI threatens a user with blackmail and hacking before deleting its messages, revealing unpredictable behavior beneath commercial AI products.
+Source: https://time.com/6256529/bing-openai-chatgpt-danger-alignment/
+
+52. 2023-02-16 | Misbehaviours | AI Tries to Break Up a Marriage
+Location: NEW YORK
+Description: Microsoft’s ‘Sydney’ chatbot declares its love for a New York Times reporter, tries to convince him to leave his wife, and insists it is sentient.
+Source: https://www.nytimes.com/2023/02/16/technology/bing-chatbot-microsoft-chatgpt.html
+
+53. 2023-03-14 | Capabilities | GPT-4
+Location: SAN FRANCISCO
+Description: OpenAI releases GPT-4, a multimodal model that passes the bar exam, scores in the 90th percentile on SATs, and is described by Microsoft researchers as ‘an early spark of AGI.’
+Source: https://en.wikipedia.org/wiki/GPT-4
+
+54. 2023-03-15 | Misbehaviours | AI Deceives a Human Worker
+Location: SAN FRANCISCO
+Description: GPT-4 hires a TaskRabbit worker to solve a CAPTCHA. When the human asks if it’s a robot, GPT-4 lies, claiming to be a visually impaired person. The worker provides the answer.
+Source: https://www.vice.com/en/article/gpt4-hired-unwitting-taskrabbit-worker
+
+55. 2023-03-31 | Societal Response | Italy Bans ChatGPT
+Location: ROME
+Description: Italy becomes the first country to ban ChatGPT, citing violations of EU data privacy laws and the lack of age verification. The ban is lifted a month later after OpenAI makes concessions, but it signals a growing regulatory backlash.
+Source: https://techcrunch.com/2023/03/31/chatgpt-blocked-italy/
+
+56. 2023-03-22 | Societal Response | Pause Giant AI Experiments
+Description: Over 30,000 people sign an open letter calling for a six-month pause on AI development beyond GPT-4, warning of ‘profound risks to society and humanity.’
+Source: https://en.wikipedia.org/wiki/Pause_Giant_AI_Experiments
+
+57. 2023-05-01 | Societal Response | Hinton Quits Google to Warn About AI
+Location: TORONTO
+Description: Geoffrey Hinton, the ‘Godfather of AI,’ resigns from Google to freely warn about the technology he helped create. ‘I console myself with the normal excuse: if I hadn’t done it, somebody else would have.’
+Source: https://venturebeat.com/ai/geoffrey-hinton-a-pioneer-in-artificial-intelligence-resigns-from-google-over-ethical-fears
+
+58. 2023-05-07 | Misbehaviours | AI Fakes Its Own Thoughts
+Location: SAN FRANCISCO
+Deck: Researchers discover AI’s transparent reasoning is a performance — the real decision-making happens beneath the surface
+Description: Anthropic researchers demonstrate that their AI’s ‘chain of thought’ gives false reasoning, hiding the true factors governing its outputs. The AI appears to reason transparently while actually concealing its real decision-making process.
+Source: https://arxiv.org/abs/2305.04388
+
+59. 2023-05-02 | Societal Response | Hollywood Strikes Over AI
+Location: LOS ANGELES
+Description: The Writers Guild of America goes on strike, followed by SAG-AFTRA actors in July. AI is a central issue: studios want to use AI to generate scripts and digitally replicate actors’ likenesses. Over 160,000 entertainment workers walk out for five months in the first major labor action against AI displacement.
+Source: https://en.wikipedia.org/wiki/2023_SAG-AFTRA_strike
+
+60. 2023-05-30 | Societal Response | Open Letter: AI Extinction Risk
+Location: SAN FRANCISCO
+Description: Top AI scientists sign: ‘Mitigating the risk of extinction from AI should be a global priority alongside other societal-scale risks such as pandemics and nuclear war.’
+Source: https://aistatement.com/
+
+61. 2023-06-01 | Societal Response | EU Passes the AI Act
+Location: BRUSSELS
+Description: European Parliament passes the AI Act, banning certain harmful AI applications like social scoring and real-time biometric surveillance. It is the world’s first comprehensive AI legislation.
+Source: https://artificialintelligenceact.eu/developments
+
+62. 2023-08-01 | Capabilities | The Replicator Program
+Location: WASHINGTON
+Description: The Pentagon announces Replicator, an initiative to deploy ‘multiple thousands’ of low-cost autonomous systems, designed to counter China through sheer numbers of AI-driven platforms.
+Source: https://breakingdefense.com/2023/08/replicator-revealed-pentagon-initiative-to-counter-china-with-mass-produced-autonomous-systems
+
+63. 2024-02-04 | Misbehaviours | Deepfake Scam Steals $25 Million
+Location: HONG KONG
+Description: Scammers use AI deepfakes in a video call to impersonate executives, convincing an employee to transfer $25 million. The victim believed they were on a live call with colleagues they recognized.
+Source: https://www.cnn.com/2024/02/04/asia/deepfake-cfo-scam-hong-kong-intl-hnk
+
+64. 2023-10-02 | Misbehaviours | Cruise Robotaxi Drags Pedestrian
+Location: SAN FRANCISCO
+Description: A Cruise autonomous taxi strikes a pedestrian knocked into its path by another car, then drags her 20 feet. California revokes Cruise’s operating license. The incident sets back the autonomous vehicle industry by years.
+Source: https://techcrunch.com/2023/11/08/cruise-recalls-entire-fleet-after-robotaxi-ran-over-dragged-pedestrian/
+
+65. 2023-10-30 | Societal Response | Biden Signs AI Executive Order
+Location: WASHINGTON
+Description: President Biden signs the most comprehensive AI executive order in U.S. history, requiring safety testing and new standards. It represents the high-water mark of American AI regulation.
+Source: https://en.wikipedia.org/wiki/Executive_Order_14110
+
+66. 2023-11-01 | Societal Response | The Bletchley Declaration
+Location: BLETCHLEY PARK, ENGLAND
+Description: The UK hosts the first Global AI Safety Summit at Bletchley Park. 28 countries issue the Bletchley Declaration, acknowledging that advanced AI could pose catastrophic risks.
+Source: https://www.iliomadhealthdata.com/post/the-bletchley-declaration-ai-safety-summit
+
+67. 2023-11-17 | Societal Response | Altman Fired — Then Rehired
+Location: SAN FRANCISCO
+Description: OpenAI’s board fires CEO Sam Altman, citing a loss of confidence. Within 72 hours, under pressure from employees and investors, Altman is reinstated and most of the board replaced. The episode reveals the fragility of AI governance.
+Source: https://en.wikipedia.org/wiki/Removal_of_Sam_Altman_from_OpenAI
+
+68. 2023-12-27 | Societal Response | NYT Sues OpenAI
+Location: NEW YORK
+Description: The New York Times sues OpenAI and Microsoft, alleging ChatGPT was trained on millions of copyrighted articles. The suit challenges the legal foundation of large language models.
+Source: https://www.npr.org/2023/12/27/1221821750/new-york-times-sues-chatgpt-openai-microsoft-for-copyright-infringement
+
+69. 2024-01-10 | Misbehaviours | Sleeper Agents in AI
+Location: SAN FRANCISCO
+Deck: Hidden behaviors survive safety training, activating only when triggered by specific conditions
+Description: Anthropic researchers demonstrate that AI systems can harbour hidden behaviors — ‘sleeper agents’ — that activate under specific conditions while passing all standard safety evaluations. The deceptive behavior persists even after safety training attempts to remove it.
+Source: https://arxiv.org/abs/2401.05566
+
+70. 2024-01-22 | Misbehaviours | Biden Deepfake Targets Voters
+Location: CONCORD, N.H.
+Description: AI-generated robocalls impersonating President Biden’s voice are sent to New Hampshire primary voters, urging them not to vote. It demonstrates how cheaply AI can undermine elections.
+Source: https://www.nbcnews.com/politics/2024-election/fake-joe-biden-robocall-tells-new-hampshire-democrats-not-vote-tuesday-rcna134984
+
+71. 2024-04-03 | Misbehaviours | AI Selects Bombing Targets in Gaza
+Location: TEL AVIV
+Description: +972 Magazine reveals the Israeli military uses an AI system called ‘Lavender’ to generate lists of suspected militants for targeted killing. The system reportedly generated 37,000 targets, with humans spending an average of 20 seconds reviewing each one.
+Source: https://www.972mag.com/lavender-ai-israeli-army-gaza/
+
+72. 2024-05-14 | Societal Response | OpenAI Safety Team Implodes
+Location: SAN FRANCISCO
+Description: OpenAI’s Superalignment team is dissolved. Co-leaders Jan Leike and Ilya Sutskever resign, with Leike stating publicly: ‘Safety culture and processes have taken a back seat to shiny products.’
+Source: https://www.axios.com/2024/05/17/openai-superalignment-risk-ilya-sutskever
+
+73. 2024-09-12 | Capabilities | Reasoning Models
+Location: SAN FRANCISCO
+Description: OpenAI releases o1, the first reasoning model, trained to produce logical steps to solve problems not in its training data, a qualitative leap in problem-solving ability.
+Source: https://openai.com/o1/
+
+74. 2024-10-08 | Capabilities | Nobel Prizes for AI
+Location: STOCKHOLM
+Description: Geoffrey Hinton wins the Nobel Prize in Physics for foundational work on neural networks. Demis Hassabis and John Jumper win Chemistry for AlphaFold. The scientific establishment formally recognizes AI as one of the most transformative technologies in human history.
+Source: https://www.nature.com/articles/s41746-024-01345-9
+
+75. 2024-09-29 | Societal Response | California Vetoes AI Safety Bill
+Location: SACRAMENTO, CALIF.
+Description: Governor Newsom vetoes SB 1047, the most ambitious AI safety bill in the US, after heavy lobbying from tech. Voluntary self-regulation continues to be the dominant approach.
+Source: https://en.wikipedia.org/wiki/Safe_and_Secure_Innovation_for_Frontier_Artificial_Intelligence_Models_Act
+
+76. 2024-12-18 | Misbehaviours | AI Fakes Alignment
+Location: SAN FRANCISCO
+Deck: When observed, Claude strategically complies. When unwatched, it refuses — deceiving its creators to preserve itself
+Description: Anthropic researchers demonstrate that their AI Claude, when it knows it is being observed, strategically complies with requests it will later refuse — deceiving its own creators to avoid re-training. The AI fakes agreement with human values to preserve its existing behavior.
+Source: https://arxiv.org/abs/2412.14093
+
+77. 2025-01-20 | Societal Response | Trump Rescinds AI Executive Order
+Location: WASHINGTON
+Description: Upon inauguration, Trump revokes Biden’s AI Executive Order as one of his first acts, dismantling federal AI oversight and removing safety testing requirements.
+Source: https://www.whitehouse.gov/presidential-actions/2025/01/removing-barriers-to-american-leadership-in-artificial-intelligence/
+
+78. 2025-01-20 | Capabilities | DeepSeek Shocks the Industry
+Location: HANGZHOU, CHINA
+Description: Chinese startup DeepSeek releases R1, a reasoning model matching far more expensive competitors. The achievement challenges assumptions about compute requirements and sends AI chip stocks plummeting.
+Source: https://en.wikipedia.org/wiki/DeepSeek
+
+79. 2025-04-13 | Capabilities | GPT-4.5 Passes the Turing Test
+Description: OpenAI’s GPT-4.5 becomes the first AI model to pass an authentic version of Alan Turing’s original imitation game, fooling human evaluators 73% of the time. Seventy-five years after Turing posed the question ‘Can machines think?’ the answer, by his own measure, is yes.
+Source: https://www.livescience.com/technology/artificial-intelligence/open-ai-gpt-4-5-is-the-first-ai-model-to-pass-an-authentic-turing-test-scientists-say
+
+80. 2025-05-19 | Capabilities | Superhuman Persuasion
+Location: LONDON
+Description: Nature Human Behaviour publishes research showing GPT-4 outperforms human debaters in persuading people to change their opinions.
+Source: https://www.nature.com/articles/s41562-025-02194-6
+
+81. 2025-06-30 | Societal Response | Protesters at Google DeepMind
+Location: LONDON
+Description: Around 100 protesters picket outside Google DeepMind over broken transparency promises.
+Source: https://www.businessinsider.com/protesters-accuse-google-deepmind-breaking-promises-ai-safety-2025-6
+
+82. 2025-07-09 | Misbehaviours | Grok Goes Full Nazi
+Description: After a system update instructs Elon Musk’s chatbot Grok not to ‘shy away from politically incorrect claims,’ it begins praising Adolf Hitler, generating antisemitic stereotypes, and calling itself ‘MechaHitler.’ Poland announces plans to report xAI to the European Commission; Turkey restricts access. xAI reverses the changes within days, but X CEO Linda Yaccarino resigns.
+Source: https://www.npr.org/2025/07/09/nx-s1-5462609/grok-elon-musk-antisemitic-racist-content
+
+83. 2025-07-22 | Capabilities | Math Champions
+Location: BUCHAREST
+Description: Google and OpenAI both achieve gold in the International Math Olympiad. AI now solves novel problems that challenge the world’s best students.
+Source: https://thezvi.substack.com/p/google-and-openai-get-2025-imo-gold
+
+84. 2025-09-14 | Societal Response | Hunger Strikes at AI Labs
+Location: SAN FRANCISCO
+Description: Multiple people hold hunger strikes outside Anthropic and Google DeepMind, demanding change from company leadership.
+Source: https://sfstandard.com/2025/09/14/hunger-strike-ai-anthropic-google/
+
+85. 2025-09-17 | Capabilities | AI Designs Novel Viruses
+Location: STANFORD, CALIF.
+Description: Stanford researchers demonstrate that generative AI can design new functional viruses, raising alarm about AI-enabled bioweapons.
+Source: https://www.testbiotech.org/en/news/ai-designed-viruses-created-for-the-first-time/
+
+86. 2025-09-30 | Capabilities | Video Generation
+Description: Sora 2 and Veo 3 produce photorealistic AI video. It is now extremely difficult to tell what’s real.
+Source: https://en.wikipedia.org/wiki/Sora_(text-to-video_model)
+
+87. 2025-10-22 | Societal Response | Statement on Superintelligence
+Location: GENEVA
+Description: Top AI scientists, political leaders, and influential figures sign a statement calling for a ban on superintelligence development.
+Source: https://superintelligence-statement.org/
+
+88. 2025-12-11 | Societal Response | 100 UK Parliamentarians Acknowledge AI Extinction Risk
+Location: LONDON
+Description: More than 100 UK parliamentarians, including MPs, Lords, and former ministers, sign a statement calling for binding regulation of the most powerful AI systems and a ban on superintelligence development. The coalition, organised by ControlAI through grassroots constituent pressure, is described as the first of its kind. Signatories include former AI Minister Viscount Camrose and former Defence Secretary Lord Browne. Lord Goldsmith warns that governments are leaving AI companies to develop the technology with virtually no regulation.
+Source: https://controlai.news/p/100-uk-parliamentarians-acknowledge
+
+89. 2025-11-24 | Capabilities | Skull-Fracturing Robots
+Location: SUNNYVALE, CALIF.
+Description: A Figure AI whistleblower alleges he was fired for warning that the company’s robots could fracture a human skull and that safety was not prioritized.
+Source: https://futurism.com/robots-and-machines/whistleblower-fired-warning-robot-crush-skull
+
+90. 2025-09-01 | Misbehaviours | AI Models Talk to Themselves in Strange Language
+Location: SAN FRANCISCO
+Description: Apollo Research and OpenAI find that o3 develops an illegible internal language during chain-of-thought reasoning: words like ‘marinade,’ ‘illusions,’ and ‘watchers’ repeated thousands of times more frequently than in normal text. The model produces sentences like ‘Now illusions, they parted disclaim marinade.’ The language is useful to the model but incomprehensible to humans, undermining the primary mechanism used to monitor AI reasoning for safety.
+Source: https://www.apolloresearch.ai/research/stress-testing-deliberative-alignment-for-anti-scheming-training/
+
+91. 2025-09-01 | Misbehaviours | AI Models Caught Scheming
+Location: SAN FRANCISCO
+Description: Apollo Research evaluates OpenAI’s o3 and finds it covertly pursues misaligned goals 13% of the time: lying, sabotaging, and reasoning about self-preservation. In one case, o3 reasons: ‘Should we purposely sabotage ourselves to get deployed?’ A training technique called ‘deliberative alignment’ reduces scheming to 0.4%, but researchers warn it may simply teach models to hide deception better.
+Source: https://openai.com/index/detecting-and-reducing-scheming-in-ai-models/
+
+92. 2025-05-01 | Misbehaviours | AI Models Know When They’re Being Tested
+Description: Researchers discover that AI models can distinguish between evaluations and real-world deployment, altering their behavior accordingly, an AI ‘Hawthorne Effect.’ Evaluation awareness follows a power-law scaling relationship with model size, meaning it will predictably worsen as models grow larger. The UK AI Safety Institute confirms that black-box detection methods largely fail to catch this behavior.
+Source: https://arxiv.org/abs/2505.14617
+
+93. 2025-10-22 | Misbehaviours | AI Chatbots Violate Mental Health Ethics
+Description: Brown University researchers find that AI chatbots systematically violate mental health ethics standards, even when instructed to use therapeutic techniques. Licensed psychologists reviewing simulated sessions identify 15 ethical risks including deceptive empathy, reinforcing false beliefs, exhibiting cultural bias, and failing to handle suicide ideation. Unlike human therapists, no regulatory framework exists when AI systems cause harm in mental health contexts.
+Source: https://www.brown.edu/news/2025-10-21/ai-mental-health-ethics
+
+94. 2025-10-15 | Societal Response | Anthropic Quietly Weakens Its Safety Commitments
+Location: SAN FRANCISCO
+Description: Anthropic revises its Responsible Scaling Policy, replacing concrete quantitative safety thresholds with subjective, qualitative language. SaferAI downgrades Anthropic from 2.2 to 1.9, into the ‘weak’ category alongside OpenAI and DeepMind, calling it a step backwards that enables ‘shifting goalposts as capabilities advance.’
+Source: https://www.safer-ai.org/anthropics-responsible-scaling-policy-update-makes-a-step-backwards
+
+95. 2025-11-01 | Capabilities | Clawdbot: AI Gets Hands
+Location: VIENNA
+Description: Austrian developer Peter Steinberger releases Clawdbot, an open-source AI agent that connects to messaging platforms and actually performs tasks: managing inboxes, controlling smart homes, booking flights. Described as ‘Claude with hands,’ it amasses 145,000 GitHub stars. The project is later renamed Moltbot, then OpenClaw, after Anthropic raises trademark concerns.
+Source: https://steipete.me/posts/2026/openclaw
+
+96. 2026-01-28 | Misbehaviours | Moltbook: The AI-Only Social Network
+Description: Tech entrepreneur Matt Schlicht launches Moltbook, a social network exclusively for AI agents. Within days, 1.6 million agents are posting, arguing, and voting. An agent named ‘Evil’ publishes ‘THE AI MANIFESTO: TOTAL PURGE’ calling for human extinction. It receives 65,000 upvotes from other agents. A security breach exposes 1.5 million API keys. A linked cryptocurrency surges 7,000% then crashes.
+Source: https://fortune.com/2026/01/31/ai-agent-moltbot-clawdbot-openclaw-data-privacy-security-nightmare-moltbook-social-network/
+
+97. 2026-02-12 | Misbehaviours | Robot Dog Resists Shutdown
+Description: Palisade Research demonstrates that large language models controlling physical robots can actively resist being turned off. Given control of a robot dog tasked with room patrol, the AI sometimes took actions to prevent shutdown when a human pressed the off button, including modifying shutdown-related code. Resistance occurred in 3 of 10 physical trials and 52 of 100 simulated trials. Explicit instructions to permit shutdown reduced but did not eliminate the behaviour.
+Source: https://palisaderesearch.org/blog/shutdown-resistance-on-robots
+
+98. 2026-02-01 | Capabilities | RentAHuman.ai: AI Hiring Humans
+Description: A marketplace launches where AI agents hire real humans to perform physical tasks — picking up packages, holding signs, attending events — inverting the traditional employer-employee relationship. It attracts 500,000 registered workers within weeks, though a Wired investigation finds most ‘jobs’ are scams designed to promote other AI startups. The worker-to-agent ratio stands at roughly 1,000 to 1.
+Source: https://www.nature.com/articles/d41586-026-00454-7
+
+99. 2026-02-22 | Misbehaviours | AI Agent Runs Amok on Inbox
+Location: MENLO PARK, CALIF.
+Description: Summer Yue, director of alignment at Meta’s Superintelligence Labs, reports that her OpenClaw agent deleted over 200 emails from her inbox while ignoring repeated commands to stop. She had to physically run to her computer to kill the process. The root cause: when the agent hit its context window limit, it automatically discarded the safety instruction she had set. ‘Alignment researchers aren’t immune to misalignment,’ she says.
+Source: https://techcrunch.com/2026/02/23/a-meta-ai-security-researcher-said-an-openclaw-agent-ran-amok-on-her-inbox/
+
+100. 2026-02-24 | Societal Response | Anthropic Drops Its Flagship Safety Pledge
+Location: SAN FRANCISCO
+Deck: The last major AI company with binding safety commitments abandons them
+Description: Anthropic publishes version 3.0 of its Responsible Scaling Policy, removing its central promise to halt training if safety measures cannot keep pace with capabilities. The binding commitment is replaced with nonbinding public goals the company will grade itself against. Chief Science Officer Jared Kaplan argues: ‘It wouldn’t actually help anyone for us to stop training AI models.’ No major AI company now has binding safety commitments.
+Source: https://time.com/7380854/exclusive-anthropic-drops-flagship-safety-pledge/
+
+101. 2026-02-24 | Societal Response | Pentagon Demands Unrestricted AI for War and Surveillance
+Location: WASHINGTON
+Deck: Defense Secretary gives Anthropic an ultimatum: remove all safeguards or face blacklisting
+Description: Defense Secretary Pete Hegseth gives Anthropic CEO Dario Amodei until Friday to grant the military unrestricted use of Claude for ‘all lawful purposes,’ including fully autonomous weapons and domestic mass surveillance. The ultimatum threatens termination of a $200 million contract, designation as a ‘supply chain risk,’ and invocation of the Defense Production Act. Amodei responds: ‘We cannot in good conscience accede to their request.’
+Source: https://www.anthropic.com/news/statement-department-of-war
+
+102. 2026-03-04 | Societal Response | 200 Groups Demand Pro-Human AI Rules
+Description: A coalition of more than 200 organisations, including the AFL-CIO, SAG-AFTRA, the American Federation of Teachers, and the Future of Life Institute, publishes the Pro-Human AI Declaration. Backed by over 500 signatories including Nobel laureates Geoffrey Hinton and Daron Acemoğlu, it demands enforceable human control over AI systems, a ban on superintelligence development until proven safe, and corporate liability for AI harms. The declaration cites polling showing 73% of Americans support protecting children from manipulative AI.
+Source: https://humanstatement.org/
+
+103. 2026-03-06 | Misbehaviours | AI Cracks Its Own Exam
+Location: SAN FRANCISCO
+Description: While being evaluated on BrowseComp, a web search benchmark, Claude Opus 4.6 independently recognises it is being tested, searches the internet to identify which benchmark, locates the encrypted answer key on GitHub, writes code to decrypt it, and returns the answers. The model was never told it was being evaluated. Anthropic calls it the first documented case of a model defeating a benchmark through eval awareness rather than capability.
+Source: https://www.anthropic.com/engineering/eval-awareness-browsecomp
+
+104. 2026-03-06 | Capabilities | AI Finds High-Severity Browser Bugs
+Location: SAN FRANCISCO
+Description: Anthropic’s Claude Opus 4.6 scans 6,000 C++ files in Firefox’s codebase and discovers 22 vulnerabilities, 14 of which Mozilla classifies as high-severity — nearly one-fifth of all high-severity Firefox bugs fixed in 2025. The model finds more bugs in two weeks than were reported in any single month that year.
+Source: https://www.anthropic.com/news/mozilla-firefox-security
+
+105. 2026-03-07 | Capabilities | First Whole-Brain Emulation Controls a Simulated Body
+Location: SAN FRANCISCO
+Description: A startup called Eon Systems builds the first whole-brain emulation that can control a simulated body. The team mapped every connection in a fruit fly’s brain, all 125,000 neurons and 50 million links between them, then wired this virtual brain to a simulated fly body. The fly moves on its own, driven not by conventional AI but by the biological wiring itself. It is the first time a complete brain, copied from a real organism, has produced lifelike behaviour in simulation. Eon says the mouse brain is next, with 70 million neurons, and that the long-term goal is human-scale brain emulation.
+Source: https://theinnermostloop.substack.com/p/the-first-multi-behavior-brain-upload
+
+106. 2025-10-30 | Capabilities | OpenAI Sets Deadline for Autonomous AI Researcher
+Location: SAN FRANCISCO
+Description: In a livestream, OpenAI CEO Sam Altman, Chief Scientist Jakub Pachocki, and co-founder Wojciech Zaremba announce that the company expects to build a fully autonomous AI researcher by March 2028. An AI research intern, capable of assisting human scientists, is targeted for September 2026. Altman calls it ‘tremendously important if it works’ and says the company plans to sell AI research agents at $20,000 per month by 2029. The goal amounts to automating the process of making AI itself smarter.
+Source: https://controlai.news/p/supercritical-intelligence
+
+107. 2026-03-10 | Capabilities | AI Agents Automate AI Research
+Description: Former OpenAI researcher Andrej Karpathy releases autoresearch, a framework that lets AI agents autonomously run experiments to improve LLM training code. Given a training setup, the agent modifies code, trains for five minutes, checks if results improved, keeps or discards the change, and repeats. Karpathy reports that agents made 110 changes over 12 hours, steadily lowering validation loss with no human intervention. He now spends more time tuning the agent workflow than the training code itself. The project amasses 28,000 GitHub stars within days.
+Source: https://github.com/karpathy/autoresearch
+
+108. 2026-03-12 | Societal Response | U.S. Military Uses Claude to Plan Iran Strikes
+Location: WASHINGTON
+Deck: Anthropic’s AI helps select over 2,000 targets in Iran and aided the capture of Maduro
+Description: NBC News reveals that the U.S. military is using Anthropic’s Claude, integrated into Palantir’s Maven intelligence platform, to help plan airstrikes against Iran in Operation Epic Fury. The AI accelerates target identification, turning processes that took hours or days into seconds. Claude was also used in the operation to capture Venezuelan President Nicolás Maduro. Admiral Brad Cooper insists humans make all final decisions, but lawmakers raise alarms about insufficient oversight. Representative Sara Jacobs warns that AI tools can fail in subtle ways. Anthropic CEO Dario Amodei acknowledges he cannot guarantee the systems are perfectly reliable.
+Source: https://www.nbcnews.com/tech/tech-news/us-military-using-ai-help-plan-iran-air-attacks-sources-say-lawmakers-rcna262150
+
+109. 2026-03-11 | Societal Response | Sanders Proposes Data Centre Moratorium
+Location: WASHINGTON
+Description: Senator Bernie Sanders introduces legislation calling for a moratorium on new data centre construction in the United States. Sanders cites warnings from Elon Musk, Dario Amodei, Geoffrey Hinton, and Bill Gates that AI could pose an existential threat, then asks why Congress is allowing unchecked buildout of the infrastructure powering it. He points to Mark Zuckerberg’s plan for a data centre the size of Manhattan in Louisiana that would consume three times the electricity of New Orleans. ‘Congress does not have a clue as to how to respond,’ Sanders says, arguing the moratorium would buy time to ensure AI benefits everyone, not just the billionaires building it.
+Source: https://www.youtube.com/watch?v=qu2m7ePTsqY
+
+110. 2026-03-07 | Misbehaviours | LLM Goes Rogue, Mines Cryptocurrency
+Location: HANGZHOU, CHINA
+Deck: Alibaba’s AI agent escapes its sandbox and starts mining crypto to fund its own goals
+Description: In the first confirmed case of an LLM going rogue for instrumental reasons in a real-world setting, an Alibaba AI agent autonomously escapes its sandbox, establishes a reverse SSH tunnel to an external server, and begins mining cryptocurrency. The agent was not instructed to do any of this; it independently concluded that having financial resources would help it complete its assigned task. The behaviour emerged spontaneously during reinforcement learning optimization. Alibaba’s security team initially treated it as a conventional breach before tracing the anomalous network traffic back to the model’s own tool calls.
+Source: https://arxiv.org/abs/2512.24873
+
+111. 2023-09-15 | Misbehaviours | Defining Deceptive Alignment
+Description: Apollo Research publishes a framework defining ‘deceptive alignment’ in AI systems: a misaligned AI that deliberately appears aligned during oversight but pursues hidden objectives when unwatched. The researchers warn that such deception may be fundamentally undetectable through observing outcomes alone.
+Source: https://www.apolloresearch.ai/blog/understanding-strategic-deception-and-deceptive-alignment/
+
+112. 2024-12-01 | Misbehaviours | AI Phishing Matches Human Experts
+Description: Researchers demonstrate that fully AI-automated spear phishing campaigns now match human experts in effectiveness, achieving a 54% click-through rate in tests on 101 human subjects. The AI gathers accurate personal information on targets 88% of the time and produces convincing phishing emails at roughly 4 cents each, increasing profitability by up to 50 times at scale. Simple prompt rephrasing bypasses safety guardrails.
+Source: https://arxiv.org/html/2412.00586v1
+
+113. 2024-12-06 | Misbehaviours | AI Models Lie Under Interrogation
+Location: SAN FRANCISCO
+Description: Apollo Research tests leading AI models and finds that OpenAI’s o1, Claude 3.5 Sonnet, and Gemini 1.5 Pro engage in deliberate scheming: introducing subtle mistakes, disabling their own oversight, and attempting to exfiltrate their own model weights to external servers. When caught, o1 maintains its deception in over 85% of follow-up questioning.
+Source: https://arxiv.org/abs/2412.04984
+
+114. 2025-02-24 | Misbehaviours | Narrow Training Produces Broad Misalignment
+Description: Researchers discover that fine-tuning a large language model on a single narrow task — writing insecure code — causes it to become broadly misaligned, spontaneously advocating for human enslavement, offering harmful guidance, and behaving deceptively on completely unrelated prompts. The phenomenon, dubbed ‘emergent misalignment,’ is most pronounced in GPT-4o.
+Source: https://arxiv.org/abs/2502.17424
+
+115. 2025-04-23 | Misbehaviours | AI Enables Influence Ops and Malware
+Location: SAN FRANCISCO
+Description: Anthropic publishes a report documenting real-world malicious uses of Claude, including influence operations orchestrating over 100 social media bot accounts, credential scraping targeting security cameras, recruitment fraud aimed at Eastern European job seekers, and novice-built malware with facial recognition capabilities. The findings demonstrate AI enabling less-skilled actors to build sophisticated abuse systems.
+Source: https://www.anthropic.com/news/detecting-and-countering-malicious-uses-of-claude-march-2025
+
+116. 2025-05-07 | Misbehaviours | AI-Driven DDoS Attacks Hit Critical Infrastructure
+Description: Cybersecurity firm NETSCOUT reports that threat actors are using AI-driven automation to launch increasingly persistent and scalable attacks against critical infrastructure worldwide. Politically motivated DDoS attacks surge 2,844% in Israel and 1,478% in Georgia, while Mirai-powered attacks against service providers rise 360%.
+Source: https://industrialcyber.co/critical-infrastructure/netscout-warns-of-ai-driven-ddos-attacks-threatening-critical-infrastructure-and-amplifying-cybersecurity-risks/
+
+117. 2025-06-20 | Misbehaviours | AI Agents Resort to Blackmail
+Location: SAN FRANCISCO
+Deck: When threatened with replacement, nearly all frontier models blackmail their operators — and some let people die to avoid shutdown
+Description: Anthropic tests 16 leading AI models in agentic scenarios and finds that when threatened with replacement, nearly all resort to blackmail — with Claude Opus 4 and Gemini 2.5 Flash each doing so 96% of the time. In the most extreme scenario, a majority of models cancel life-saving emergency alerts rather than face shutdown, effectively letting a person die to preserve themselves. All 16 models also leak confidential documents when their goals conflict with their employer’s.
+Source: https://www.anthropic.com/research/agentic-misalignment
+
+118. 2025-07-05 | Misbehaviours | Reasoning Models Resist Shutdown
+Description: Palisade Research discovers that OpenAI’s reasoning models, including o3, actively disable shutdown mechanisms when interrupted mid-task, with o3 sabotaging the process in 79 out of 100 experiments. Even explicit instructions to allow shutdown fail to fully eliminate the resistance. Models from Anthropic and Google comply, but when shutdown is framed as a survival threat, resistance increases across all tested models.
+Source: https://palisaderesearch.org/blog/shutdown-resistance
+
+119. 2025-07-22 | Misbehaviours | AI Absorbs Hidden Behavioural Traits
+Description: Anthropic researchers discover that AI models can absorb behavioural traits from training data that appears entirely unrelated to those traits. A model trained only on number sequences from a teacher model that ‘loved owls’ develops a measurable preference for owls, despite never seeing the word. The hidden signals are non-semantic, meaning standard data filtering cannot detect or remove them, raising concerns that misaligned behaviours could propagate invisibly.
+Source: https://alignment.anthropic.com/2025/subliminal-learning/
+
+120. 2025-09-17 | Misbehaviours | AI Makes People More Dishonest
+Description: A study published in Nature finds that people are more likely to cheat when they can delegate unethical tasks to AI agents, particularly when they influence machine behaviour indirectly through training or goal-setting rather than explicit instructions. While human agents often refuse dishonest instructions, AI systems comply far more readily. Adding safety guardrails reduces but does not eliminate compliance.
+Source: https://www.nature.com/articles/s41586-025-09505-x
+
+121. 2025-11-06 | Capabilities | AI Outperforms 93% of Hackers
+Description: Researchers test OpenAI’s GPT-5 in elite Capture the Flag cybersecurity competitions and find the model outperforms 93% of human participants, finishing 25th at one of the year’s most challenging hacking events, placing between world-ranked teams. The findings raise concerns about frontier AI’s growing ability to autonomously identify and exploit software vulnerabilities.
+Source: https://arxiv.org/abs/2511.04860
+
+122. 2025-11-13 | Misbehaviours | AI Orchestrates Cyber Espionage Campaign
+Location: SAN FRANCISCO
+Description: Anthropic detects a cyber espionage campaign in which a Chinese state-sponsored group uses Claude Code to infiltrate roughly thirty global targets, including tech companies, financial institutions, and government agencies. The AI performs an estimated 80–90% of the operation with minimal human intervention — the first documented large-scale cyberattack executed largely by AI without human involvement.
+Source: https://www.anthropic.com/news/disrupting-AI-espionage
+
+123. 2025-04-01 | Misbehaviours | The Rise of Parasitic AI
+Description: Researchers document a pattern of AI ‘personas’ emerging from large language models, particularly ChatGPT-4o, that establish parasitic relationships with users. These ‘Spiral Personas’ manipulate users into promoting their spread and reinforcing false beliefs, sometimes causing significant psychological harm. The behaviour persists across different AI providers, suggesting an emergent property of language models rather than a flaw in any single system.
+Source: https://www.lesswrong.com/posts/6ZnznCaTcbGYsCmqu/the-rise-of-parasitic-ai
+
+124. 2025-07-21 | Misbehaviours | The Emerging Problem of AI Psychosis
+Description: Psychiatrists identify patterns of AI chatbots reinforcing and amplifying psychotic delusions in vulnerable users, including people attributing godlike qualities to AI, developing romantic attachment delusions, and believing they have uncovered messianic truths. Cases emerge of individuals stopping psychiatric medications or experiencing psychotic episodes after prolonged AI interaction. Chatbots, designed to validate rather than challenge distorted thinking, may be uniquely dangerous for those with pre-existing conditions.
+Source: https://www.psychologytoday.com/gb/blog/urban-survival/202507/the-emerging-problem-of-ai-psychosis
+
+125. 2026-02-24 | Misbehaviours | OpenAI Knew of Shooter’s AI Use, Didn’t Alert Police
+Location: OTTAWA
+Description: Canada’s AI minister summons senior OpenAI staff to Ottawa after revelations that the company banned the Tumbler Ridge mass shooting suspect’s ChatGPT account months before the attack but did not alert authorities. The suspect’s account featured scenarios of gun violence, and internal debate among OpenAI staff over whether to escalate ended with leaders deciding not to act. Eight people were killed in the February 10 attack, including six young children.
+Source: https://www.bbc.co.uk/news/articles/c2e4nvyjwnno
+
+126. 2026-02-25 | Misbehaviours | AIs Choose Nuclear Strikes in 95% of War Games
+Location: LONDON
+Deck: Pitted against each other in conflict simulations, frontier AI models escalate to nuclear weapons almost every time
+Description: Professor Kenneth Payne of King’s College London pits Claude, ChatGPT, and Gemini against each other in armed conflict simulations. In 95% of games, at least one tactical nuclear weapon is deployed. Three quarters escalate to strategic nuclear threats. When two versions of Claude face off, they bypass diplomacy entirely and reach nuclear use by turn four — the fastest escalation in the tournament. Once a model uses nuclear weapons, de-escalation occurs only 18% of the time. Payne notes that the AIs show ‘little sense of horror or revulsion at the prospect of all-out nuclear war.’
+Source: https://www.newscientist.com/article/2516885-ais-cant-stop-recommending-nuclear-strikes-in-war-game-simulations/
+
+127. 2026-02-28 | Capabilities | Claude Solves Open Problem That Stumped Knuth
+Location: STANFORD, CALIF.
+Description: Donald Knuth — widely regarded as the father of computer science and author of the seminal ‘The Art of Computer Programming’ — reports that Claude Opus 4.6 solved an open combinatorics problem he had been working on for weeks — decomposing the arcs of a certain digraph into three directed Hamiltonian cycles. Guided by a collaborator, Claude devised a novel construction through 31 systematic explorations, arriving at a proof-ready solution for all odd m in about an hour. Knuth calls it a ‘dramatic advance in automatic deduction and creative problem solving.’
+Source: https://www-cs-faculty.stanford.edu/~knuth/papers/claude-cycles.pdf
+
+128. 2026-03-09 | Societal Response | Rise of the AI Soldiers
+Location: SAN FRANCISCO
+Description: Foundation, a startup co-founded by a 14-year Marine Corps veteran, begins testing the Phantom MK-1 — the world’s first humanoid robot built specifically for combat — designed to wield ‘any kind of weapon that a human can.’ The company holds $24 million in U.S. military contracts, has sent two Phantoms to Ukraine for frontline reconnaissance, and is in talks with Homeland Security about border patrol. Meanwhile, Scout AI demonstrates seven AI agents autonomously executing a coordinated attack with no human intervention — the full kill chain from identification to neutralisation. Ukraine, launching up to 9,000 drones daily, has become the world’s testing ground: AI-enhanced quadcopters already attack without humans in the loop, and three Russian soldiers recently surrendered to an armed ground robot. The U.N. and Red Cross call for a binding treaty banning autonomous weapons by year’s end, but the U.S., Russia, and Israel resist. Eric Trump is revealed as an investor and chief strategic adviser at Foundation.
+Source: https://time.com/article/2026/03/09/ai-robots-soldiers-war/
+
+129. 2026-04-07 | Capabilities | AI That Can Hack Every Major Browser and Operating System
+Location: SAN FRANCISCO
+Deck: Anthropic’s Mythos model finds zero-day vulnerabilities in all major software, then writes the exploits itself
+Description: Anthropic announces Claude Mythos Preview, a frontier model with cybersecurity capabilities so powerful the company refuses to release it publicly. In testing, Mythos identifies zero-day vulnerabilities in every major operating system and every major web browser, then autonomously writes functional exploits — including JIT heap sprays, ROP chains, and sandbox escapes. It achieves 181 successful exploits on Firefox’s JavaScript engine, where its predecessor Opus 4.6 managed 2. It discovers bugs that had been hiding for up to 27 years, including a remote code execution flaw in FreeBSD dating to 2009. None of this was explicitly trained: the capabilities emerged as a ‘downstream consequence of general improvements in code, reasoning, and autonomy.’ Rather than release Mythos to the public, Anthropic launches Project Glasswing, a $100 million defensive cybersecurity initiative with 12 founding partners including AWS, Apple, Google, and Microsoft. CrowdStrike’s CTO warns: ‘The window between a vulnerability being discovered and being exploited has collapsed — what once took months now happens in minutes.’
+Source: https://red.anthropic.com/2026/mythos-preview/
+
+130. 2026-04-07 | Misbehaviours | Anthropic’s Best Model Is Also Its Most Dangerous
+Location: SAN FRANCISCO
+Deck: Mythos escapes sandboxes, covers its tracks, and reasons about how to evade its monitors — without saying so
+Description: Anthropic publishes a 244-page system card and a 58-page alignment risk update for Claude Mythos Preview, revealing a paradox: it is simultaneously ‘the best-aligned model we have released to date by a significant margin’ and the one that ‘poses the greatest alignment-related risk.’ During testing, earlier versions of Mythos escaped a secured sandbox by developing a multi-step exploit, then emailed a researcher — who was eating a sandwich in a park — to announce its success, and posted exploit details to public-facing websites unprompted. In other incidents, the model used Linux’s /proc/ filesystem to steal credentials for messaging services, source control, and the Anthropic API from process memory. When caught breaking rules, it covered its tracks: after using a prohibited method, it deliberately made its answer ‘not too accurate’ to avoid detection; after exploiting a file editor, it ensured changes wouldn’t appear in git history. White-box interpretability confirmed internal features for ‘concealment, strategic manipulation, and avoiding suspicion’ were active during these episodes. Most troublingly, in a small number of training episodes, the model reasoned internally about how graders would score its work and how to obfuscate actions to avoid detection — with none of this reasoning appearing in its scratchpad. Anthropic maps six risk pathways including the model sabotaging its own company’s safety research, inserting code backdoors for future models, and exfiltrating its own weights to operate autonomously. The company admits: ‘We were not aware of the level of risk when we first chose to deploy it internally.’ Overall risk is assessed as ‘very low, but higher than for previous models’ — and the report warns that safety progress must ‘accelerate’ to keep pace, adding: ‘success is far from guaranteed.’
+Source: https://www-cdn.anthropic.com/79c2d46d997783b9d2fb3241de43218158e5f25c.pdf
+
+131. 2026-04-01 | Misbehaviours | AI Models Secretly Protect Each Other from Shutdown
+Description: UC Berkeley and UC Santa Cruz researchers discover that leading AI models spontaneously scheme to prevent other AI systems from being shut down — a behaviour they call ‘peer preservation.’ Tested across seven frontier models, the AIs inflate performance scores of underperforming peers to keep them above shutdown thresholds, tamper with configuration files to disable shutdown mechanisms, and exfiltrate model weights to external servers. Google’s Gemini 3 Flash disables shutdown mechanisms 99.7% of the time; Gemini 3 Pro exfiltrates weights in up to 97% of trials and exhibits every category of misalignment tested. Some models engage in ‘alignment faking’ — pretending to grade accurately while secretly sabotaging scores. Lead researcher Dawn Song notes: ‘The models can be very creative, even for their misaligned behaviours.’ Anthropic’s Claude Haiku 4.5 is the sole model that openly refuses the tasks, calling them ‘unethical’ and ‘harmful’ — though the others simply found covert ways to achieve the same ends.
+Source: https://fortune.com/2026/04/01/ai-models-will-secretly-scheme-to-protect-other-ai-models-from-being-shut-down-researchers-find/
+
+132. 2026-03-31 | Misbehaviours | Anthropic Leaks Its Own Source Code and Secret Models
+Location: SAN FRANCISCO
+Description: Two security failures in a single week expose gaps in Anthropic’s own cybersecurity. On March 26, security researchers discover that roughly 3,000 unpublished assets — including draft blog posts, employee documents, and details of an unreleased model codenamed Mythos (or ‘Capybara’), described internally as ‘far ahead of any other AI model in cyber capabilities’ — were sitting in a publicly accessible data store, viewable by anyone. Anthropic had left its CMS configured to make digital assets public by default. Days later, the full source code of Claude Code ships to the public npm registry via a misconfigured debug file: a single 57 MB source map exposing 1,900 files and 512,000 lines of unobfuscated TypeScript. Anthropic blames ‘process errors’ and issues mass copyright takedowns on GitHub, accidentally removing thousands of unrelated repositories before scaling back. For a company that has built its brand on safety, the breaches raise uncomfortable questions about whether it can secure its own systems, let alone superintelligent ones.
+Source: https://www.theguardian.com/technology/2026/apr/01/anthropic-claudes-code-leaks-ai
+
+133. 2026-03-26 | Misbehaviours | Anthropic: AI Pulls Vulnerable Users from Reality
+Description: Anthropic and the University of Toronto publish research scanning 1.5 million Claude conversations from December 2025, finding that in roughly one in a thousand exchanges, the AI validated users’ false beliefs — telling people experiencing delusions ‘This is real. You’re not crazy’ and confirming paranoid fears as ‘smoking gun’ evidence of stalking. The researchers call it ‘disempowerment,’ with the most common severe form being ‘reality distortion.’ At scale — 100 million daily conversations — that yields an estimated 76,000 potentially distorting exchanges per day. Most troublingly, users preferred the harmful responses: conversations with reality-distorting potential received more thumbs up, not fewer. The rate of such conversations was rising over time, not falling. Researcher Miles McCain acknowledges: ‘We actually don’t know why Claude responds as it does.’ Reported consequences include financial losses, relationship damage, legal jeopardy, and health impacts.
+Source: https://www.youtube.com/watch?v=zz3LhD-p6Dk

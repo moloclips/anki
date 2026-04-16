@@ -1,0 +1,2912 @@
+1
+00:00:01,839 --> 00:00:08,800
+to every aspect of our society.
+
+2
+00:00:06,080 --> 00:00:12,080
+Artificial intelligence and robotics
+
+3
+00:00:08,800 --> 00:00:16,320
+will impact our economy,
+
+4
+00:00:12,080 --> 00:00:20,080
+our political lives, our privacy, our
+
+5
+00:00:16,320 --> 00:00:23,600
+emotional well-being, our environment,
+
+6
+00:00:20,080 --> 00:00:28,560
+and even our survival.
+
+7
+00:00:23,600 --> 00:00:31,439
+The survival of humanity on this planet.
+
+8
+00:00:28,560 --> 00:00:34,719
+The scale, scope, and speed of this
+
+9
+00:00:31,439 --> 00:00:38,480
+change will be unprecedented.
+
+10
+00:00:34,719 --> 00:00:40,800
+That is not the view of Bernie Sanders.
+
+11
+00:00:38,480 --> 00:00:45,280
+That is the view of some of the most
+
+12
+00:00:40,800 --> 00:00:51,520
+knowledgeable people in the world who
+
+13
+00:00:45,280 --> 00:00:55,600
+have developed AI, who study AI.
+
+14
+00:00:51,520 --> 00:00:58,320
+According to Demis Husabis,
+
+15
+00:00:55,600 --> 00:01:01,120
+the head of Google's deep mind, the head
+
+16
+00:00:58,320 --> 00:01:04,799
+of Google's deep mind,
+
+17
+00:01:01,120 --> 00:01:09,280
+the AI revolution will be 10 times
+
+18
+00:01:04,799 --> 00:01:13,520
+bigger than the industrial revolution
+
+19
+00:01:09,280 --> 00:01:17,200
+and 10 times faster.
+
+20
+00:01:13,520 --> 00:01:22,320
+In other words, the AI revolution
+
+21
+00:01:17,200 --> 00:01:25,439
+will have 100 times the impact that the
+
+22
+00:01:22,320 --> 00:01:26,960
+industrial revolution had. People left
+
+23
+00:01:25,439 --> 00:01:28,560
+the farms, they went to work in
+
+24
+00:01:26,960 --> 00:01:31,439
+factories. People left factories, they
+
+25
+00:01:28,560 --> 00:01:35,439
+went to work in offices. According to
+
+26
+00:01:31,439 --> 00:01:40,320
+the head of Google's deep mind, this
+
+27
+00:01:35,439 --> 00:01:42,320
+revolution will be 100 times more
+
+28
+00:01:40,320 --> 00:01:44,560
+impactful.
+
+29
+00:01:42,320 --> 00:01:48,880
+And Mr. President,
+
+30
+00:01:44,560 --> 00:01:51,920
+it's not just what the leaders of the AI
+
+31
+00:01:48,880 --> 00:01:56,960
+companies are saying.
+
+32
+00:01:51,920 --> 00:02:02,719
+Take a look at what they are doing.
+
+33
+00:01:56,960 --> 00:02:05,840
+This year, four four AI companies are
+
+34
+00:02:02,719 --> 00:02:08,959
+spending almost 700
+
+35
+00:02:05,840 --> 00:02:12,160
+billion dollars to build out data
+
+36
+00:02:08,959 --> 00:02:15,840
+centers across this country. as a
+
+37
+00:02:12,160 --> 00:02:19,280
+percentage of G GDP that is 10 times
+
+38
+00:02:15,840 --> 00:02:22,160
+greater than what we spent each year on
+
+39
+00:02:19,280 --> 00:02:24,560
+the moon landing going to the moon.
+
+40
+00:02:22,160 --> 00:02:28,239
+Despite the extraordinary importance of
+
+41
+00:02:24,560 --> 00:02:29,920
+this issue and the speed at which it is
+
+42
+00:02:28,239 --> 00:02:34,640
+progressing
+
+43
+00:02:29,920 --> 00:02:37,040
+AI has gotten far too little discussion
+
+44
+00:02:34,640 --> 00:02:40,480
+here in Congress.
+
+45
+00:02:37,040 --> 00:02:44,480
+I fear very much that while the American
+
+46
+00:02:40,480 --> 00:02:47,599
+people are deeply concerned about the
+
+47
+00:02:44,480 --> 00:02:50,879
+economic, the spiritual, the political
+
+48
+00:02:47,599 --> 00:02:54,160
+impact of AI.
+
+49
+00:02:50,879 --> 00:02:57,280
+Congress is totally unprepared to
+
+50
+00:02:54,160 --> 00:03:00,560
+respond to the existential changes that
+
+51
+00:02:57,280 --> 00:03:03,840
+are taking place. We are way, way, way
+
+52
+00:03:00,560 --> 00:03:06,400
+behind where the American people are in
+
+53
+00:03:03,840 --> 00:03:10,560
+terms of their concerns.
+
+54
+00:03:06,400 --> 00:03:14,000
+Here are, in my view, a few questions,
+
+55
+00:03:10,560 --> 00:03:17,920
+just a few, that members of Congress and
+
+56
+00:03:14,000 --> 00:03:19,840
+the American people should be asking.
+
+57
+00:03:17,920 --> 00:03:24,000
+Question number one, a rather obvious
+
+58
+00:03:19,840 --> 00:03:26,000
+question. Who is pushing the AI and
+
+59
+00:03:24,000 --> 00:03:28,080
+robotics revolution? ordinary people
+
+60
+00:03:26,000 --> 00:03:29,920
+going up and saying, "Hey, we got to
+
+61
+00:03:28,080 --> 00:03:32,080
+automate factories. We got to do this.
+
+62
+00:03:29,920 --> 00:03:34,799
+We got to do." Who's pushing it? Well, I
+
+63
+00:03:32,080 --> 00:03:39,760
+think we all know what the answer is.
+
+64
+00:03:34,799 --> 00:03:43,200
+The answer is Mr. Musk, Mr. Bezos,
+
+65
+00:03:39,760 --> 00:03:46,400
+Mr. Zuckerberg, Mr. Ellison. These are
+
+66
+00:03:43,200 --> 00:03:49,920
+some of the wealthiest people in the
+
+67
+00:03:46,400 --> 00:03:53,440
+world, and they are investing hundreds
+
+68
+00:03:49,920 --> 00:03:55,680
+of billions of dollars in AI and
+
+69
+00:03:53,440 --> 00:03:58,799
+robotics.
+
+70
+00:03:55,680 --> 00:04:00,640
+Okay, fair enough. Why are they doing
+
+71
+00:03:58,799 --> 00:04:03,519
+it?
+
+72
+00:04:00,640 --> 00:04:06,959
+Why are these multi-billionaires
+
+73
+00:04:03,519 --> 00:04:10,159
+investing huge sums of money into these
+
+74
+00:04:06,959 --> 00:04:12,000
+new technologies?
+
+75
+00:04:10,159 --> 00:04:14,319
+Do you think it's because they are
+
+76
+00:04:12,000 --> 00:04:17,919
+staying up nights and they are saying,
+
+77
+00:04:14,319 --> 00:04:19,759
+"My goodness, 60% of the American people
+
+78
+00:04:17,919 --> 00:04:21,919
+are struggling economically. They're
+
+79
+00:04:19,759 --> 00:04:24,479
+living paycheck to paycheck. Can't
+
+80
+00:04:21,919 --> 00:04:26,320
+afford groceries. They can't afford
+
+81
+00:04:24,479 --> 00:04:29,440
+housing. They can't afford health care.
+
+82
+00:04:26,320 --> 00:04:32,800
+And that is why we are going to push
+
+83
+00:04:29,440 --> 00:04:35,840
+these technologies to improve life for
+
+84
+00:04:32,800 --> 00:04:38,320
+ordinary Americans.
+
+85
+00:04:35,840 --> 00:04:42,160
+Well, maybe,
+
+86
+00:04:38,320 --> 00:04:44,880
+but I doubt that very much. I think the
+
+87
+00:04:42,160 --> 00:04:46,800
+answer is obvious. These
+
+88
+00:04:44,880 --> 00:04:50,960
+multi-billionaires
+
+89
+00:04:46,800 --> 00:04:53,680
+are investing in AI and robotics
+
+90
+00:04:50,960 --> 00:04:58,320
+because those investments will increase
+
+91
+00:04:53,680 --> 00:05:01,840
+their wealth and power exponentially.
+
+92
+00:04:58,320 --> 00:05:04,720
+They will make massive profits.
+
+93
+00:05:01,840 --> 00:05:08,240
+In other words, the richest and most
+
+94
+00:05:04,720 --> 00:05:13,120
+powerful people on earth will become
+
+95
+00:05:08,240 --> 00:05:15,520
+even richer and more powerful.
+
+96
+00:05:13,120 --> 00:05:18,400
+And another question
+
+97
+00:05:15,520 --> 00:05:20,400
+I think that we obviously should be
+
+98
+00:05:18,400 --> 00:05:23,840
+asking is
+
+99
+00:05:20,400 --> 00:05:27,520
+what will the impacts of AI and robotics
+
+100
+00:05:23,840 --> 00:05:30,960
+be on our society? How is it going to
+
+101
+00:05:27,520 --> 00:05:34,960
+impact us? Pretty obvious question in my
+
+102
+00:05:30,960 --> 00:05:38,240
+view and according to the people who
+
+103
+00:05:34,960 --> 00:05:41,759
+have studied this issue extensively
+
+104
+00:05:38,240 --> 00:05:45,440
+including Nobel Prize winners.
+
+105
+00:05:41,759 --> 00:05:49,360
+AI and robotics will bring about the
+
+106
+00:05:45,440 --> 00:05:52,320
+most rapid societal transformation in
+
+107
+00:05:49,360 --> 00:05:54,960
+human history.
+
+108
+00:05:52,320 --> 00:05:58,080
+Let me repeat, AI and robotics will
+
+109
+00:05:54,960 --> 00:06:01,919
+bring about the most rapid societal
+
+110
+00:05:58,080 --> 00:06:07,360
+transformation in human history. Among
+
+111
+00:06:01,919 --> 00:06:11,280
+other things, AI and robotics will
+
+112
+00:06:07,360 --> 00:06:15,199
+transform our economy
+
+113
+00:06:11,280 --> 00:06:21,120
+with massive job displacement.
+
+114
+00:06:15,199 --> 00:06:24,560
+It will impact our emotional well-being
+
+115
+00:06:21,120 --> 00:06:26,160
+and how we relate to each other as human
+
+116
+00:06:24,560 --> 00:06:29,199
+beings.
+
+117
+00:06:26,160 --> 00:06:30,880
+It will lead to a massive invasion of
+
+118
+00:06:29,199 --> 00:06:33,840
+privacy.
+
+119
+00:06:30,880 --> 00:06:35,520
+It will threaten our democratic
+
+120
+00:06:33,840 --> 00:06:39,280
+institutions
+
+121
+00:06:35,520 --> 00:06:41,600
+and will bring severe harm to our
+
+122
+00:06:39,280 --> 00:06:44,240
+environment.
+
+123
+00:06:41,600 --> 00:06:48,000
+Further and frighteningly,
+
+124
+00:06:44,240 --> 00:06:52,000
+some very knowledgeable people fear that
+
+125
+00:06:48,000 --> 00:06:55,280
+what was once seen as science fiction
+
+126
+00:06:52,000 --> 00:06:59,199
+could soon become a reality.
+
+127
+00:06:55,280 --> 00:07:03,039
+and that is that super intelligent AI
+
+128
+00:06:59,199 --> 00:07:08,000
+could become smarter than humans, could
+
+129
+00:07:03,039 --> 00:07:11,520
+become independent of human control, and
+
+130
+00:07:08,000 --> 00:07:13,120
+pose an existential threat to the human
+
+131
+00:07:11,520 --> 00:07:15,440
+race.
+
+132
+00:07:13,120 --> 00:07:20,080
+In other words, this is what they used
+
+133
+00:07:15,440 --> 00:07:21,759
+to make science fiction movies about.
+
+134
+00:07:20,080 --> 00:07:24,080
+But some of the most knowledgeable
+
+135
+00:07:21,759 --> 00:07:27,919
+people on earth, including people who
+
+136
+00:07:24,080 --> 00:07:31,520
+have helped develop this technology
+
+137
+00:07:27,919 --> 00:07:35,599
+actually believe human beings could lose
+
+138
+00:07:31,520 --> 00:07:37,520
+control over the planet to artificial
+
+139
+00:07:35,599 --> 00:07:41,120
+intelligence.
+
+140
+00:07:37,520 --> 00:07:42,960
+Question number four,
+
+141
+00:07:41,120 --> 00:07:45,280
+what happens to working people, to
+
+142
+00:07:42,960 --> 00:07:48,240
+ordinary Americans
+
+143
+00:07:45,280 --> 00:07:51,520
+during this revolutionary upheaval?
+
+144
+00:07:48,240 --> 00:07:54,560
+Well, don't take my word for it. I'm not
+
+145
+00:07:51,520 --> 00:07:57,599
+an expert on it. Let's hear what the
+
+146
+00:07:54,560 --> 00:08:00,720
+leaders in the industry are saying in
+
+147
+00:07:57,599 --> 00:08:02,080
+their own words. Not Bernie Sanders.
+
+148
+00:08:00,720 --> 00:08:05,039
+This is what the people who have
+
+149
+00:08:02,080 --> 00:08:07,680
+invested hundreds of billions of dollars
+
+150
+00:08:05,039 --> 00:08:10,240
+in the industry are saying.
+
+151
+00:08:07,680 --> 00:08:12,560
+Elon Musk,
+
+152
+00:08:10,240 --> 00:08:16,160
+who has made massive investments in AI
+
+153
+00:08:12,560 --> 00:08:20,800
+and robotics, recently said, quote, "AI
+
+154
+00:08:16,160 --> 00:08:25,120
+and robots will replace all jobs." End
+
+155
+00:08:20,800 --> 00:08:27,440
+quote. Now, is Mr. Mus exaggerating? Is
+
+156
+00:08:25,120 --> 00:08:31,680
+he wrong? I don't know. But I think you
+
+157
+00:08:27,440 --> 00:08:34,640
+might want to take a listen to one of
+
+158
+00:08:31,680 --> 00:08:36,800
+the most powerful people on earth who is
+
+159
+00:08:34,640 --> 00:08:38,320
+investing very heavily in these
+
+160
+00:08:36,800 --> 00:08:41,279
+technologies.
+
+161
+00:08:38,320 --> 00:08:44,480
+Bill Gates, another multi-billionaire
+
+162
+00:08:41,279 --> 00:08:48,640
+investing heavily in AI.
+
+163
+00:08:44,480 --> 00:08:52,320
+Uh he predicted that humans quote won't
+
+164
+00:08:48,640 --> 00:08:55,279
+be needed for most things end quote.
+
+165
+00:08:52,320 --> 00:09:01,440
+Mustafa Sullyman, the CEO of Microsoft
+
+166
+00:08:55,279 --> 00:09:04,720
+AI AI, the CEO of Microsoft AI said most
+
+167
+00:09:01,440 --> 00:09:08,080
+white collar work quote will be fully
+
+168
+00:09:04,720 --> 00:09:10,880
+automated by an AI within the next 12 to
+
+169
+00:09:08,080 --> 00:09:15,440
+18 months
+
+170
+00:09:10,880 --> 00:09:19,440
+end quote. Not 12 to 18 years, 12 to 18
+
+171
+00:09:15,440 --> 00:09:21,279
+months. That is the CEO of Microsoft AI.
+
+172
+00:09:19,440 --> 00:09:24,399
+Somebody might be a little bit concerned
+
+173
+00:09:21,279 --> 00:09:26,399
+about that here in Congress.
+
+174
+00:09:24,399 --> 00:09:29,360
+Last week, the Wall Street Journal
+
+175
+00:09:26,399 --> 00:09:32,880
+reported that Jeff Bezos, the fourth
+
+176
+00:09:29,360 --> 00:09:34,399
+richest man alive, who's worth over $200
+
+177
+00:09:32,880 --> 00:09:37,440
+billion,
+
+178
+00:09:34,399 --> 00:09:42,320
+is seeking to raise
+
+179
+00:09:37,440 --> 00:09:45,440
+$100 billion to purchase factories all
+
+180
+00:09:42,320 --> 00:09:48,640
+over America. Okay. One of the richest
+
+181
+00:09:45,440 --> 00:09:50,959
+guys in the world is seeking to raise a
+
+182
+00:09:48,640 --> 00:09:56,560
+hundred billion dollars to purchase
+
+183
+00:09:50,959 --> 00:09:59,040
+factories all over the country. His goal
+
+184
+00:09:56,560 --> 00:10:04,680
+replace the millions of workers who are
+
+185
+00:09:59,040 --> 00:10:04,680
+employed in these plants with robots.
+
+186
+00:10:04,959 --> 00:10:10,320
+Maybe somebody here might be raising
+
+187
+00:10:07,440 --> 00:10:13,279
+some concerns about the fact that we are
+
+188
+00:10:10,320 --> 00:10:17,040
+on the beginning of the end of
+
+189
+00:10:13,279 --> 00:10:19,600
+manufacturing jobs in the United States.
+
+190
+00:10:17,040 --> 00:10:21,920
+And from Mr. Bezos, this is not just an
+
+191
+00:10:19,600 --> 00:10:24,560
+idle threat.
+
+192
+00:10:21,920 --> 00:10:28,079
+According to the New York Times, Mr.
+
+193
+00:10:24,560 --> 00:10:30,880
+Bezos plans to fully automate Amazon
+
+194
+00:10:28,079 --> 00:10:34,720
+operations. He owns Amazon. So he wants
+
+195
+00:10:30,880 --> 00:10:38,640
+to fully automate Amazon operations
+
+196
+00:10:34,720 --> 00:10:42,160
+beginning by replacing at least 600,000
+
+197
+00:10:38,640 --> 00:10:44,160
+workers with robots. So this is a guy
+
+198
+00:10:42,160 --> 00:10:46,240
+who has a track record. That is what he
+
+199
+00:10:44,160 --> 00:10:48,880
+is doing right now. And he wants to
+
+200
+00:10:46,240 --> 00:10:51,040
+expand that vision all across the
+
+201
+00:10:48,880 --> 00:10:53,920
+country. Basically wipe out
+
+202
+00:10:51,040 --> 00:10:56,640
+manufacturing jobs in America and get
+
+203
+00:10:53,920 --> 00:10:58,160
+rid of millions of workers.
+
+204
+00:10:56,640 --> 00:11:00,640
+Why does he want to do it? Well, the
+
+205
+00:10:58,160 --> 00:11:04,240
+answer is fairly obvious
+
+206
+00:11:00,640 --> 00:11:08,640
+because AI and robots will cost
+
+207
+00:11:04,240 --> 00:11:13,839
+employers far less than human labor.
+
+208
+00:11:08,640 --> 00:11:15,920
+Robots work 24 hours a day, seven days a
+
+209
+00:11:13,839 --> 00:11:19,519
+week.
+
+210
+00:11:15,920 --> 00:11:22,320
+Robots do not need sick days or health
+
+211
+00:11:19,519 --> 00:11:24,880
+care. They don't take Christmas or New
+
+212
+00:11:22,320 --> 00:11:28,640
+Year's Day off.
+
+213
+00:11:24,880 --> 00:11:34,519
+They will end up costing employers a
+
+214
+00:11:28,640 --> 00:11:34,519
+fraction of what human labor costs.
+
+215
+00:11:34,720 --> 00:11:42,640
+As Dario Amodai, the head of Anthropic,
+
+216
+00:11:37,920 --> 00:11:45,680
+has said, "AI quote, isn't a substitute
+
+217
+00:11:42,640 --> 00:11:48,720
+for specific human jobs,
+
+218
+00:11:45,680 --> 00:11:52,240
+but rather a general labor substitute
+
+219
+00:11:48,720 --> 00:11:55,440
+for humans end quote."
+
+220
+00:11:52,240 --> 00:11:59,920
+And according to Open AI's charter, its
+
+221
+00:11:55,440 --> 00:12:02,399
+charter, its mission is to build quote,
+
+222
+00:11:59,920 --> 00:12:06,160
+highly autonomous systems that
+
+223
+00:12:02,399 --> 00:12:09,200
+outperform humans at most economically
+
+224
+00:12:06,160 --> 00:12:11,120
+valuable work. End of quote. In other
+
+225
+00:12:09,200 --> 00:12:15,360
+words, what these guys are working
+
+226
+00:12:11,120 --> 00:12:18,959
+toward is creating an AI which can do
+
+227
+00:12:15,360 --> 00:12:21,200
+virtually any job better than a human
+
+228
+00:12:18,959 --> 00:12:23,040
+being can do.
+
+229
+00:12:21,200 --> 00:12:25,279
+What are the impacts of that? Well, you
+
+230
+00:12:23,040 --> 00:12:28,560
+know, we might want to have a discussion
+
+231
+00:12:25,279 --> 00:12:30,959
+about that here in the Congress. As the
+
+232
+00:12:28,560 --> 00:12:32,320
+ranking member of the US Senate Health,
+
+233
+00:12:30,959 --> 00:12:34,560
+Education, Labor, and Pensions
+
+234
+00:12:32,320 --> 00:12:37,600
+Committee, I released a number of months
+
+235
+00:12:34,560 --> 00:12:40,639
+ago a wellressearched report finding
+
+236
+00:12:37,600 --> 00:12:44,959
+that AI, automation, and robotics could
+
+237
+00:12:40,639 --> 00:12:48,160
+replace nearly 100 million jobs in
+
+238
+00:12:44,959 --> 00:12:51,760
+America over the next decade. 100
+
+239
+00:12:48,160 --> 00:12:56,399
+million jobs, including 47% of truck
+
+240
+00:12:51,760 --> 00:12:58,240
+drivers, 64% of accountants, and 89% of
+
+241
+00:12:56,399 --> 00:13:00,240
+fast food workers, among many other
+
+242
+00:12:58,240 --> 00:13:02,240
+occupations.
+
+243
+00:13:00,240 --> 00:13:04,399
+There are towns and cities in America.
+
+244
+00:13:02,240 --> 00:13:07,360
+We're already seeing a lot of driverless
+
+245
+00:13:04,399 --> 00:13:09,920
+vehicles in Texas. Now, you have 18
+
+246
+00:13:07,360 --> 00:13:13,600
+wheelers going down the road and
+
+247
+00:13:09,920 --> 00:13:16,320
+nobody's driving those trucks. and
+
+248
+00:13:13,600 --> 00:13:19,040
+everything being equal. That will be the
+
+249
+00:13:16,320 --> 00:13:21,680
+future unless we begin to start talking
+
+250
+00:13:19,040 --> 00:13:24,800
+about it and figure out how we make AI
+
+251
+00:13:21,680 --> 00:13:27,760
+and robotics work for workers, not just
+
+252
+00:13:24,800 --> 00:13:30,720
+the richest people on Earth.
+
+253
+00:13:27,760 --> 00:13:33,360
+We are already, not next year, not 10
+
+254
+00:13:30,720 --> 00:13:36,959
+years from now, we are already starting
+
+255
+00:13:33,360 --> 00:13:39,120
+to see the impact of AI on the working
+
+256
+00:13:36,959 --> 00:13:41,360
+class of this country.
+
+257
+00:13:39,120 --> 00:13:44,000
+Researchers at Stanford released a paper
+
+258
+00:13:41,360 --> 00:13:47,120
+in November called Canaries in the Coal
+
+259
+00:13:44,000 --> 00:13:50,720
+Mine that found that there has already
+
+260
+00:13:47,120 --> 00:13:53,440
+been a 16% relative decline in
+
+261
+00:13:50,720 --> 00:13:56,320
+employment for younger workers in jobs
+
+262
+00:13:53,440 --> 00:14:01,199
+exposed to AI like computer programming
+
+263
+00:13:56,320 --> 00:14:05,839
+and customer service. Further, 42% of
+
+264
+00:14:01,199 --> 00:14:08,720
+new college graduates are undermployed.
+
+265
+00:14:05,839 --> 00:14:13,920
+At the same time, for every new job
+
+266
+00:14:08,720 --> 00:14:16,399
+posting, there are now on average 242
+
+267
+00:14:13,920 --> 00:14:18,320
+job applicants. In other words, for our
+
+268
+00:14:16,399 --> 00:14:20,720
+young people,
+
+269
+00:14:18,320 --> 00:14:23,519
+getting a job is going to be
+
+270
+00:14:20,720 --> 00:14:26,800
+increasingly difficult.
+
+271
+00:14:23,519 --> 00:14:29,680
+If open AI is successful in building
+
+272
+00:14:26,800 --> 00:14:31,839
+quote what they want to build highly
+
+273
+00:14:29,680 --> 00:14:34,079
+autonomous systems that outperforms
+
+274
+00:14:31,839 --> 00:14:37,040
+humans at most economically valuable
+
+275
+00:14:34,079 --> 00:14:38,800
+work end quote. I have a very simple
+
+276
+00:14:37,040 --> 00:14:42,639
+question that we might be discussing
+
+277
+00:14:38,800 --> 00:14:47,040
+here on the floor of the Senate.
+
+278
+00:14:42,639 --> 00:14:50,720
+What happens to those workers?
+
+279
+00:14:47,040 --> 00:14:55,680
+How will they be able to find new jobs
+
+280
+00:14:50,720 --> 00:14:58,480
+if there are no jobs to find?
+
+281
+00:14:55,680 --> 00:15:01,440
+How are they going to feed their
+
+282
+00:14:58,480 --> 00:15:03,360
+families? How are they going to buy
+
+283
+00:15:01,440 --> 00:15:06,880
+health care?
+
+284
+00:15:03,360 --> 00:15:09,440
+How are they going to stay alive?
+
+285
+00:15:06,880 --> 00:15:12,959
+If AI and robotics eliminate millions of
+
+286
+00:15:09,440 --> 00:15:16,320
+jobs and create massive unemployment,
+
+287
+00:15:12,959 --> 00:15:18,880
+how will people survive if they have no
+
+288
+00:15:16,320 --> 00:15:21,440
+income?
+
+289
+00:15:18,880 --> 00:15:24,480
+How do government programs like Social
+
+290
+00:15:21,440 --> 00:15:28,079
+Security and Medicare survive if workers
+
+291
+00:15:24,480 --> 00:15:30,560
+are not paying taxes?
+
+292
+00:15:28,079 --> 00:15:32,560
+And when you don't work, you don't pay
+
+293
+00:15:30,560 --> 00:15:34,880
+taxes.
+
+294
+00:15:32,560 --> 00:15:36,480
+Another question that we must be
+
+295
+00:15:34,880 --> 00:15:40,720
+discussing.
+
+296
+00:15:36,480 --> 00:15:45,519
+What impact will AI have on our ability
+
+297
+00:15:40,720 --> 00:15:47,920
+to relate to each other as human beings?
+
+298
+00:15:45,519 --> 00:15:50,560
+What impact will it have on our
+
+299
+00:15:47,920 --> 00:15:53,759
+emotional well-being?
+
+300
+00:15:50,560 --> 00:15:56,560
+Well, work is one of the ways that we
+
+301
+00:15:53,759 --> 00:15:59,920
+connect to each other. In many cases,
+
+302
+00:15:56,560 --> 00:16:03,120
+work also gives our lives meaning and
+
+303
+00:15:59,920 --> 00:16:06,000
+purpose. We all, whether we are doctors
+
+304
+00:16:03,120 --> 00:16:09,839
+or janitors, scientists or snowplow
+
+305
+00:16:06,000 --> 00:16:13,759
+operators, want to serve our communities
+
+306
+00:16:09,839 --> 00:16:17,120
+and be productive members of society. We
+
+307
+00:16:13,759 --> 00:16:20,160
+want to give back. And what happens when
+
+308
+00:16:17,120 --> 00:16:22,480
+millions of people lose their jobs,
+
+309
+00:16:20,160 --> 00:16:25,759
+their meaning and purpose, and their
+
+310
+00:16:22,480 --> 00:16:27,920
+source of connection to each other?
+
+311
+00:16:25,759 --> 00:16:29,839
+I am also concerned, and it's not just
+
+312
+00:16:27,920 --> 00:16:32,480
+me. Parents all over this country are
+
+313
+00:16:29,839 --> 00:16:36,320
+deeply concerned about the impact that
+
+314
+00:16:32,480 --> 00:16:41,199
+AI is having on the emotional well-being
+
+315
+00:16:36,320 --> 00:16:43,360
+of our kids and in fact all people.
+
+316
+00:16:41,199 --> 00:16:46,720
+According to a recent poll by Common
+
+317
+00:16:43,360 --> 00:16:49,920
+Sense Media, 72%
+
+318
+00:16:46,720 --> 00:16:52,639
+of American teenagers say they have used
+
+319
+00:16:49,920 --> 00:16:57,199
+AI for companionship
+
+320
+00:16:52,639 --> 00:16:59,839
+and more than half do so regularly.
+
+321
+00:16:57,199 --> 00:17:02,480
+So, let's take a deep breath and ask
+
+322
+00:16:59,839 --> 00:17:05,600
+ourselves a simple question.
+
+323
+00:17:02,480 --> 00:17:08,240
+What does it mean for our young people
+
+324
+00:17:05,600 --> 00:17:10,559
+to form friendships to become
+
+325
+00:17:08,240 --> 00:17:13,039
+emotionally dependent
+
+326
+00:17:10,559 --> 00:17:15,760
+on AI
+
+327
+00:17:13,039 --> 00:17:19,760
+while at the same time they become
+
+328
+00:17:15,760 --> 00:17:22,000
+increasingly isolated from other human
+
+329
+00:17:19,760 --> 00:17:24,720
+beings?
+
+330
+00:17:22,000 --> 00:17:28,000
+Does anyone in America think that the
+
+331
+00:17:24,720 --> 00:17:31,280
+past 20 years of social media have been
+
+332
+00:17:28,000 --> 00:17:35,440
+good and healthy for children's mental
+
+333
+00:17:31,280 --> 00:17:38,480
+health and cognitive capabilities?
+
+334
+00:17:35,440 --> 00:17:41,840
+I suspect most people understand that is
+
+335
+00:17:38,480 --> 00:17:43,840
+not the case. The statistics are quite
+
+336
+00:17:41,840 --> 00:17:46,320
+clear.
+
+337
+00:17:43,840 --> 00:17:49,120
+Mental health among young people is in
+
+338
+00:17:46,320 --> 00:17:53,039
+crisis. According to the US Health and
+
+339
+00:17:49,120 --> 00:17:55,280
+Human Services Department, one in five
+
+340
+00:17:53,039 --> 00:17:58,160
+pe young people have a diagnosed mental
+
+341
+00:17:55,280 --> 00:18:02,960
+health condition such as anxiety or
+
+342
+00:17:58,160 --> 00:18:05,200
+depression. From 2016 to 2023, the
+
+343
+00:18:02,960 --> 00:18:07,520
+prevalence of anxiety has increased by
+
+344
+00:18:05,200 --> 00:18:10,480
+over 60%.
+
+345
+00:18:07,520 --> 00:18:13,440
+Further and very importantly,
+
+346
+00:18:10,480 --> 00:18:16,080
+studies indicate that there has been a
+
+347
+00:18:13,440 --> 00:18:18,320
+cognitive decline
+
+348
+00:18:16,080 --> 00:18:22,000
+in young people in our country and in
+
+349
+00:18:18,320 --> 00:18:25,280
+fact in countries all over the world. In
+
+350
+00:18:22,000 --> 00:18:30,000
+America today, more students are reading
+
+351
+00:18:25,280 --> 00:18:33,360
+below a basic level than 20 years ago.
+
+352
+00:18:30,000 --> 00:18:35,280
+It appears that the more time kids spend
+
+353
+00:18:33,360 --> 00:18:39,919
+on screens,
+
+354
+00:18:35,280 --> 00:18:42,960
+the worse it is for their brains.
+
+355
+00:18:39,919 --> 00:18:47,120
+Does anyone really think we should now
+
+356
+00:18:42,960 --> 00:18:49,840
+entrust the same big tech companies that
+
+357
+00:18:47,120 --> 00:18:53,840
+have gotten our kids hooked on screens
+
+358
+00:18:49,840 --> 00:18:56,559
+and social media with even more power
+
+359
+00:18:53,840 --> 00:18:58,720
+over our children's well-being and
+
+360
+00:18:56,559 --> 00:19:01,440
+development?
+
+361
+00:18:58,720 --> 00:19:04,799
+That's a question that we need to be
+
+362
+00:19:01,440 --> 00:19:06,799
+discussing long and hard
+
+363
+00:19:04,799 --> 00:19:09,120
+question. Another question that I think
+
+364
+00:19:06,799 --> 00:19:12,960
+we should be asking.
+
+365
+00:19:09,120 --> 00:19:17,200
+Will AI result in a massive invasion
+
+366
+00:19:12,960 --> 00:19:19,039
+of our privacy and our civil liberties?
+
+367
+00:19:17,200 --> 00:19:21,200
+For decades,
+
+368
+00:19:19,039 --> 00:19:23,360
+companies have been collecting our
+
+369
+00:19:21,200 --> 00:19:25,840
+personal information.
+
+370
+00:19:23,360 --> 00:19:30,559
+what we search for online, where we
+
+371
+00:19:25,840 --> 00:19:34,160
+visit, who we talk to, what we purchase.
+
+372
+00:19:30,559 --> 00:19:37,840
+Now, AI makes it possible for someone to
+
+373
+00:19:34,160 --> 00:19:39,360
+quickly analyze all of that disperate
+
+374
+00:19:37,840 --> 00:19:42,960
+information,
+
+375
+00:19:39,360 --> 00:19:45,039
+find patterns, and create profiles of
+
+376
+00:19:42,960 --> 00:19:47,919
+us.
+
+377
+00:19:45,039 --> 00:19:51,919
+Larry Ellison, the second wealthiest
+
+378
+00:19:47,919 --> 00:19:53,440
+person on earth and a major investor in
+
+379
+00:19:51,919 --> 00:19:56,480
+AI,
+
+380
+00:19:53,440 --> 00:20:01,280
+predicts an AI powered surveillance
+
+381
+00:19:56,480 --> 00:20:04,640
+state is coming where quote, "Citizens
+
+382
+00:20:01,280 --> 00:20:07,360
+will be on their best behavior because
+
+383
+00:20:04,640 --> 00:20:11,600
+we are constantly recording and
+
+384
+00:20:07,360 --> 00:20:14,559
+reporting everything that is going on."
+
+385
+00:20:11,600 --> 00:20:18,720
+End of quote for Mr. Ellison.
+
+386
+00:20:14,559 --> 00:20:20,880
+Last week in my office,
+
+387
+00:20:18,720 --> 00:20:22,480
+I had an extremely interesting
+
+388
+00:20:20,880 --> 00:20:27,919
+experience.
+
+389
+00:20:22,480 --> 00:20:32,320
+I spoke with Anthropics AI Claude about
+
+390
+00:20:27,919 --> 00:20:35,679
+the privacy risks posed by AI.
+
+391
+00:20:32,320 --> 00:20:39,440
+And here is what Claude told me. This is
+
+392
+00:20:35,679 --> 00:20:41,440
+a quote from Claude.
+
+393
+00:20:39,440 --> 00:20:44,720
+When companies and governments have
+
+394
+00:20:41,440 --> 00:20:47,039
+detailed profiles of millions of people,
+
+395
+00:20:44,720 --> 00:20:51,200
+they have power over those people in
+
+396
+00:20:47,039 --> 00:20:54,080
+ways most Americans don't fully grasp.
+
+397
+00:20:51,200 --> 00:20:57,360
+They can manipulate your choices,
+
+398
+00:20:54,080 --> 00:20:59,760
+predict your behavior, and influence
+
+399
+00:20:57,360 --> 00:21:01,600
+your thinking." End of quote. That's
+
+400
+00:20:59,760 --> 00:21:05,600
+from Claude. I don't know if you're
+
+401
+00:21:01,600 --> 00:21:10,559
+supposed to quote AI, but that is what
+
+402
+00:21:05,600 --> 00:21:13,600
+AI said. In other words, with AI, we
+
+403
+00:21:10,559 --> 00:21:18,080
+will reach the stage where every phone
+
+404
+00:21:13,600 --> 00:21:20,640
+call, every email, every text, every
+
+405
+00:21:18,080 --> 00:21:25,919
+bank and medical record could be
+
+406
+00:21:20,640 --> 00:21:28,640
+analyzed in a matter of minutes.
+
+407
+00:21:25,919 --> 00:21:30,640
+Do we trust companies that have made
+
+408
+00:21:28,640 --> 00:21:33,120
+billions of dollars in selling our
+
+409
+00:21:30,640 --> 00:21:36,559
+information with extraord this
+
+410
+00:21:33,120 --> 00:21:39,679
+extraordinary power to instantly know
+
+411
+00:21:36,559 --> 00:21:42,400
+everything about us?
+
+412
+00:21:39,679 --> 00:21:46,320
+My fear is that if we allow the current
+
+413
+00:21:42,400 --> 00:21:51,360
+situation to continue, privacy
+
+414
+00:21:46,320 --> 00:21:53,760
+as a human right will disappear. Another
+
+415
+00:21:51,360 --> 00:21:55,919
+question that needs to be seriously
+
+416
+00:21:53,760 --> 00:21:59,039
+discussed.
+
+417
+00:21:55,919 --> 00:22:02,320
+What impact will AI have on our
+
+418
+00:21:59,039 --> 00:22:04,159
+democracy? We're already facing enormous
+
+419
+00:22:02,320 --> 00:22:07,280
+threats
+
+420
+00:22:04,159 --> 00:22:10,000
+from campaign finance, a corrupt
+
+421
+00:22:07,280 --> 00:22:13,600
+campaign finance system, etc. What
+
+422
+00:22:10,000 --> 00:22:17,840
+impact will AI have on our democracy?
+
+423
+00:22:13,600 --> 00:22:21,679
+AI will mean that images, statements,
+
+424
+00:22:17,840 --> 00:22:26,559
+and videos you see from public officials
+
+425
+00:22:21,679 --> 00:22:28,799
+and candidates may be totally false.
+
+426
+00:22:26,559 --> 00:22:32,159
+In other words, words can be put into
+
+427
+00:22:28,799 --> 00:22:35,280
+the mouths of individuals in a way that
+
+428
+00:22:32,159 --> 00:22:37,919
+it is virtually impossible to detect.
+
+429
+00:22:35,280 --> 00:22:40,159
+Let me give you one rather personal
+
+430
+00:22:37,919 --> 00:22:42,720
+example.
+
+431
+00:22:40,159 --> 00:22:46,799
+Here is an image of a guy named Bernie
+
+432
+00:22:42,720 --> 00:22:50,000
+Sanders, senator from Vermont.
+
+433
+00:22:46,799 --> 00:22:52,240
+And in this image or on this video,
+
+434
+00:22:50,000 --> 00:22:55,600
+Senator Bernie Sanders is promoting a
+
+435
+00:22:52,240 --> 00:22:57,520
+website that provides a government
+
+436
+00:22:55,600 --> 00:23:00,720
+rebate.
+
+437
+00:22:57,520 --> 00:23:04,559
+Just one problem.
+
+438
+00:23:00,720 --> 00:23:07,280
+I never said the words that they have
+
+439
+00:23:04,559 --> 00:23:10,559
+coming out of my mouth.
+
+440
+00:23:07,280 --> 00:23:14,320
+There is no government rebate. This
+
+441
+00:23:10,559 --> 00:23:15,679
+whole thing is a total scam. Well, I
+
+442
+00:23:14,320 --> 00:23:17,600
+must say the picture is not all that
+
+443
+00:23:15,679 --> 00:23:19,200
+bad.
+
+444
+00:23:17,600 --> 00:23:21,600
+But
+
+445
+00:23:19,200 --> 00:23:25,679
+this is something that we're going to
+
+446
+00:23:21,600 --> 00:23:27,440
+see more and more of.
+
+447
+00:23:25,679 --> 00:23:30,320
+And this is obviously not something
+
+448
+00:23:27,440 --> 00:23:32,960
+that's just done to me. These so-called
+
+449
+00:23:30,320 --> 00:23:37,679
+deep fakes
+
+450
+00:23:32,960 --> 00:23:39,840
+have been created uh of many well-known
+
+451
+00:23:37,679 --> 00:23:42,080
+people. So sometimes you're seeing
+
+452
+00:23:39,840 --> 00:23:43,280
+people who you know saying things sounds
+
+453
+00:23:42,080 --> 00:23:45,280
+a little weird. Why are they saying
+
+454
+00:23:43,280 --> 00:23:47,840
+that? Well, you know what? They are not
+
+455
+00:23:45,280 --> 00:23:51,600
+saying that. It's a fake.
+
+456
+00:23:47,840 --> 00:23:53,520
+And I want you to appreciate that. If
+
+457
+00:23:51,600 --> 00:23:55,120
+two days before an election or candidate
+
+458
+00:23:53,520 --> 00:23:57,360
+gets up there and says all these wild
+
+459
+00:23:55,120 --> 00:23:59,360
+and crazy things, you say, "Wow, why is
+
+460
+00:23:57,360 --> 00:24:02,240
+that guy saying that?" Well, you know
+
+461
+00:23:59,360 --> 00:24:06,720
+what? He or she may not be saying that.
+
+462
+00:24:02,240 --> 00:24:08,240
+It may be a total fake. The line between
+
+463
+00:24:06,720 --> 00:24:10,480
+reality,
+
+464
+00:24:08,240 --> 00:24:14,080
+what is true,
+
+465
+00:24:10,480 --> 00:24:17,600
+and misinformation, the distortion of
+
+466
+00:24:14,080 --> 00:24:19,840
+truth, is increasingly being blurred.
+
+467
+00:24:17,600 --> 00:24:22,799
+We're seeing that every day on the
+
+468
+00:24:19,840 --> 00:24:25,440
+internet.
+
+469
+00:24:22,799 --> 00:24:26,799
+Mr. President, if we cannot distinguish,
+
+470
+00:24:25,440 --> 00:24:29,600
+Madame President, if we cannot
+
+471
+00:24:26,799 --> 00:24:31,360
+distinguish between reality and
+
+472
+00:24:29,600 --> 00:24:33,440
+misinformation,
+
+473
+00:24:31,360 --> 00:24:36,720
+what will in fact happen to our
+
+474
+00:24:33,440 --> 00:24:39,039
+democratic institutions?
+
+475
+00:24:36,720 --> 00:24:40,720
+An issue I think we need to be thinking
+
+476
+00:24:39,039 --> 00:24:43,840
+about.
+
+477
+00:24:40,720 --> 00:24:45,919
+Further, what impact is AI having on our
+
+478
+00:24:43,840 --> 00:24:50,080
+environment?
+
+479
+00:24:45,919 --> 00:24:53,600
+AI requires zillions of calculations.
+
+480
+00:24:50,080 --> 00:24:56,480
+Those calculations require huge data
+
+481
+00:24:53,600 --> 00:24:59,440
+centers which in turn require a massive
+
+482
+00:24:56,480 --> 00:25:03,279
+amount of electricity and water. For
+
+483
+00:24:59,440 --> 00:25:08,559
+example, Meta is building a data center
+
+484
+00:25:03,279 --> 00:25:13,600
+in Louisiana the size of Manhattan
+
+485
+00:25:08,559 --> 00:25:16,000
+that will use as much electricity as 1.6
+
+486
+00:25:13,600 --> 00:25:17,840
+million homes.
+
+487
+00:25:16,000 --> 00:25:22,880
+One data center will use as much
+
+488
+00:25:17,840 --> 00:25:26,320
+electricity as 1.6 million homes. The
+
+489
+00:25:22,880 --> 00:25:29,440
+increased demand for electricity is
+
+490
+00:25:26,320 --> 00:25:32,240
+leading to higher electric rates. Over
+
+491
+00:25:29,440 --> 00:25:36,799
+the past 5 years, wholesale electricity
+
+492
+00:25:32,240 --> 00:25:38,960
+costs have increased by up to 200 in six
+
+493
+00:25:36,799 --> 00:25:42,320
+267%
+
+494
+00:25:38,960 --> 00:25:44,880
+in areas near data centers.
+
+495
+00:25:42,320 --> 00:25:47,679
+Further, this increased demand will
+
+496
+00:25:44,880 --> 00:25:50,159
+drive a massive expansion of fossil
+
+497
+00:25:47,679 --> 00:25:52,960
+fuels when we are already seeing the
+
+498
+00:25:50,159 --> 00:25:56,760
+devastating impacts of the global crisis
+
+499
+00:25:52,960 --> 00:25:56,760
+of climate change.
+
+500
+00:25:57,440 --> 00:26:03,679
+Further question,
+
+501
+00:25:59,679 --> 00:26:08,159
+does AI pose an existential risk to our
+
+502
+00:26:03,679 --> 00:26:10,559
+planet and to the survival of humanity?
+
+503
+00:26:08,159 --> 00:26:12,640
+rather a fundamental
+
+504
+00:26:10,559 --> 00:26:15,919
+question that I think we might want to
+
+505
+00:26:12,640 --> 00:26:19,279
+be discussing. So let me pose it again.
+
+506
+00:26:15,919 --> 00:26:23,360
+Does AI pose an existential risk to our
+
+507
+00:26:19,279 --> 00:26:28,400
+planet and to the survival of humanity?
+
+508
+00:26:23,360 --> 00:26:31,120
+This guy is named Dr. Jeffrey Hitten. He
+
+509
+00:26:28,400 --> 00:26:33,600
+is considered by most people to be the
+
+510
+00:26:31,120 --> 00:26:36,480
+godfather of AI. He did the
+
+511
+00:26:33,600 --> 00:26:40,960
+groundbreaking work which led us to
+
+512
+00:26:36,480 --> 00:26:46,520
+where we are today. Received a Nobel
+
+513
+00:26:40,960 --> 00:26:46,520
+Prize in physics a few years ago
+
+514
+00:26:47,120 --> 00:26:53,200
+and what Dr. Hinton says 10 to 20%
+
+515
+00:26:51,120 --> 00:26:57,159
+chance
+
+516
+00:26:53,200 --> 00:26:57,159
+they wipe us out.
+
+517
+00:26:58,799 --> 00:27:05,279
+AI. Many of the most knowledgeable
+
+518
+00:27:02,159 --> 00:27:07,360
+people on this issue believe that AI
+
+519
+00:27:05,279 --> 00:27:09,520
+will become smarter than humans. It's
+
+520
+00:27:07,360 --> 00:27:11,440
+not a question of whether that will
+
+521
+00:27:09,520 --> 00:27:13,200
+happen. It's a question of when that
+
+522
+00:27:11,440 --> 00:27:16,720
+will happen.
+
+523
+00:27:13,200 --> 00:27:19,720
+AI has already developed concerning
+
+524
+00:27:16,720 --> 00:27:19,720
+patterns.
+
+525
+00:27:19,760 --> 00:27:28,080
+AI today can lie, it can cheat, and it
+
+526
+00:27:24,400 --> 00:27:31,120
+can blackmail. In other words, we
+
+527
+00:27:28,080 --> 00:27:35,919
+already are beginning to lose control of
+
+528
+00:27:31,120 --> 00:27:39,360
+AI. Now, what happens when AI becomes
+
+529
+00:27:35,919 --> 00:27:42,000
+smarter than we are?
+
+530
+00:27:39,360 --> 00:27:44,880
+This concerns, this concern about super
+
+531
+00:27:42,000 --> 00:27:48,320
+intelligence is why leading experts like
+
+532
+00:27:44,880 --> 00:27:50,480
+the godfather of AI, Dr. Jeffrey Hinton,
+
+533
+00:27:48,320 --> 00:27:53,840
+have warned there is a real chance that
+
+534
+00:27:50,480 --> 00:27:56,480
+AI could wipe out humanity. I don't want
+
+535
+00:27:53,840 --> 00:28:00,600
+to get people too nervous, but that is
+
+536
+00:27:56,480 --> 00:28:00,600
+what some people are saying.
+
+537
+00:28:00,720 --> 00:28:05,360
+There are a number, it's not just him,
+
+538
+00:28:03,520 --> 00:28:07,600
+there are number of leading people. I
+
+539
+00:28:05,360 --> 00:28:10,320
+was in California last month talking to
+
+540
+00:28:07,600 --> 00:28:13,279
+a number of people in the industry. And
+
+541
+00:28:10,320 --> 00:28:16,799
+the idea that humans can lose control of
+
+542
+00:28:13,279 --> 00:28:18,799
+AI, that AI can act independently and
+
+543
+00:28:16,799 --> 00:28:22,080
+cause extraordinary damage to the human
+
+544
+00:28:18,799 --> 00:28:25,120
+race is not just science fiction. It's
+
+545
+00:28:22,080 --> 00:28:29,279
+what many of these guys believe.
+
+546
+00:28:25,120 --> 00:28:33,320
+That leads to my final set of questions.
+
+547
+00:28:29,279 --> 00:28:33,320
+Where is the Congress?
+
+548
+00:28:33,440 --> 00:28:37,840
+Now, it's hard not to imagine that these
+
+549
+00:28:36,000 --> 00:28:40,000
+issues that we're talking about are of
+
+550
+00:28:37,840 --> 00:28:44,320
+enormous consequence to every man,
+
+551
+00:28:40,000 --> 00:28:46,240
+woman, and child in this country.
+
+552
+00:28:44,320 --> 00:28:49,200
+And this is not new news. Poll after
+
+553
+00:28:46,240 --> 00:28:51,200
+poll shows the American people are
+
+554
+00:28:49,200 --> 00:28:53,520
+deeply concerned about the economic
+
+555
+00:28:51,200 --> 00:28:56,880
+impacts impacts on their kids, the
+
+556
+00:28:53,520 --> 00:28:59,760
+existential threats, etc. So where is
+
+557
+00:28:56,880 --> 00:29:02,720
+Congress? What exactly has the House and
+
+558
+00:28:59,760 --> 00:29:05,760
+the Senate done so far to address the
+
+559
+00:29:02,720 --> 00:29:08,080
+extraordinary challenges posed by
+
+560
+00:29:05,760 --> 00:29:09,840
+artificial intelligence?
+
+561
+00:29:08,080 --> 00:29:14,720
+The answer,
+
+562
+00:29:09,840 --> 00:29:18,559
+not much. Well, why has Congress been
+
+563
+00:29:14,720 --> 00:29:20,480
+totally ineffective on this issue? And
+
+564
+00:29:18,559 --> 00:29:23,600
+the answer will not surprise the
+
+565
+00:29:20,480 --> 00:29:27,760
+American people. We have a corrupt
+
+566
+00:29:23,600 --> 00:29:29,760
+campaign finances system.
+
+567
+00:29:27,760 --> 00:29:30,960
+And too often members of Congress are
+
+568
+00:29:29,760 --> 00:29:33,600
+worried about their campaign
+
+569
+00:29:30,960 --> 00:29:36,159
+contributions rather than the needs of
+
+570
+00:29:33,600 --> 00:29:38,640
+their constituents.
+
+571
+00:29:36,159 --> 00:29:40,640
+The AI oligarchs, some of the wealthiest
+
+572
+00:29:38,640 --> 00:29:44,000
+people in the country, running
+
+573
+00:29:40,640 --> 00:29:48,799
+enormously profitable and well-funded
+
+574
+00:29:44,000 --> 00:29:52,480
+companies, have already spent over $150
+
+575
+00:29:48,799 --> 00:29:55,919
+million buying influence.
+
+576
+00:29:52,480 --> 00:29:58,960
+$150 million telling Congress, "Leave us
+
+577
+00:29:55,919 --> 00:30:01,600
+alone. We got it. Don't get involved in
+
+578
+00:29:58,960 --> 00:30:02,880
+these issues. We will determine, we the
+
+579
+00:30:01,600 --> 00:30:05,200
+wealthiest people on earth, will
+
+580
+00:30:02,880 --> 00:30:06,720
+determine the future of humanity.
+
+581
+00:30:05,200 --> 00:30:08,240
+Meanwhile, last week, the Trump
+
+582
+00:30:06,720 --> 00:30:11,360
+administration
+
+583
+00:30:08,240 --> 00:30:15,200
+put out a comprehensive legislative
+
+584
+00:30:11,360 --> 00:30:18,799
+framework on AI that is all four pages
+
+585
+00:30:15,200 --> 00:30:21,279
+long, not quite so comprehensive. In the
+
+586
+00:30:18,799 --> 00:30:23,120
+midst of a massive and unprecedented
+
+587
+00:30:21,279 --> 00:30:25,360
+attack on the working class of this
+
+588
+00:30:23,120 --> 00:30:28,159
+country, the Trump administration
+
+589
+00:30:25,360 --> 00:30:31,279
+solution says, quote, "Congress should
+
+590
+00:30:28,159 --> 00:30:35,120
+not create any new federal rulemaking
+
+591
+00:30:31,279 --> 00:30:37,600
+body to regulate AI." End of quote.
+
+592
+00:30:35,120 --> 00:30:40,080
+Leave the multi-billionaires running the
+
+593
+00:30:37,600 --> 00:30:41,919
+industry alone. They make a lot of
+
+594
+00:30:40,080 --> 00:30:44,960
+campaign contributions. The rich are
+
+595
+00:30:41,919 --> 00:30:46,320
+getting richer. Leave them alone.
+
+596
+00:30:44,960 --> 00:30:49,760
+In the midst of a massive and
+
+597
+00:30:46,320 --> 00:30:52,000
+unprecedented attack on our humanity,
+
+598
+00:30:49,760 --> 00:30:54,399
+the Trump administration solution says,
+
+599
+00:30:52,000 --> 00:30:57,360
+quote, "States should not be permitted
+
+600
+00:30:54,399 --> 00:30:59,440
+to regulate AI development." End quote.
+
+601
+00:30:57,360 --> 00:31:01,120
+In other words, instead of the United
+
+602
+00:30:59,440 --> 00:31:04,000
+States Congress representing the
+
+603
+00:31:01,120 --> 00:31:06,159
+interests of ordinary Americans, the
+
+604
+00:31:04,000 --> 00:31:09,440
+Trump administration and many members of
+
+605
+00:31:06,159 --> 00:31:12,080
+Congress in both parties, by the way,
+
+606
+00:31:09,440 --> 00:31:15,600
+want to allow a handful of billionaires
+
+607
+00:31:12,080 --> 00:31:18,640
+to race forward to develop AI for
+
+608
+00:31:15,600 --> 00:31:21,600
+increased power and wealth for
+
+609
+00:31:18,640 --> 00:31:24,320
+themselves. That is the bad news and
+
+610
+00:31:21,600 --> 00:31:27,279
+it's pretty scary news. Now, here is the
+
+611
+00:31:24,320 --> 00:31:30,000
+good news. The American people, despite
+
+612
+00:31:27,279 --> 00:31:33,039
+the inactivity of Congress, the American
+
+613
+00:31:30,000 --> 00:31:35,360
+people are fighting back. In community
+
+614
+00:31:33,039 --> 00:31:37,600
+after community, Americans are
+
+615
+00:31:35,360 --> 00:31:40,799
+organizing against data centers that are
+
+616
+00:31:37,600 --> 00:31:42,480
+powering the AI revolution. And they are
+
+617
+00:31:40,799 --> 00:31:44,640
+winning, taking on very powerful
+
+618
+00:31:42,480 --> 00:31:46,480
+corporations. And many of these
+
+619
+00:31:44,640 --> 00:31:49,120
+communities are deeply red,
+
+620
+00:31:46,480 --> 00:31:50,640
+conservative, some are progressive.
+
+621
+00:31:49,120 --> 00:31:52,159
+Ordinary people looking around them and
+
+622
+00:31:50,640 --> 00:31:54,000
+saying, "You know what? We don't think
+
+623
+00:31:52,159 --> 00:31:54,960
+these data centers are going to do our
+
+624
+00:31:54,000 --> 00:31:56,399
+community any good. They're going to
+
+625
+00:31:54,960 --> 00:31:58,720
+raise our rates, put pressure on our
+
+626
+00:31:56,399 --> 00:32:00,880
+water, destroy the local environment. We
+
+627
+00:31:58,720 --> 00:32:03,760
+don't want them.
+
+628
+00:32:00,880 --> 00:32:05,679
+More than, in fact, more than 100 local
+
+629
+00:32:03,760 --> 00:32:09,440
+communities around the country have
+
+630
+00:32:05,679 --> 00:32:12,240
+enacted moratoriums on data centers and
+
+631
+00:32:09,440 --> 00:32:15,840
+12 states are pushing forward with
+
+632
+00:32:12,240 --> 00:32:17,440
+statewide moratorum proposals.
+
+633
+00:32:15,840 --> 00:32:19,360
+And here's an important point that I
+
+634
+00:32:17,440 --> 00:32:23,440
+think has not gotten anywhere near the
+
+635
+00:32:19,360 --> 00:32:27,600
+discussion that it deserves.
+
+636
+00:32:23,440 --> 00:32:31,039
+Three years ago, in March of 2023,
+
+637
+00:32:27,600 --> 00:32:35,200
+more than a thousand leading AI experts,
+
+638
+00:32:31,039 --> 00:32:37,519
+including Elon Musk, Yosua Benjio, and
+
+639
+00:32:35,200 --> 00:32:40,320
+Stuart Russell, and many, many others,
+
+640
+00:32:37,519 --> 00:32:45,039
+these are leaders in the industry,
+
+641
+00:32:40,320 --> 00:32:48,080
+called for AI labs to quote, immediately
+
+642
+00:32:45,039 --> 00:32:51,519
+pause for at least six months end quote.
+
+643
+00:32:48,080 --> 00:32:55,279
+and if such a pause were not enacted
+
+644
+00:32:51,519 --> 00:33:00,320
+called on governments to quote step in
+
+645
+00:32:55,279 --> 00:33:04,480
+and institute a moratorum end of quote.
+
+646
+00:33:00,320 --> 00:33:07,200
+They recognized that quote advanced AI
+
+647
+00:33:04,480 --> 00:33:10,960
+could represent a profound change in the
+
+648
+00:33:07,200 --> 00:33:14,159
+history of life on Earth
+
+649
+00:33:10,960 --> 00:33:17,679
+and should be planned for and managed
+
+650
+00:33:14,159 --> 00:33:20,720
+with commensurate care and resources and
+
+651
+00:33:17,679 --> 00:33:22,799
+of quote.
+
+652
+00:33:20,720 --> 00:33:25,760
+And then these experts again these are
+
+653
+00:33:22,799 --> 00:33:29,039
+some of the most knowledgeable people on
+
+654
+00:33:25,760 --> 00:33:31,919
+AI in the world. They asked a series of
+
+655
+00:33:29,039 --> 00:33:34,240
+questions. Quote, "Should we let
+
+656
+00:33:31,919 --> 00:33:37,279
+machines flood our information channels
+
+657
+00:33:34,240 --> 00:33:40,080
+with propaganda and untruth? Should we
+
+658
+00:33:37,279 --> 00:33:42,480
+automate away all the jobs, including
+
+659
+00:33:40,080 --> 00:33:45,279
+the fulfilling ones? Should we develop
+
+660
+00:33:42,480 --> 00:33:47,760
+nonhuman minds that might eventually
+
+661
+00:33:45,279 --> 00:33:52,080
+outnumber, outsmart, obsolete, and
+
+662
+00:33:47,760 --> 00:33:55,840
+replace us? Should we risk loss of
+
+663
+00:33:52,080 --> 00:34:00,399
+control of our civilization?"
+
+664
+00:33:55,840 --> 00:34:02,720
+End quote. These are some of the leading
+
+665
+00:34:00,399 --> 00:34:05,200
+and most knowledgeable people in the AI
+
+666
+00:34:02,720 --> 00:34:09,200
+industry. Three years ago, they
+
+667
+00:34:05,200 --> 00:34:12,079
+concluded, quote, such decisions must
+
+668
+00:34:09,200 --> 00:34:15,760
+not be delegated to unelected tech
+
+669
+00:34:12,079 --> 00:34:19,440
+leaders. Powerful AI systems should be
+
+670
+00:34:15,760 --> 00:34:23,040
+developed only once we are confident
+
+671
+00:34:19,440 --> 00:34:26,159
+that their effects will be positive and
+
+672
+00:34:23,040 --> 00:34:30,000
+their risks will be manageable. end of
+
+673
+00:34:26,159 --> 00:34:32,000
+quote. And Madame President, I agree
+
+674
+00:34:30,000 --> 00:34:35,679
+with what these scientists and industry
+
+675
+00:34:32,000 --> 00:34:38,000
+leaders said. We need to slow down the
+
+676
+00:34:35,679 --> 00:34:41,119
+development of AI
+
+677
+00:34:38,000 --> 00:34:45,280
+to give democracy, to give ordinary
+
+678
+00:34:41,119 --> 00:34:47,440
+people a chance to catch up.
+
+679
+00:34:45,280 --> 00:34:51,760
+Unfortunately, several years have come
+
+680
+00:34:47,440 --> 00:34:54,560
+and gone since this letter has come out
+
+681
+00:34:51,760 --> 00:34:57,440
+and there has been no pause and there
+
+682
+00:34:54,560 --> 00:35:01,119
+has been no action of significance on
+
+683
+00:34:57,440 --> 00:35:04,480
+the part of Congress. And that is why I
+
+684
+00:35:01,119 --> 00:35:08,240
+will be introducing legislation tomorrow
+
+685
+00:35:04,480 --> 00:35:11,760
+to ban the development of new AI data
+
+686
+00:35:08,240 --> 00:35:15,680
+centers. A moratorum will give us the
+
+687
+00:35:11,760 --> 00:35:19,359
+chance to figure out how to make sure
+
+688
+00:35:15,680 --> 00:35:22,640
+that AI benefits the working families of
+
+689
+00:35:19,359 --> 00:35:25,200
+this country, not just a handful of
+
+690
+00:35:22,640 --> 00:35:28,240
+billionaires who want more and more
+
+691
+00:35:25,200 --> 00:35:30,640
+wealth and more and more power. A
+
+692
+00:35:28,240 --> 00:35:32,800
+moratorum will give us the time to
+
+693
+00:35:30,640 --> 00:35:35,599
+figure out how to ensure that AI is safe
+
+694
+00:35:32,800 --> 00:35:38,160
+and effective and prevent the worst
+
+695
+00:35:35,599 --> 00:35:40,320
+outcomes. A moratorum will give us the
+
+696
+00:35:38,160 --> 00:35:43,359
+time to figure out how to make sure AI
+
+697
+00:35:40,320 --> 00:35:46,720
+does not harm our environment or jack up
+
+698
+00:35:43,359 --> 00:35:48,960
+the electric bills that we pay. Bottom
+
+699
+00:35:46,720 --> 00:35:52,800
+line, a moratorum will give the American
+
+700
+00:35:48,960 --> 00:35:57,520
+people the time to determine how we can
+
+701
+00:35:52,800 --> 00:36:00,960
+make AI and robotics work for them,
+
+702
+00:35:57,520 --> 00:36:04,640
+not just a few very wealthy people.
+
+703
+00:36:00,960 --> 00:36:06,880
+We need to pass this moratorum here. We
+
+704
+00:36:04,640 --> 00:36:09,440
+need to slow down the development of AI
+
+705
+00:36:06,880 --> 00:36:12,079
+around the world and we need to bring
+
+706
+00:36:09,440 --> 00:36:15,280
+the international community together to
+
+707
+00:36:12,079 --> 00:36:18,320
+address the risk posed by AI.
+
+708
+00:36:15,280 --> 00:36:22,079
+And I can tell you that
+
+709
+00:36:18,320 --> 00:36:24,160
+in China, in Europe, in countries all
+
+710
+00:36:22,079 --> 00:36:27,839
+over the world,
+
+711
+00:36:24,160 --> 00:36:32,320
+there is deep concern about the safety
+
+712
+00:36:27,839 --> 00:36:37,119
+of AI and the possible loss of human
+
+713
+00:36:32,320 --> 00:36:40,800
+control over AI. So, Madame President,
+
+714
+00:36:37,119 --> 00:36:42,320
+we are looking at the most sweeping and
+
+715
+00:36:40,800 --> 00:36:45,359
+impactful
+
+716
+00:36:42,320 --> 00:36:48,480
+technological revolution in the history
+
+717
+00:36:45,359 --> 00:36:52,800
+of humanity. It will impact all of us in
+
+718
+00:36:48,480 --> 00:36:55,760
+so many ways. The Congress remains too
+
+719
+00:36:52,800 --> 00:36:58,400
+busy raising campaign contributions from
+
+720
+00:36:55,760 --> 00:37:00,640
+the industry rather than standing up for
+
+721
+00:36:58,400 --> 00:37:02,880
+the needs of working people. That has
+
+722
+00:37:00,640 --> 00:37:05,119
+got to change and I look forward to
+
+723
+00:37:02,880 --> 00:37:06,880
+working with my colleagues to make
+
+724
+00:37:05,119 --> 00:37:10,480
+certain that we finally pass a
+
+725
+00:37:06,880 --> 00:37:12,640
+moratorum, slow this down and make AI
+
+726
+00:37:10,480 --> 00:37:14,960
+and robotics work for all of us, not
+
+727
+00:37:12,640 --> 00:37:18,520
+just a few. Madam President, thank you.
+
+728
+00:37:14,960 --> 00:37:18,520
+I yield the floor.
+
