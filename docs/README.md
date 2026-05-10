@@ -1,7 +1,12 @@
 # Anki Deck Builder
 
-This folder is organized so the root stays minimal and the builder is the
-obvious entry point. The main directories are:
+This folder is organized so the most important downloadable files are visible in
+the root:
+
+- `ai.apkg`: the main Anki package
+- `ai.html`: the main browser preview
+
+Supporting files live in subfolders:
 
 - `config/`: deck configuration
 - `data/`: the live CSV note sources
@@ -32,10 +37,11 @@ The builder and editor turn the CSV/config data into:
 From the project root:
 
 ```bash
-.venv/bin/python Anki/build_deck.py
+.venv/bin/python Anki/tools/build_deck.py
 ```
 
-Outputs land in `Anki/downloads/`.
+Main outputs land in the `Anki/` root as `ai.apkg` and `ai.html`.
+Preview-only or older exports can live under `Anki/downloads/` and `Anki/archive/`.
 
 ## Card types in config
 
@@ -102,11 +108,11 @@ To also build an importable Anki package:
 
 ```bash
 .venv/bin/pip install genanki
-.venv/bin/python Anki/build_deck.py
+.venv/bin/python Anki/tools/build_deck.py
 ```
 
 ## Optional deck name
 
 ```bash
-.venv/bin/python Anki/build_deck.py --deck-name "Politician Chat Prep"
+.venv/bin/python Anki/tools/build_deck.py --deck-name "Politician Chat Prep"
 ```

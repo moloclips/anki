@@ -13,6 +13,7 @@ HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
 sys.path.insert(0, str(HERE))
 sys.path.insert(0, str(ROOT))
+sys.path.insert(0, str(ROOT / "tools"))
 
 from build_deck import DATA_DIR, DEFAULT_CONFIG_PATH, DEFAULT_OUTPUT_DIR, build, ensure_config, extract_fields, read_csv_rows
 from sanders_server import (

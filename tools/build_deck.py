@@ -14,11 +14,11 @@ from pathlib import Path
 from typing import Any
 
 
-ROOT = Path(__file__).resolve().parent
+ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_DECK_NAME = "AI"
 CONFIG_DIR = ROOT / "config"
 DATA_DIR = ROOT / "data"
-DEFAULT_OUTPUT_DIR = ROOT / "downloads"
+DEFAULT_OUTPUT_DIR = ROOT
 DEFAULT_CONFIG_PATH = CONFIG_DIR / "deck_config.json"
 PLACEHOLDER_RE = re.compile(r"{{\s*([a-zA-Z0-9_]+)\s*}}")
 ANSWER_HR_RE = re.compile(r"<hr\b[^>]*\bid\s*=\s*['\"]answer['\"][^>]*\s*/?>", re.IGNORECASE)
