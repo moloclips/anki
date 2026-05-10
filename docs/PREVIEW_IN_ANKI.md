@@ -13,7 +13,7 @@ Use this when you want to check the deck in real Anki Desktop instead of the bro
 From the project root:
 
 ```bash
-.venv/bin/python Anki/preview_in_anki.py --profile "Your Test Profile"
+.venv/bin/python Anki/tools/preview_in_anki.py --profile "Your Test Profile"
 ```
 
 That command will:

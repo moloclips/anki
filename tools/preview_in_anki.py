@@ -9,12 +9,14 @@ import urllib.request
 from pathlib import Path
 from typing import Any
 
+ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT))
+
 import build_deck
 
 
-ROOT = Path(__file__).resolve().parent
-DEFAULT_CONFIG_PATH = ROOT / "deck_config.json"
-DEFAULT_OUTPUT_DIR = ROOT / "out"
+DEFAULT_CONFIG_PATH = ROOT / "config" / "deck_config.json"
+DEFAULT_OUTPUT_DIR = ROOT / "downloads"
 DEFAULT_PREVIEW_DECK_NAME = "AI Politics Prep Preview"
 ANKI_CONNECT_URL = "http://127.0.0.1:8765"
 

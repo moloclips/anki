@@ -1,6 +1,6 @@
 # Data Guidelines
 
-This file captures the conventions used for [models.csv](/Users/diego/Desktop/Alignment/Moloclips/Anki/models.csv) and [history.csv](/Users/diego/Desktop/Alignment/Moloclips/Anki/history.csv).
+This file captures the conventions used for [models.csv](/Users/diego/Desktop/Alignment/Moloclips/Anki/data/models.csv), [companies.csv](/Users/diego/Desktop/Alignment/Moloclips/Anki/data/companies.csv), [science.csv](/Users/diego/Desktop/Alignment/Moloclips/Anki/data/science.csv), and [people.csv](/Users/diego/Desktop/Alignment/Moloclips/Anki/data/people.csv).
 
 ## `models.csv`
 
@@ -35,7 +35,7 @@ What to include:
 - Avoid minor revisions unless they clearly changed the trajectory.
 - Prefer a lean set over completeness.
 
-## `history.csv`
+## `companies.csv` and `science.csv`
 
 Columns:
 - `event`
@@ -57,6 +57,25 @@ Rules:
   - `year_only`
 - If a date is too low-resolution to be worth memorizing, it should usually be omitted rather than included.
 - `notes` should explain what the date represents.
+
+Split:
+- `companies.csv` is for lab/company history, funding, policy, regulation, governance, safety statements, and institutional milestones.
+- `science.csv` is for technical papers, research concepts, benchmark wins, scientific demonstrations, and scientific recognition.
+
+## `people.csv`
+
+Columns:
+- `speaker`
+- `date`
+- `quote`
+- `source`
+- `url`
+
+Rules:
+- `quote` can hold either a verbatim quote or a terse credential / contribution summary.
+- `source` should be a short human-readable label such as `OpenAI blog`, `The Tonight Show`, or `Twitter`.
+- `url` should point to the primary source when possible.
+- `date` should use the same machine-friendly formatting as the other CSVs.
 
 Card-design guidance:
 - Reverse date cards are useful by default.

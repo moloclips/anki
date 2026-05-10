@@ -171,7 +171,7 @@
     <section class="panel">
       <div class="head">
         <h1>Cards</h1>
-        <div class="sub">Build `../sanders.csv`, then anchor claims to transcript ranges in `references.csv`.</div>
+        <div class="sub">Build `data/sanders.csv`, then anchor claims to transcript ranges in `data/sanders/references.csv`.</div>
       </div>
       <div class="toolbar">
         <button id="newCardButton" class="primary" type="button">New card</button>
@@ -467,7 +467,7 @@
         body: JSON.stringify({ cards: state.cards }),
       });
       if (!response.ok) throw new Error('Failed to save cards');
-      setStatus('Saved Anki/sanders.csv.');
+      setStatus('Saved data/sanders.csv.');
     }
 
     async function saveReferences() {
@@ -477,7 +477,7 @@
         body: JSON.stringify({ references: state.references }),
       });
       if (!response.ok) throw new Error('Failed to save references');
-      setStatus('Saved Sanders/references.csv.');
+      setStatus('Saved data/sanders/references.csv.');
     }
 
     document.getElementById('newCardButton').addEventListener('click', async () => {

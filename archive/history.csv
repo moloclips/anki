@@ -1,0 +1,48 @@
+event,date,precision,notes
+Turing Test invented,1950-10-01,exact,Publication date for Turing's Computing Machinery and Intelligence in Mind
+Dartmouth workshop held,1956-08-31,exact,Chronicle date for the Dartmouth workshop where artificial intelligence was coined as a field
+Strategic Computing Initiative launched,1983-10-28,exact,DARPA launched the Strategic Computing Initiative as a major Cold War AI and autonomous-systems funding program
+ASML founded,1984-04-01,exact,ASM Lithography began operations as a Philips and ASM International joint venture
+Backpropagation popularized by Rumelhart Hinton and Williams,1986-10-09,exact,Nature publication date for Learning representations by back-propagating errors
+TSMC founded,1987-02-21,exact,TSMC was founded in Taiwan and pioneered the pure-play semiconductor foundry model
+NVIDIA founded,1993-04-05,exact,NVIDIA was founded by Jensen Huang Chris Malachowsky and Curtis Priem
+Deep Blue beat Kasparov,1997-05-11,exact,IBM Deep Blue defeated Garry Kasparov in their six-game match
+DARPA Grand Challenge completed,2005-10-08,exact,Five autonomous vehicles completed the desert course after no vehicle finished the 2004 race
+DeepMind launched,2010-11-15,exact,Public launch date
+Watson won Jeopardy!,2011-02-16,exact,IBM Watson defeated Ken Jennings and Brad Rutter in the televised Jeopardy match
+AlexNet won ImageNet,2012-09-30,exact,ILSVRC 2012 winning submission date
+Google acquired DeepMind,2014-01-26,exact,Deal publicly reported and confirmed that day
+GANs introduced,2014-06-10,exact,arXiv publication date for Generative Adversarial Nets
+OpenAI announced,2015-12-11,exact,Official founding announcement date
+AlphaGo beat Lee Sedol,2016-03-12,exact,Third win secured the series victory
+"""Attention Is All You Need"" published",2017-06-12,exact,arXiv publication date of the Transformer paper
+AlphaGo Zero announced,2017-10-18,exact,DeepMind announced AlphaGo Zero learned Go from self-play without human game data
+BERT released,2018-11-02,exact,Official Google AI blog announcement date
+OpenAI restructured as capped-profit,2019-03-11,exact,"OpenAI announced OpenAI LP, a capped-profit entity governed by the nonprofit"
+The Bitter Lesson published,2019-03-13,exact,Richard Sutton published the essay on his website that day
+AlphaFold 2 won CASP14,2020-11-30,exact,CASP14 recognition date from DeepMind's timeline
+Dario Amodei left OpenAI,2020-12-29,exact,OpenAI announced his departure that day
+GitHub Copilot launched,2022-06-21,exact,General availability announcement date
+US announced AI chip export controls,2022-10-07,exact,US Commerce Department announced major export controls on advanced chips and semiconductor equipment to China
+Microsoft commits $10B to OpenAI,2023-01-23,exact,Widely reported as a $10B commitment; official announcements said multiyear multibillion-dollar investment
+Hinton left Google to warn about AI,2023-05-01,exact,Geoffrey Hinton publicly confirmed he left Google so he could speak freely about AI risks
+CAIS extinction-risk statement released,2023-05-30,exact,Center for AI Safety released the one-sentence extinction-risk statement signed by AI scientists and public figures
+NVIDIA reached a $1 trillion market cap,2023-05-30,exact,First chipmaker to reach the milestone during the AI boom
+OpenAI Superalignment team announced,2023-07-05,exact,Official OpenAI announcement date
+xAI launched,2023-07-12,exact,Company publicly announced that day
+Sam Altman fired by the OpenAI board,2023-11-17,exact,Start of the board-crisis weekend
+Sam Altman reinstated as OpenAI CEO,2023-11-22,exact,Board agreed to bring him back
+European Parliament adopted EU AI Act,2024-03-13,exact,European Parliament adoption vote date
+OpenAI NDA controversy,2024-05-17 (contract),exact,Vox story made the offboarding/NDA issue widely public
+OpenAI Superalignment team disbanded,2024-05-17 (team),exact,Disbanding publicly confirmed that day
+Safe Superintelligence launched,2024-06-19,exact,Safe Superintelligence publicly launched that day
+EU AI Act entered into force,2024-08-01,exact,Regulation formally entered into force that day
+California SB 1047 vetoed,2024-09-29,exact,Governor Newsom vetoed the frontier-model bill that day
+Nobel Prizes awarded for AI work,2024-10-08,exact,Hinton and Hopfield won Physics; Hassabis and Jumper won Chemistry for AlphaFold-related work
+Thinking Machines Lab launched,2025-02-18,exact,Public launch date; exact incorporation date not clearly public
+Claude Code launched,2025-02-24,exact,First public research-preview release of Claude Code
+Codex launched,2025-05-16,exact,OpenAI launched Codex as a cloud coding agent in ChatGPT
+EU AI Act GPAI obligations in force,2025-08-02,exact,General-purpose AI model obligations started applying that day
+California SB 53 signed into law,2025-09-29,exact,California enacted the Transparency in Frontier Artificial Intelligence Act that day
+Statement on Superintelligence released,2025-10-22,exact,Future of Life Institute statement calling for a prohibition on superintelligence development until safety consensus and public buy-in
+Anthropic-DoD conflict became public,2026-01-16,exact,Assuming you meant the military-use dispute; publicly surfaced in reporting that day

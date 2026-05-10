@@ -1,0 +1,13 @@
+front,back,note_type,source,url
+Billionaires List,"Gates, Ellison, Musk, Bezos, Thiel, Zuckerberg (GEMBTZ)",basic,,
+Bernie's AI concerns,"Wealth, Military, Deepfakes, Companionship, Unemployment, Resources, Surveillance, Extinction<br>(WMDCURSE)",basic,,
+Musk Quote,"""AI and robots will replace all jobs. Working will be optional.""",basic_and_reversed,Twitter,https://x.com/elonmusk/status/1980765809338147193
+Gates Quote,"Fallon: ""Will we still need humans?""
+Gates: ""Not for most things""",basic_and_reversed,The Tonight Show,https://www.youtube.com/watch?v=uHY5i9-0tJM&t=482s
+Amodei Quote,"""AI could wipe out half of all entry-level white-collar jobs.""",basic_and_reversed,Axios,https://www.axios.com/2025/05/28/ai-jobs-white-collar-unemployment-anthropic
+Ellison Quote,"""Citizens will be on their best behavior because we're constantly recording and reporting everything that is going on.""",basic_and_reversed,Oracle,https://www.oracle.com/events/financial-analyst-meeting-2024/
+Hassabis Quote,"""It'll be 10 times bigger than the Industrial Revolution, and maybe 10 times faster.""",basic_and_reversed,The Guardian,https://www.theguardian.com/technology/2025/aug/04/demis-hassabis-ai-future-10-times-bigger-than-industrial-revolution-and-10-times-faster
+Thiel Quote,"""In the 21st century, the Antichrist is a Luddite who wants to stop all science. It's someone like Greta or Eliezer.""",basic_and_reversed,Washington Post,https://www.washingtonpost.com/technology/2025/10/10/peter-thiel-antichrist-lectures-leaked/
+Common Sense Media Poll,"""72% of U.S. teens have used AI companions, and 52% use them regularly.""",basic_and_reversed,Common Sense Media,https://www.commonsensemedia.org/research/talk-trust-and-trade-offs-how-and-why-teens-use-ai-companions
+Meta: Louisiana Datacenter,2.3GW (≈1M homes),basic_and_reversed,Entergy,https://www.entergy.com/news/entergy-louisiana-power-meta-s-data-center-in-richland-parish
+Suleyman Quote,"""White-collar work [...] most of those tasks will be fully automated by an AI within the next 12 to 18 months.""",basic_and_reversed,Financial Times,https://www.ft.com/

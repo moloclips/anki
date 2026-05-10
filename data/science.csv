@@ -1,0 +1,17 @@
+event,date,precision,notes
+Turing Test invented,1950-10-01,exact,Publication date for Turing's Computing Machinery and Intelligence in Mind
+Dartmouth workshop held,1956-08-31,exact,Chronicle date for the Dartmouth workshop where artificial intelligence was coined as a field
+Backpropagation popularized by Rumelhart Hinton and Williams,1986-10-09,exact,Nature publication date for Learning representations by back-propagating errors
+Deep Blue beat Kasparov,1997-05-11,exact,IBM Deep Blue defeated Garry Kasparov in their six-game match
+DARPA Grand Challenge completed,2005-10-08,exact,Five autonomous vehicles completed the desert course after no vehicle finished the 2004 race
+Watson won Jeopardy!,2011-02-16,exact,IBM Watson defeated Ken Jennings and Brad Rutter in the televised Jeopardy match
+AlexNet won ImageNet,2012-09-30,exact,ILSVRC 2012 winning submission date
+GANs introduced,2014-06-10,exact,arXiv publication date for Generative Adversarial Nets
+AlphaGo beat Lee Sedol,2016-03-12,exact,Third win secured the series victory
+"""Attention Is All You Need"" published",2017-06-12,exact,arXiv publication date of the Transformer paper
+AlphaGo Zero announced,2017-10-18,exact,DeepMind announced AlphaGo Zero learned Go from self-play without human game data
+BERT released,2018-11-02,exact,Official Google AI blog announcement date
+The Bitter Lesson published,2019-03-13,exact,Richard Sutton published the essay on his website that day
+AlphaFold 2 won CASP14,2020-11-30,exact,CASP14 recognition date from DeepMind's timeline
+Hinton left Google to warn about AI,2023-05-01,exact,Geoffrey Hinton publicly confirmed he left Google so he could speak freely about AI risks
+Nobel Prizes awarded for AI work,2024-10-08,exact,Hinton and Hopfield won Physics; Hassabis and Jumper won Chemistry for AlphaFold-related work

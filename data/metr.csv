@@ -1,0 +1,17 @@
+model,benchmark,date,p50,p50_ci,p80
+GPT-2,TH1.1,2019-02-14,3 sec,1-9 sec,1 sec
+GPT-3,TH1.1,2020-05-28,9 sec,6-13 sec,3 sec
+GPT-3.5,TH1.1,2022-03-15,36 sec,0.3-1.1 min,15 sec
+GPT-4,TH1.1,2023-03-14,4 min,1.9-8 min,53 sec
+GPT-4o,TH1.1,2024-05-13,7 min,4-13 min,1.3 min
+Claude 3.5 Sonnet (Jun 2024),TH1.1,2024-06-20,11 min,5.5-22 min,1.7 min
+o1-preview,TH1.1,2024-09-12,20 min,12-33 min,4.4 min
+Claude 3.5 Sonnet (Oct 2024),TH1.1,2024-10-22,21 min,10-41 min,2.6 min
+o1,TH1.1,2024-12-05,39 min,21-65 min,7.1 min
+Claude 3.7 Sonnet,TH1.1,2025-02-24,60 min,0.6-1.7 hr,12 min
+o3,TH1.1,2025-04-16,2 hr,1.2-3.2 hr,30 min
+GPT-5,TH1.1,2025-08-07,3.4 hr,1.9-6.8 hr,38 min
+Gemini 3 Pro,TH1.1,2025-11-18,3.7 hr,2.3-6.3 hr,54 min
+Claude Opus 4.5,TH1.1,2025-11-24,4.9 hr,2.7-10.4 hr,49 min
+GPT-5.2,TH1.1,2025-12-11,5.9 hr,3.3-13.6 hr,66 min
+Claude Opus 4.6,TH1.1,2026-02-05,12 hr,5.3-60.6 hr,70 min

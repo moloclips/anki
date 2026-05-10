@@ -8,9 +8,9 @@ from pathlib import Path
 from urllib.parse import parse_qs, urlparse
 
 
-BASE_DIR = Path(__file__).resolve().parent
-VIDEOS_CSV = BASE_DIR / "videos.csv"
-TRANSCRIPTS_DIR = BASE_DIR / "transcripts"
+ROOT = Path(__file__).resolve().parent.parent
+VIDEOS_CSV = ROOT / "data" / "sanders" / "videos.csv"
+TRANSCRIPTS_DIR = ROOT / "data" / "sanders" / "transcripts"
 YT_DLP = "/opt/homebrew/bin/yt-dlp"
 
 

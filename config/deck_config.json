@@ -1,5 +1,5 @@
 {
-  "deck_name": "AI Politics Prep",
+  "deck_name": "AI",
   "css": ".card {\n  font-family: arial;\n  font-size: 20px;\n  text-align: center;\n  color: black;\n  background-color: white;\n}",
   "sources": {
     "models.csv": {
@@ -38,6 +38,16 @@
           "back": "{{params}}"
         },
         {
+          "name": "active",
+          "note_model": "basic",
+          "tags": [
+            "model",
+            "active"
+          ],
+          "front": "Active: {{model}}",
+          "back": "{{active}}"
+        },
+        {
           "name": "special",
           "note_model": "basic",
           "tags": [
@@ -49,19 +59,51 @@
         }
       ]
     },
-    "history.csv": {
+    "companies.csv": {
       "tags": [
-        "history"
+        "companies"
       ],
       "cards": [
         {
           "name": "event-to-date",
           "note_model": "basic_and_reversed",
           "tags": [
-            "history"
+            "companies"
           ],
           "front": "Date: {{event}}",
           "back": "{{date}}"
+        }
+      ]
+    },
+    "science.csv": {
+      "tags": [
+        "science"
+      ],
+      "cards": [
+        {
+          "name": "event-to-date",
+          "note_model": "basic_and_reversed",
+          "tags": [
+            "science"
+          ],
+          "front": "Date: {{event}}",
+          "back": "{{date}}"
+        }
+      ]
+    },
+    "people.csv": {
+      "tags": [
+        "people"
+      ],
+      "cards": [
+        {
+          "name": "person-fact",
+          "note_model": "basic_and_reversed",
+          "tags": [
+            "people"
+          ],
+          "front": "{{speaker}} Quote ({{date}})",
+          "back": "{{quote}}"
         }
       ]
     },
@@ -88,7 +130,36 @@
           "name": "sanders",
           "note_model": "basic",
           "front": "{{front}}",
-          "back": "{{back}}"
+          "back": "{{back}} {{#source}} (<a href=\"{{url}}\">{{source}}</a>){{/source}}"
+        }
+      ]
+    },
+    "metr.csv": {
+      "tags": [],
+      "cards": [
+        {
+          "name": "p50",
+          "note_model": "basic_and_reversed",
+          "front": "50% success: {{model}}",
+          "back": "{{p50}}"
+        },
+        {
+          "name": "p80",
+          "note_model": "basic",
+          "front": "80% success: {{model}}",
+          "back": "{{p80}}"
+        },
+        {
+          "name": "p50_ci",
+          "note_model": "basic",
+          "front": "50% success 95% CI: {{model}}",
+          "back": "{{p50_ci}}"
+        },
+        {
+          "name": "date",
+          "note_model": "basic_and_reversed",
+          "front": "Release Date: {{model}}",
+          "back": "{{date}}"
         }
       ]
     }

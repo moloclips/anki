@@ -11,12 +11,15 @@ from pathlib import Path
 from urllib.parse import parse_qs, urlparse
 
 
-BASE_DIR = Path(__file__).resolve().parent
-INDEX_PATH = BASE_DIR / "index.html"
-VIDEOS_CSV = BASE_DIR / "videos.csv"
-CARDS_CSV = BASE_DIR.parent / "sanders.csv"
-REFERENCES_CSV = BASE_DIR / "references.csv"
-TRANSCRIPTS_DIR = BASE_DIR / "transcripts"
+EDITOR_DIR = Path(__file__).resolve().parent
+ROOT = EDITOR_DIR.parent
+DATA_DIR = ROOT / "data"
+SANDERS_DATA_DIR = DATA_DIR / "sanders"
+INDEX_PATH = EDITOR_DIR / "sanders_index.html"
+VIDEOS_CSV = SANDERS_DATA_DIR / "videos.csv"
+CARDS_CSV = DATA_DIR / "sanders.csv"
+REFERENCES_CSV = SANDERS_DATA_DIR / "references.csv"
+TRANSCRIPTS_DIR = SANDERS_DATA_DIR / "transcripts"
 REFERENCE_FIELDS = [
     "id",
     "youtube_id",

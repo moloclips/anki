@@ -108,6 +108,36 @@
     .tabview.active {
       display: block;
     }
+    .build-banner {
+      display: none;
+      margin: 0 20px 14px;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      padding: 12px 14px;
+      background: rgba(255, 255, 255, 0.86);
+      color: var(--muted);
+      line-height: 1.45;
+      white-space: pre-wrap;
+    }
+    .build-banner.visible {
+      display: block;
+    }
+    .build-banner.pending,
+    .build-banner.building {
+      border-color: rgba(155, 77, 26, 0.26);
+      background: rgba(255, 240, 230, 0.92);
+      color: #7a471f;
+    }
+    .build-banner.error {
+      border-color: rgba(153, 38, 38, 0.28);
+      background: rgba(255, 236, 236, 0.94);
+      color: #8b2f2f;
+    }
+    .build-banner.ok {
+      border-color: rgba(31, 91, 71, 0.26);
+      background: rgba(236, 247, 241, 0.92);
+      color: #245443;
+    }
     .body {
       padding: 16px;
       display: grid;
@@ -408,6 +438,7 @@
         <button class="tab active" data-tab="anki" type="button">Anki Builder</button>
         <button class="tab" data-tab="sanders" type="button">Sanders Research</button>
       </div>
+      <div id="buildBanner" class="build-banner"></div>
 
       <div id="ankiTab" class="tabview active">
         <div class="body grid-anki">
@@ -443,6 +474,7 @@
             <div class="toolbar" style="padding:0;border:0;justify-content:flex-start;">
               <div id="previewSideToggle" class="pills"></div>
             </div>
+            <div id="previewDirectionToggle" class="pills"></div>
             <div id="previewCardToggle" class="pills"></div>
             <div id="previewPane" class="render-preview"></div>
           </section>
@@ -483,8 +515,11 @@
         config: null,
         sources: [],
         noteModels: [],
+        buildStatus: null,
+        buildStatusTimer: null,
         selectedSource: null,
         previewSide: 'back',
+        previewVisibleDirections: { forward: true, reversed: false },
         previewVisibleCards: {},
         autosaveTimer: null,
         saveState: 'saved',
@@ -505,12 +540,14 @@
     };
 
     const statusLine = document.getElementById('statusLine');
+    const buildBanner = document.getElementById('buildBanner');
     const sourceList = document.getElementById('sourceList');
     const sourceTagsInput = document.getElementById('sourceTags');
     const fieldChips = document.getElementById('fieldChips');
     const ankiCardTable = document.getElementById('ankiCardTable');
     const ankiSaveState = document.getElementById('ankiSaveState');
     const previewSideToggle = document.getElementById('previewSideToggle');
+    const previewDirectionToggle = document.getElementById('previewDirectionToggle');
     const previewCardToggle = document.getElementById('previewCardToggle');
     const previewPane = document.getElementById('previewPane');
     const transcriptMeta = document.getElementById('transcriptMeta');
@@ -524,6 +561,43 @@
 
     function setStatus(text) {
       statusLine.textContent = text;
+    }
+
+    function humanizeBuildTime(epochSeconds) {
+      if (!epochSeconds) return '';
+      try {
+        return new Date(epochSeconds * 1000).toLocaleTimeString('en-US', {
+          hour: 'numeric',
+          minute: '2-digit',
+          second: '2-digit',
+        });
+      } catch {
+        return '';
+      }
+    }
+
+    function renderBuildStatus() {
+      const state = app.anki.buildStatus;
+      if (!state) {
+        buildBanner.className = 'build-banner';
+        buildBanner.textContent = '';
+        return;
+      }
+      const status = state.status || 'idle';
+      const error = String(state.error || '').trim();
+      const lastSuccess = humanizeBuildTime(state.last_success);
+      let text = '';
+      if (status === 'error' && error) {
+        text = `Auto-build error\n${error}`;
+      } else if (status === 'pending' || status === 'building') {
+        text = state.message || 'Rebuilding deck...';
+      } else if (status === 'ok') {
+        text = state.message || 'Auto-build succeeded.';
+        if (lastSuccess) text += ` Last success: ${lastSuccess}.`;
+      }
+      const visible = Boolean(text);
+      buildBanner.className = `build-banner${visible ? ' visible' : ''}${visible ? ` ${status}` : ''}`;
+      buildBanner.textContent = text;
     }
 
     function loadColumnWidths() {
@@ -683,7 +757,14 @@
       const fields = [];
       const seen = new Set();
       for (const template of templates) {
-        const matches = String(template || '').matchAll(/{{\s*([a-zA-Z0-9_]+)\s*}}/g);
+        let raw = String(template || '');
+        let previous = null;
+        const sectionRe = /{{\s*([#^])\s*([a-zA-Z0-9_]+)\s*}}[\s\S]*?{{\s*\/\s*\2\s*}}/g;
+        while (previous !== raw) {
+          previous = raw;
+          raw = raw.replace(sectionRe, '');
+        }
+        const matches = raw.matchAll(/{{\s*([a-zA-Z0-9_]+)\s*}}/g);
         for (const match of matches) {
           const key = match[1];
           if (!seen.has(key)) {
@@ -758,9 +839,20 @@
       return value;
     }
 
-    function renderAnswerSide(card, row) {
+    function effectiveNoteModel(card, row) {
+      const rowNoteType = ((row?.note_type || '') + '').trim();
+      if (rowNoteType === 'basic' || rowNoteType === 'basic_and_reversed') return rowNoteType;
+      return card.note_model || 'basic';
+    }
+
+    function renderAnswerSide(card, row, reversed = false) {
       const front = renderTemplate(normalizeCardContent(card.front || '', 'front'), row);
       const backContent = renderTemplate(normalizeCardContent(card.back || '', 'back'), row);
+      if (reversed) {
+        const reverseFront = backContent || '(empty)';
+        const reverseAnswer = front ? `${reverseFront}<hr id="answer">${front}` : reverseFront;
+        return { front: reverseFront, answer: reverseAnswer || '(empty)' };
+      }
       const answer = backContent ? `${front}<hr id="answer">${backContent}` : front;
       return { front, answer: answer || '(empty)' };
     }
@@ -890,6 +982,22 @@
       }
     }
 
+    function renderPreviewDirectionToggle() {
+      previewDirectionToggle.innerHTML = '';
+      for (const direction of ['forward', 'reversed']) {
+        const button = document.createElement('button');
+        button.type = 'button';
+        button.className = `pill${app.anki.previewVisibleDirections[direction] ? ' active' : ''}`;
+        button.textContent = direction === 'forward' ? 'Forward' : 'Reversed';
+        button.addEventListener('click', () => {
+          app.anki.previewVisibleDirections[direction] = !app.anki.previewVisibleDirections[direction];
+          renderPreviewDirectionToggle();
+          renderAnkiPreview();
+        });
+        previewDirectionToggle.appendChild(button);
+      }
+    }
+
     function ensurePreviewCardVisibility(config) {
       const next = {};
       for (const card of (config?.cards || [])) {
@@ -932,21 +1040,32 @@
         previewPane.innerHTML = '<div class="meta">No CSV rows yet.</div>';
         return;
       }
+      let renderedCount = 0;
       for (const row of rows) {
         for (const card of config.cards) {
           if (!app.anki.previewVisibleCards[card.name || 'card']) continue;
+          const modelKind = effectiveNoteModel(card, row);
           const requiredFields = referencedPlaceholderFields(
             normalizeCardContent(card.front || '', 'front'),
             normalizeCardContent(card.back || '', 'back')
           );
           if (requiredFields.some((field) => !String(row[field] || '').trim())) continue;
-          const box = document.createElement('article');
-          box.className = 'render-card';
-          const rendered = renderAnswerSide(card, row);
-          const style = previewCardInlineStyle();
-          box.innerHTML = `<div class="render-face" style="${style}">${app.anki.previewSide === 'front' ? rendered.front : rendered.answer}</div>`;
-          previewPane.appendChild(box);
+          const directions = [];
+          if (app.anki.previewVisibleDirections.forward) directions.push(false);
+          if (app.anki.previewVisibleDirections.reversed && modelKind === 'basic_and_reversed') directions.push(true);
+          for (const reversed of directions) {
+            const box = document.createElement('article');
+            box.className = 'render-card';
+            const rendered = renderAnswerSide(card, row, reversed);
+            const style = previewCardInlineStyle();
+            box.innerHTML = `<div class="render-face" style="${style}">${app.anki.previewSide === 'front' ? rendered.front : rendered.answer}</div>`;
+            previewPane.appendChild(box);
+            renderedCount += 1;
+          }
         }
+      }
+      if (!renderedCount) {
+        previewPane.innerHTML = '<div class="meta">No cards for this preview mode.</div>';
       }
     }
 
@@ -955,6 +1074,7 @@
       renderFieldChips();
       renderAnkiTable();
       renderPreviewSideToggle();
+      renderPreviewDirectionToggle();
       renderPreviewCardToggle();
       renderAnkiPreview();
       setAnkiSaveState(app.anki.saveState || 'saved');
@@ -1078,6 +1198,7 @@
       app.anki.config = payload.config;
       app.anki.sources = payload.sources;
       app.anki.noteModels = payload.note_models;
+      app.anki.buildStatus = payload.build_status || null;
       const savedSource = loadSelectedAnkiSource();
       const savedExists = savedSource && app.anki.sources.some((source) => source.name === savedSource);
       app.anki.selectedSource =
@@ -1086,7 +1207,24 @@
         (app.anki.sources[0] && app.anki.sources[0].name) ||
         null;
       saveSelectedAnkiSource();
+      renderBuildStatus();
       renderAnki();
+    }
+
+    async function pollBuildStatus() {
+      const response = await fetch('/api/build-status');
+      const payload = await response.json();
+      if (!app.anki.buildStatus || payload.version !== app.anki.buildStatus.version) {
+        app.anki.buildStatus = payload;
+        renderBuildStatus();
+      }
+    }
+
+    function startBuildStatusPolling() {
+      if (app.anki.buildStatusTimer) return;
+      app.anki.buildStatusTimer = window.setInterval(() => {
+        pollBuildStatus().catch(() => {});
+      }, 1000);
     }
 
     async function saveAnkiConfig() {
@@ -1102,7 +1240,7 @@
       const payload = await response.json();
       if (!response.ok) throw new Error(payload.error || 'Save failed');
       setAnkiSaveState('saved');
-      setStatus('Saved deck_config.json.');
+      setStatus('Saved config/deck_config.json.');
     }
 
     function scheduleAnkiAutosave() {
@@ -1145,7 +1283,7 @@
         body: JSON.stringify({ cards: app.sanders.cards }),
       });
       if (!response.ok) throw new Error('Failed to save cards');
-      setStatus('Saved Anki/sanders.csv.');
+      setStatus('Saved data/sanders.csv.');
     }
 
     async function saveSandersReferences() {
@@ -1156,7 +1294,7 @@
         body: JSON.stringify({ references: app.sanders.references }),
       });
       if (!response.ok) throw new Error('Failed to save references');
-      setStatus('Saved Sanders/references.csv.');
+      setStatus('Saved data/sanders/references.csv.');
     }
 
     async function createSandersCard() {
@@ -1386,6 +1524,8 @@
     Promise.all([loadAnkiState(), loadSandersState()])
       .then(() => setStatus('Ready.'))
       .catch((error) => setStatus(error.message));
+
+    startBuildStatusPolling();
   </script>
 </body>
 </html>
